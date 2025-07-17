@@ -1,0 +1,9055 @@
+{
+  "domain": "stac",
+  "dialogue_id": "STAC_s1_league1_game1",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 1,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep sat down at seat 0.",
+      "dda_edge": []
+    },
+    {
+      "index": 2,
+      "speaker": "UI",
+      "utterance": "Game state 0.",
+      "dda_edge": []
+    },
+    {
+      "index": 3,
+      "speaker": "UI",
+      "utterance": "william joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 4,
+      "speaker": "UI",
+      "utterance": "william sat down at seat 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 5,
+      "speaker": "william",
+      "utterance": "hi niko",
+      "dda_edge": [
+        {
+          "from": 5,
+          "label": "Greeting",
+          "to": 0
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "gotwood4sheep",
+      "utterance": "evening!",
+      "dda_edge": [
+        {
+          "from": 6,
+          "label": "Greeting",
+          "to": 5
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "william",
+      "utterance": "it's so sunny,",
+      "dda_edge": [
+        {
+          "from": 7,
+          "label": "Statement",
+          "to": 6
+        },
+        {
+          "from": 7,
+          "label": "Contrast",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "william",
+      "utterance": "it barely feels like evening",
+      "dda_edge": [
+        {
+          "from": 8,
+          "label": "CausedBy",
+          "to": 7
+        },
+        {
+          "from": 8,
+          "label": "Opinion",
+          "to": 7
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "UI",
+      "utterance": "tomas.kostan joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 10,
+      "speaker": "UI",
+      "utterance": "tomas.kostan sat down at seat 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 11,
+      "speaker": "gotwood4sheep",
+      "utterance": "yup,",
+      "dda_edge": [
+        {
+          "from": 11,
+          "label": "Accept",
+          "to": 8
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "gotwood4sheep",
+      "utterance": "hi tomas!",
+      "dda_edge": [
+        {
+          "from": 12,
+          "label": "Greeting",
+          "to": 12
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "gotwood4sheep",
+      "utterance": "yeah",
+      "dda_edge": [
+        {
+          "from": 13,
+          "label": "Restatement",
+          "to": 11
+        },
+        {
+          "from": 13,
+          "label": "Stalling",
+          "to": 11
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "gotwood4sheep",
+      "utterance": "it was horrible on the weekend,",
+      "dda_edge": [
+        {
+          "from": 14,
+          "label": "Opinion",
+          "to": 7
+        },
+        {
+          "from": 14,
+          "label": "Contrast",
+          "to": 7
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "gotwood4sheep",
+      "utterance": "now glorious",
+      "dda_edge": [
+        {
+          "from": 15,
+          "label": "Contrast",
+          "to": 14
+        },
+        {
+          "from": 15,
+          "label": "After",
+          "to": 14
+        },
+        {
+          "from": 15,
+          "label": "Opinion",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "tomas.kostan",
+      "utterance": "hi there :)",
+      "dda_edge": [
+        {
+          "from": 16,
+          "label": "Greeting",
+          "to": 12
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "gotwood4sheep",
+      "utterance": "and light till after 11",
+      "dda_edge": [
+        {
+          "from": 17,
+          "label": "Conjunction",
+          "to": 15
+        },
+        {
+          "from": 17,
+          "label": "GivingDetails",
+          "to": 8
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "gotwood4sheep",
+      "utterance": "shall we start?",
+      "dda_edge": [
+        {
+          "from": 18,
+          "label": "Proposal",
+          "to": 18
+        },
+        {
+          "from": 18,
+          "label": "TaskManagement",
+          "to": 18
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "william",
+      "utterance": "yup",
+      "dda_edge": [
+        {
+          "from": 19,
+          "label": "Accept",
+          "to": 18
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "UI",
+      "utterance": "Game started.",
+      "dda_edge": []
+    },
+    {
+      "index": 21,
+      "speaker": "UI",
+      "utterance": "Board layout set.",
+      "dda_edge": []
+    },
+    {
+      "index": 22,
+      "speaker": "Server",
+      "utterance": "Randomly picking a starting player...",
+      "dda_edge": []
+    },
+    {
+      "index": 23,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 24,
+      "speaker": "gotwood4sheep",
+      "utterance": "good luck all!",
+      "dda_edge": []
+    },
+    {
+      "index": 25,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 26,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 27,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 28,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 29,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 30,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 31,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 32,
+      "speaker": "Server",
+      "utterance": "It's william's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 33,
+      "speaker": "Server",
+      "utterance": "william built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 34,
+      "speaker": "Server",
+      "utterance": "It's william's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 35,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 36,
+      "speaker": "Server",
+      "utterance": "It's william's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 37,
+      "speaker": "Server",
+      "utterance": "william built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 38,
+      "speaker": "Server",
+      "utterance": "It's william's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 39,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 40,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 41,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 42,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 43,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 44,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 45,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 46,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 47,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 48,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 49,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 1 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 50,
+      "speaker": "Server",
+      "utterance": "No player gets anything.",
+      "dda_edge": []
+    },
+    {
+      "index": 51,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 52,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 53,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 54,
+      "speaker": "gotwood4sheep",
+      "utterance": "feels like  a more open board with 3 players",
+      "dda_edge": [
+        {
+          "from": 54,
+          "label": "Opinion",
+          "to": 54
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 56,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 57,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 2 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 58,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 59,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 60,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 61,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 62,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 63,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone want to swap a clay for a wheat?",
+      "dda_edge": [
+        {
+          "from": 63,
+          "label": "Offer",
+          "to": 63
+        },
+        {
+          "from": 63,
+          "label": "QuestionInfoRequest",
+          "to": 63
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 64,
+          "label": "Answer",
+          "to": 63
+        },
+        {
+          "from": 64,
+          "label": "Reject",
+          "to": 63
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "speaker": "tomas.kostan",
+      "utterance": "nope",
+      "dda_edge": [
+        {
+          "from": 65,
+          "label": "Answer",
+          "to": 63
+        },
+        {
+          "from": 65,
+          "label": "Reject",
+          "to": 63
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 4 wheat for 1 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 67,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 4 wheat for 1 clay from the bank.",
+      "dda_edge": []
+    },
+    {
+      "index": 68,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 69,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 70,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 71,
+      "speaker": "gotwood4sheep",
+      "utterance": "understood ;)",
+      "dda_edge": [
+        {
+          "from": 71,
+          "label": "Acknowledge",
+          "to": 65
+        },
+        {
+          "from": 71,
+          "label": "Acknowledge",
+          "to": 64
+        },
+        {
+          "from": 71,
+          "label": "Joke",
+          "to": 65
+        },
+        {
+          "from": 71,
+          "label": "Joke",
+          "to": 64
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "speaker": "Server",
+      "utterance": "william rolled a 5 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 73,
+      "speaker": "Server",
+      "utterance": "william will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 74,
+      "speaker": "Server",
+      "utterance": "william stole a resource from tomas.kostan",
+      "dda_edge": []
+    },
+    {
+      "index": 75,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 76,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 77,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 78,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 6 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 79,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 80,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 0 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 81,
+      "speaker": "UI",
+      "utterance": "william has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 82,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 83,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 84,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 85,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 5 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 86,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 87,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 88,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 89,
+      "speaker": "UI",
+      "utterance": "william has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 90,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 91,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 92,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 93,
+      "speaker": "Server",
+      "utterance": "william rolled a 1 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 94,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 95,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 96,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 97,
+      "speaker": "UI",
+      "utterance": "william has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 98,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 99,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 100,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 101,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 1 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 102,
+      "speaker": "Server",
+      "utterance": "william gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 103,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 104,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 105,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 106,
+      "speaker": "tomas.kostan",
+      "utterance": "can i get an ore from someone?",
+      "dda_edge": [
+        {
+          "from": 106,
+          "label": "QuestionInfoRequest",
+          "to": 106
+        },
+        {
+          "from": 106,
+          "label": "Proposal",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "speaker": "william",
+      "utterance": "for a sheep?",
+      "dda_edge": [
+        {
+          "from": 107,
+          "label": "QuestionInfoRequest",
+          "to": 106
+        },
+        {
+          "from": 107,
+          "label": "GivingDetails",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "speaker": "gotwood4sheep",
+      "utterance": "afraid not :(",
+      "dda_edge": [
+        {
+          "from": 108,
+          "label": "Answer",
+          "to": 106
+        },
+        {
+          "from": 108,
+          "label": "Reject",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "speaker": "tomas.kostan",
+      "utterance": "for a sheep :)",
+      "dda_edge": [
+        {
+          "from": 109,
+          "label": "Accept",
+          "to": 107
+        },
+        {
+          "from": 109,
+          "label": "Answer",
+          "to": 107
+        },
+        {
+          "from": 109,
+          "label": "Restatement",
+          "to": 107
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "speaker": "william",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 110,
+          "label": "Accept",
+          "to": 109
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "speaker": "Server",
+      "utterance": "tomas.kostan made an offer to trade 1 sheep for 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 112,
+      "speaker": "UI",
+      "utterance": "... from william",
+      "dda_edge": []
+    },
+    {
+      "index": 113,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 1 sheep for 1 ore from william.",
+      "dda_edge": []
+    },
+    {
+      "index": 114,
+      "speaker": "Server",
+      "utterance": "tomas.kostan bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 115,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 116,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 117,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 4 and a 6.",
+      "dda_edge": []
+    },
+    {
+      "index": 118,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 119,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 120,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 121,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 122,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone got another sheep?",
+      "dda_edge": [
+        {
+          "from": 122,
+          "label": "QuestionInfoRequest",
+          "to": 122
+        },
+        {
+          "from": 122,
+          "label": "Proposal",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "speaker": "gotwood4sheep",
+      "utterance": "I can offer a wheat",
+      "dda_edge": [
+        {
+          "from": 123,
+          "label": "GivingDetails",
+          "to": 122
+        },
+        {
+          "from": 123,
+          "label": "Offer",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "speaker": "tomas.kostan",
+      "utterance": "nope sry",
+      "dda_edge": [
+        {
+          "from": 124,
+          "label": "Answer",
+          "to": 122
+        },
+        {
+          "from": 124,
+          "label": "Apology",
+          "to": 122
+        },
+        {
+          "from": 124,
+          "label": "Reject",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 125,
+          "label": "Answer",
+          "to": 122
+        },
+        {
+          "from": 125,
+          "label": "Reject",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 127,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 128,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 6.",
+      "dda_edge": []
+    },
+    {
+      "index": 129,
+      "speaker": "Server",
+      "utterance": "No player gets anything.",
+      "dda_edge": []
+    },
+    {
+      "index": 130,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 131,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 132,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 133,
+      "speaker": "gotwood4sheep",
+      "utterance": "okey dokey",
+      "dda_edge": [
+        {
+          "from": 133,
+          "label": "Acknowledge",
+          "to": 125
+        },
+        {
+          "from": 133,
+          "label": "Acknowledge",
+          "to": 124
+        },
+        {
+          "from": 133,
+          "label": "Joke",
+          "to": 125
+        },
+        {
+          "from": 133,
+          "label": "Joke",
+          "to": 124
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "speaker": "Server",
+      "utterance": "william bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 135,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 136,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 137,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 3 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 138,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 139,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 140,
+      "speaker": "UI",
+      "utterance": "william has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 141,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 142,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 143,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 144,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 1 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 145,
+      "speaker": "Server",
+      "utterance": "No player gets anything.",
+      "dda_edge": []
+    },
+    {
+      "index": 146,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 147,
+      "speaker": "UI",
+      "utterance": "william has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 148,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 149,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 150,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 151,
+      "speaker": "Server",
+      "utterance": "william rolled a 2 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 152,
+      "speaker": "Server",
+      "utterance": "william will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 153,
+      "speaker": "Server",
+      "utterance": "william stole a resource from tomas.kostan",
+      "dda_edge": []
+    },
+    {
+      "index": 154,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 155,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 156,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 4 and a 6.",
+      "dda_edge": []
+    },
+    {
+      "index": 157,
+      "speaker": "Server",
+      "utterance": "No player gets anything.",
+      "dda_edge": []
+    },
+    {
+      "index": 158,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 159,
+      "speaker": "UI",
+      "utterance": "william has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 160,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 161,
+      "speaker": "william",
+      "utterance": "oops",
+      "dda_edge": [
+        {
+          "from": 161,
+          "label": "Exclamation",
+          "to": 161
+        },
+        {
+          "from": 161,
+          "label": "Joke",
+          "to": 153
+        },
+        {
+          "from": 161,
+          "label": "Apology",
+          "to": 153
+        }
+      ]
+    },
+    {
+      "index": 162,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 163,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 164,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 1 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 165,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 166,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 167,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 168,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 169,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 170,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 171,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 172,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 173,
+      "speaker": "Server",
+      "utterance": "william rolled a 1 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 174,
+      "speaker": "Server",
+      "utterance": "william gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 175,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 176,
+      "speaker": "UI",
+      "utterance": "william has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 177,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 178,
+      "speaker": "william",
+      "utterance": "i have an ore to give,",
+      "dda_edge": [
+        {
+          "from": 178,
+          "label": "Offer",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 179,
+      "speaker": "william",
+      "utterance": "need a sheep",
+      "dda_edge": [
+        {
+          "from": 179,
+          "label": "GivingDetails",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 180,
+      "speaker": "gotwood4sheep",
+      "utterance": "no sheeps here :(",
+      "dda_edge": [
+        {
+          "from": 180,
+          "label": "Reject",
+          "to": 179
+        },
+        {
+          "from": 180,
+          "label": "Apology",
+          "to": 179
+        }
+      ]
+    },
+    {
+      "index": 181,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 182,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 183,
+      "speaker": "tomas.kostan",
+      "utterance": "sry not interested in ore anymore",
+      "dda_edge": [
+        {
+          "from": 183,
+          "label": "Reject",
+          "to": 178
+        },
+        {
+          "from": 183,
+          "label": "Statement",
+          "to": 178
+        },
+        {
+          "from": 183,
+          "label": "Apology",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 184,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 6 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 185,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 186,
+      "speaker": "Server",
+      "utterance": "william gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 187,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 188,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 189,
+      "speaker": "UI",
+      "utterance": "william has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 190,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 191,
+      "speaker": "tomas.kostan",
+      "utterance": "finally",
+      "dda_edge": [
+        {
+          "from": 191,
+          "label": "Appreciation",
+          "to": 187
+        },
+        {
+          "from": 191,
+          "label": "Exclamation",
+          "to": 187
+        }
+      ]
+    },
+    {
+      "index": 192,
+      "speaker": "gotwood4sheep",
+      "utterance": "ore anymore,",
+      "dda_edge": [
+        {
+          "from": 192,
+          "label": "Restatement",
+          "to": 183
+        },
+        {
+          "from": 192,
+          "label": "Joke",
+          "to": 183
+        }
+      ]
+    },
+    {
+      "index": 193,
+      "speaker": "gotwood4sheep",
+      "utterance": "good rhyme :D",
+      "dda_edge": [
+        {
+          "from": 193,
+          "label": "Appreciation",
+          "to": 192
+        },
+        {
+          "from": 193,
+          "label": "Evaluating",
+          "to": 192
+        },
+        {
+          "from": 193,
+          "label": "Opinion",
+          "to": 192
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 195,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 196,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 197,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 2 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 198,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 199,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 200,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 201,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 202,
+      "speaker": "UI",
+      "utterance": "william has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 203,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 204,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone want to trade me a clay?",
+      "dda_edge": [
+        {
+          "from": 204,
+          "label": "QuestionInfoRequest",
+          "to": 204
+        },
+        {
+          "from": 204,
+          "label": "Proposal",
+          "to": 204
+        }
+      ]
+    },
+    {
+      "index": 205,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 205,
+          "label": "Answer",
+          "to": 204
+        },
+        {
+          "from": 205,
+          "label": "Reject",
+          "to": 204
+        }
+      ]
+    },
+    {
+      "index": 206,
+      "speaker": "gotwood4sheep",
+      "utterance": "I have a range of goodies to offer",
+      "dda_edge": [
+        {
+          "from": 206,
+          "label": "GivingDetails",
+          "to": 204
+        },
+        {
+          "from": 206,
+          "label": "Offer",
+          "to": 204
+        }
+      ]
+    },
+    {
+      "index": 207,
+      "speaker": "tomas.kostan",
+      "utterance": "no clay in here",
+      "dda_edge": [
+        {
+          "from": 207,
+          "label": "Statement",
+          "to": 206
+        }
+      ]
+    },
+    {
+      "index": 208,
+      "speaker": "gotwood4sheep",
+      "utterance": "ok then :D",
+      "dda_edge": [
+        {
+          "from": 208,
+          "label": "Acknowledge",
+          "to": 207
+        },
+        {
+          "from": 208,
+          "label": "Acknowledge",
+          "to": 205
+        },
+        {
+          "from": 208,
+          "label": "Appreciation",
+          "to": 207
+        },
+        {
+          "from": 208,
+          "label": "Appreciation",
+          "to": 205
+        }
+      ]
+    },
+    {
+      "index": 209,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 210,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 211,
+      "speaker": "Server",
+      "utterance": "william rolled a 5 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 212,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 213,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 214,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 215,
+      "speaker": "UI",
+      "utterance": "william has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 216,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 217,
+      "speaker": "william",
+      "utterance": "can i get a sheep?",
+      "dda_edge": [
+        {
+          "from": 217,
+          "label": "QuestionInfoRequest",
+          "to": 217
+        }
+      ]
+    },
+    {
+      "index": 218,
+      "speaker": "william",
+      "utterance": "giving wheat",
+      "dda_edge": [
+        {
+          "from": 218,
+          "label": "GivingDetails",
+          "to": 217
+        },
+        {
+          "from": 218,
+          "label": "Offer",
+          "to": 217
+        }
+      ]
+    },
+    {
+      "index": 219,
+      "speaker": "gotwood4sheep",
+      "utterance": "still no furry beasties here",
+      "dda_edge": [
+        {
+          "from": 219,
+          "label": "Reject",
+          "to": 217
+        },
+        {
+          "from": 219,
+          "label": "Answer",
+          "to": 217
+        },
+        {
+          "from": 219,
+          "label": "TakeStock",
+          "to": 180
+        }
+      ]
+    },
+    {
+      "index": 220,
+      "speaker": "tomas.kostan",
+      "utterance": "no sry",
+      "dda_edge": [
+        {
+          "from": 220,
+          "label": "Answer",
+          "to": 217
+        },
+        {
+          "from": 220,
+          "label": "Reject",
+          "to": 217
+        },
+        {
+          "from": 220,
+          "label": "Apology",
+          "to": 217
+        }
+      ]
+    },
+    {
+      "index": 221,
+      "speaker": "gotwood4sheep",
+      "utterance": "methinks I missed the sheep train earlier",
+      "dda_edge": [
+        {
+          "from": 221,
+          "label": "Causing",
+          "to": 219
+        },
+        {
+          "from": 221,
+          "label": "Joke",
+          "to": 219
+        },
+        {
+          "from": 221,
+          "label": "Statement",
+          "to": 219
+        }
+      ]
+    },
+    {
+      "index": 222,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 223,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 224,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 6 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 225,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 226,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 227,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 228,
+      "speaker": "UI",
+      "utterance": "william has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 229,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 230,
+      "speaker": "william",
+      "utterance": "yeah me too",
+      "dda_edge": [
+        {
+          "from": 230,
+          "label": "Restatement",
+          "to": 221
+        },
+        {
+          "from": 230,
+          "label": "Sympathy",
+          "to": 221
+        }
+      ]
+    },
+    {
+      "index": 231,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 232,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 233,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 2 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 234,
+      "speaker": "Server",
+      "utterance": "william gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 235,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 236,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 237,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 238,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 239,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 240,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 241,
+      "speaker": "Server",
+      "utterance": "william rolled a 4 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 242,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 243,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 244,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 245,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 246,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 247,
+      "speaker": "william",
+      "utterance": "can i get an ore?",
+      "dda_edge": [
+        {
+          "from": 247,
+          "label": "QuestionInfoRequest",
+          "to": 247
+        },
+        {
+          "from": 247,
+          "label": "Proposal",
+          "to": 247
+        }
+      ]
+    },
+    {
+      "index": 248,
+      "speaker": "tomas.kostan",
+      "utterance": "nope",
+      "dda_edge": [
+        {
+          "from": 248,
+          "label": "Answer",
+          "to": 247
+        },
+        {
+          "from": 248,
+          "label": "Reject",
+          "to": 247
+        }
+      ]
+    },
+    {
+      "index": 249,
+      "speaker": "gotwood4sheep",
+      "utterance": "what for.. :D",
+      "dda_edge": [
+        {
+          "from": 249,
+          "label": "QuestionInfoRequest",
+          "to": 247
+        },
+        {
+          "from": 249,
+          "label": "Joke",
+          "to": 247
+        }
+      ]
+    },
+    {
+      "index": 250,
+      "speaker": "william",
+      "utterance": "a wheat?",
+      "dda_edge": [
+        {
+          "from": 250,
+          "label": "GivingDetails",
+          "to": 247
+        },
+        {
+          "from": 250,
+          "label": "Offer",
+          "to": 249
+        },
+        {
+          "from": 250,
+          "label": "Answer",
+          "to": 249
+        },
+        {
+          "from": 250,
+          "label": "Hedge",
+          "to": 249
+        }
+      ]
+    },
+    {
+      "index": 251,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have a bounty crop",
+      "dda_edge": [
+        {
+          "from": 251,
+          "label": "Joke",
+          "to": 250
+        },
+        {
+          "from": 251,
+          "label": "Reject",
+          "to": 250
+        },
+        {
+          "from": 251,
+          "label": "Statement",
+          "to": 250
+        }
+      ]
+    },
+    {
+      "index": 252,
+      "speaker": "william",
+      "utterance": "how about a wood then?",
+      "dda_edge": [
+        {
+          "from": 252,
+          "label": "QuestionInfoRequest",
+          "to": 251
+        },
+        {
+          "from": 252,
+          "label": "Offer",
+          "to": 251
+        },
+        {
+          "from": 252,
+          "label": "Substituting",
+          "to": 250
+        }
+      ]
+    },
+    {
+      "index": 253,
+      "speaker": "gotwood4sheep",
+      "utterance": "clay or sheep are my primary desires",
+      "dda_edge": [
+        {
+          "from": 253,
+          "label": "Answer",
+          "to": 252
+        },
+        {
+          "from": 253,
+          "label": "Proposal",
+          "to": 252
+        },
+        {
+          "from": 253,
+          "label": "Reject",
+          "to": 252
+        },
+        {
+          "from": 253,
+          "label": "Statement",
+          "to": 252
+        }
+      ]
+    },
+    {
+      "index": 254,
+      "speaker": "william",
+      "utterance": "alright a clay",
+      "dda_edge": [
+        {
+          "from": 254,
+          "label": "Accept",
+          "to": 253
+        }
+      ]
+    },
+    {
+      "index": 255,
+      "speaker": "gotwood4sheep",
+      "utterance": "ok!",
+      "dda_edge": [
+        {
+          "from": 255,
+          "label": "Accept",
+          "to": 254
+        },
+        {
+          "from": 255,
+          "label": "Exclamation",
+          "to": 254
+        }
+      ]
+    },
+    {
+      "index": 256,
+      "speaker": "Server",
+      "utterance": "william made an offer to trade 1 clay for 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 257,
+      "speaker": "UI",
+      "utterance": "... from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 258,
+      "speaker": "Server",
+      "utterance": "william traded 1 clay for 1 ore from gotwood4sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 259,
+      "speaker": "Server",
+      "utterance": "william built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 260,
+      "speaker": "william",
+      "utterance": "thanks a bunch",
+      "dda_edge": []
+    },
+    {
+      "index": 261,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 262,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 263,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 6 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 264,
+      "speaker": "Server",
+      "utterance": "william gets 2 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 265,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 266,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 267,
+      "speaker": "UI",
+      "utterance": "william has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 268,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 269,
+      "speaker": "Server",
+      "utterance": "tomas.kostan played a Soldier card.",
+      "dda_edge": []
+    },
+    {
+      "index": 270,
+      "speaker": "Server",
+      "utterance": "tomas.kostan will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 271,
+      "speaker": "Server",
+      "utterance": "tomas.kostan stole a resource from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 272,
+      "speaker": "gotwood4sheep",
+      "utterance": "boo :D",
+      "dda_edge": [
+        {
+          "from": 272,
+          "label": "Exclamation",
+          "to": 271
+        }
+      ]
+    },
+    {
+      "index": 273,
+      "speaker": "tomas.kostan",
+      "utterance": "can i get a wood?",
+      "dda_edge": [
+        {
+          "from": 273,
+          "label": "QuestionInfoRequest",
+          "to": 273
+        },
+        {
+          "from": 273,
+          "label": "Proposal",
+          "to": 273
+        }
+      ]
+    },
+    {
+      "index": 274,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 274,
+          "label": "Answer",
+          "to": 273
+        },
+        {
+          "from": 274,
+          "label": "Reject",
+          "to": 273
+        }
+      ]
+    },
+    {
+      "index": 275,
+      "speaker": "gotwood4sheep",
+      "utterance": "um i just gave you one ;)",
+      "dda_edge": [
+        {
+          "from": 275,
+          "label": "Joke",
+          "to": 273
+        },
+        {
+          "from": 275,
+          "label": "TakeStock",
+          "to": 271
+        },
+        {
+          "from": 275,
+          "label": "Conceding",
+          "to": 273
+        }
+      ]
+    },
+    {
+      "index": 276,
+      "speaker": "tomas.kostan",
+      "utterance": "alright... what about some wheat?",
+      "dda_edge": [
+        {
+          "from": 276,
+          "label": "Acknowledge",
+          "to": 274
+        },
+        {
+          "from": 276,
+          "label": "Acknowledge",
+          "to": 275
+        },
+        {
+          "from": 276,
+          "label": "QuestionInfoRequest",
+          "to": 273
+        },
+        {
+          "from": 276,
+          "label": "Proposal",
+          "to": 273
+        },
+        {
+          "from": 276,
+          "label": "Substituting",
+          "to": 273
+        }
+      ]
+    },
+    {
+      "index": 277,
+      "speaker": "william",
+      "utterance": "no sry",
+      "dda_edge": [
+        {
+          "from": 277,
+          "label": "Answer",
+          "to": 276
+        },
+        {
+          "from": 277,
+          "label": "Reject",
+          "to": 276
+        },
+        {
+          "from": 277,
+          "label": "Apology",
+          "to": 276
+        }
+      ]
+    },
+    {
+      "index": 278,
+      "speaker": "gotwood4sheep",
+      "utterance": "alas I now require my remaining goods",
+      "dda_edge": [
+        {
+          "from": 278,
+          "label": "Joke",
+          "to": 276
+        },
+        {
+          "from": 278,
+          "label": "Reject",
+          "to": 276
+        },
+        {
+          "from": 278,
+          "label": "Justifying",
+          "to": 278
+        },
+        {
+          "from": 278,
+          "label": "Statement",
+          "to": 276
+        }
+      ]
+    },
+    {
+      "index": 279,
+      "speaker": "tomas.kostan",
+      "utterance": "ore? :D",
+      "dda_edge": [
+        {
+          "from": 279,
+          "label": "QuestionInfoRequest",
+          "to": 279
+        },
+        {
+          "from": 279,
+          "label": "Joke",
+          "to": 279
+        },
+        {
+          "from": 279,
+          "label": "Proposal",
+          "to": 278
+        },
+        {
+          "from": 279,
+          "label": "Substituting",
+          "to": 276
+        }
+      ]
+    },
+    {
+      "index": 280,
+      "speaker": "tomas.kostan",
+      "utterance": "come on guys :D",
+      "dda_edge": [
+        {
+          "from": 280,
+          "label": "Joke",
+          "to": 279
+        },
+        {
+          "from": 280,
+          "label": "ActionDirective",
+          "to": 279
+        }
+      ]
+    },
+    {
+      "index": 281,
+      "speaker": "william",
+      "utterance": "can't",
+      "dda_edge": [
+        {
+          "from": 281,
+          "label": "Reject",
+          "to": 279
+        },
+        {
+          "from": 281,
+          "label": "Answer",
+          "to": 279
+        }
+      ]
+    },
+    {
+      "index": 282,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 283,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 284,
+      "speaker": "gotwood4sheep",
+      "utterance": "next time maybe!",
+      "dda_edge": [
+        {
+          "from": 284,
+          "label": "Reject",
+          "to": 279
+        },
+        {
+          "from": 284,
+          "label": "Sympathy",
+          "to": 279
+        },
+        {
+          "from": 284,
+          "label": "Offer",
+          "to": 279
+        }
+      ]
+    },
+    {
+      "index": 285,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 4 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 286,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 287,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 288,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 289,
+      "speaker": "UI",
+      "utterance": "william has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 290,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 291,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 292,
+      "speaker": "gotwood4sheep",
+      "utterance": "got sheep?",
+      "dda_edge": [
+        {
+          "from": 292,
+          "label": "QuestionInfoRequest",
+          "to": 292
+        },
+        {
+          "from": 292,
+          "label": "Proposal",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 293,
+      "speaker": "gotwood4sheep",
+      "utterance": "I got wood",
+      "dda_edge": [
+        {
+          "from": 293,
+          "label": "GivingDetails",
+          "to": 292
+        },
+        {
+          "from": 293,
+          "label": "Offer",
+          "to": 292
+        },
+        {
+          "from": 293,
+          "label": "Statement",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 294,
+      "speaker": "william",
+      "utterance": "nope",
+      "dda_edge": [
+        {
+          "from": 294,
+          "label": "Answer",
+          "to": 292
+        },
+        {
+          "from": 294,
+          "label": "Reject",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 295,
+      "speaker": "tomas.kostan",
+      "utterance": "sry not interested anymore",
+      "dda_edge": [
+        {
+          "from": 295,
+          "label": "Reject",
+          "to": 292
+        },
+        {
+          "from": 295,
+          "label": "Statement",
+          "to": 292
+        },
+        {
+          "from": 295,
+          "label": "After",
+          "to": 273
+        },
+        {
+          "from": 295,
+          "label": "Apology",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 296,
+      "speaker": "gotwood4sheep",
+      "utterance": "kk",
+      "dda_edge": [
+        {
+          "from": 296,
+          "label": "Acknowledge",
+          "to": 295
+        },
+        {
+          "from": 296,
+          "label": "Acknowledge",
+          "to": 294
+        }
+      ]
+    },
+    {
+      "index": 297,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 298,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 299,
+      "speaker": "Server",
+      "utterance": "william rolled a 4 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 300,
+      "speaker": "Server",
+      "utterance": "tomas.kostan needs to discard.",
+      "dda_edge": []
+    },
+    {
+      "index": 301,
+      "speaker": "Server",
+      "utterance": "tomas.kostan discarded 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 302,
+      "speaker": "Server",
+      "utterance": "william will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 303,
+      "speaker": "Server",
+      "utterance": "william stole a resource from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 304,
+      "speaker": "gotwood4sheep",
+      "utterance": "ouch",
+      "dda_edge": [
+        {
+          "from": 304,
+          "label": "Exclamation",
+          "to": 303
+        },
+        {
+          "from": 304,
+          "label": "Joke",
+          "to": 303
+        }
+      ]
+    },
+    {
+      "index": 305,
+      "speaker": "tomas.kostan",
+      "utterance": "i knew it :D",
+      "dda_edge": [
+        {
+          "from": 305,
+          "label": "Joke",
+          "to": 303
+        }
+      ]
+    },
+    {
+      "index": 306,
+      "speaker": "william",
+      "utterance": "tomas, I will give you 2 wood for a sheep...",
+      "dda_edge": [
+        {
+          "from": 306,
+          "label": "Offer",
+          "to": 306
+        },
+        {
+          "from": 306,
+          "label": "Greeting",
+          "to": 306
+        },
+        {
+          "from": 306,
+          "label": "Proposal",
+          "to": 305
+        }
+      ]
+    },
+    {
+      "index": 307,
+      "speaker": "tomas.kostan",
+      "utterance": "i just discarded all of my sheep... :/",
+      "dda_edge": [
+        {
+          "from": 307,
+          "label": "Reject",
+          "to": 306
+        },
+        {
+          "from": 307,
+          "label": "Statement",
+          "to": 306
+        },
+        {
+          "from": 307,
+          "label": "Sympathy",
+          "to": 306
+        },
+        {
+          "from": 307,
+          "label": "Causing",
+          "to": 307
+        }
+      ]
+    },
+    {
+      "index": 308,
+      "speaker": "william",
+      "utterance": "oops",
+      "dda_edge": [
+        {
+          "from": 308,
+          "label": "Sympathy",
+          "to": 307
+        }
+      ]
+    },
+    {
+      "index": 309,
+      "speaker": "gotwood4sheep",
+      "utterance": "aww",
+      "dda_edge": [
+        {
+          "from": 309,
+          "label": "Sympathy",
+          "to": 307
+        }
+      ]
+    },
+    {
+      "index": 310,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 311,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 312,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 1 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 313,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 314,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 315,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 316,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 317,
+      "speaker": "UI",
+      "utterance": "william has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 318,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 319,
+      "speaker": "tomas.kostan",
+      "utterance": "ore anyone?",
+      "dda_edge": [
+        {
+          "from": 319,
+          "label": "QuestionInfoRequest",
+          "to": 319
+        },
+        {
+          "from": 319,
+          "label": "Proposal",
+          "to": 319
+        }
+      ]
+    },
+    {
+      "index": 320,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 320,
+          "label": "Answer",
+          "to": 319
+        },
+        {
+          "from": 320,
+          "label": "Reject",
+          "to": 319
+        }
+      ]
+    },
+    {
+      "index": 321,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have a man on my ore pile...",
+      "dda_edge": [
+        {
+          "from": 321,
+          "label": "Statement",
+          "to": 319
+        }
+      ]
+    },
+    {
+      "index": 322,
+      "speaker": "gotwood4sheep",
+      "utterance": "and the man isn't me :(",
+      "dda_edge": [
+        {
+          "from": 322,
+          "label": "GivingDetails",
+          "to": 321
+        },
+        {
+          "from": 322,
+          "label": "Answer",
+          "to": 319
+        },
+        {
+          "from": 322,
+          "label": "Joke",
+          "to": 321
+        },
+        {
+          "from": 322,
+          "label": "Reject",
+          "to": 319
+        }
+      ]
+    },
+    {
+      "index": 323,
+      "speaker": "tomas.kostan",
+      "utterance": "i see...",
+      "dda_edge": [
+        {
+          "from": 323,
+          "label": "Acknowledge",
+          "to": 322
+        }
+      ]
+    },
+    {
+      "index": 324,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 325,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 326,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 3 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 327,
+      "speaker": "Server",
+      "utterance": "william needs to discard.",
+      "dda_edge": []
+    },
+    {
+      "index": 328,
+      "speaker": "Server",
+      "utterance": "william discarded 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 329,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 330,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep moved the robber, must choose a victim.",
+      "dda_edge": []
+    },
+    {
+      "index": 331,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep stole a resource from william",
+      "dda_edge": []
+    },
+    {
+      "index": 332,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 333,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 334,
+      "speaker": "Server",
+      "utterance": "william rolled a 1 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 335,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 336,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 337,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 338,
+      "speaker": "UI",
+      "utterance": "william has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 339,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 340,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 341,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 342,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 1 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 343,
+      "speaker": "Server",
+      "utterance": "william gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 344,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 345,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 346,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 347,
+      "speaker": "tomas.kostan",
+      "utterance": "ore to spare william?",
+      "dda_edge": [
+        {
+          "from": 347,
+          "label": "QuestionInfoRequest",
+          "to": 343
+        },
+        {
+          "from": 347,
+          "label": "Proposal",
+          "to": 343
+        }
+      ]
+    },
+    {
+      "index": 348,
+      "speaker": "gotwood4sheep",
+      "utterance": "3s are treating you well",
+      "dda_edge": [
+        {
+          "from": 348,
+          "label": "Appreciation",
+          "to": 342
+        }
+      ]
+    },
+    {
+      "index": 349,
+      "speaker": "gotwood4sheep",
+      "utterance": "kerching",
+      "dda_edge": [
+        {
+          "from": 349,
+          "label": "Joke",
+          "to": 348
+        },
+        {
+          "from": 349,
+          "label": "GivingDetails",
+          "to": 348
+        },
+        {
+          "from": 349,
+          "label": "Exclamation",
+          "to": 348
+        }
+      ]
+    },
+    {
+      "index": 350,
+      "speaker": "william",
+      "utterance": "^^ i need sheep as always",
+      "dda_edge": [
+        {
+          "from": 350,
+          "label": "Answer",
+          "to": 347
+        },
+        {
+          "from": 350,
+          "label": "Proposal",
+          "to": 347
+        },
+        {
+          "from": 350,
+          "label": "Statement",
+          "to": 347
+        }
+      ]
+    },
+    {
+      "index": 351,
+      "speaker": "tomas.kostan",
+      "utterance": "wood?",
+      "dda_edge": [
+        {
+          "from": 351,
+          "label": "Offer",
+          "to": 350
+        },
+        {
+          "from": 351,
+          "label": "QuestionInfoRequest",
+          "to": 350
+        }
+      ]
+    },
+    {
+      "index": 352,
+      "speaker": "tomas.kostan",
+      "utterance": "wheat?",
+      "dda_edge": [
+        {
+          "from": 352,
+          "label": "Offer",
+          "to": 350
+        },
+        {
+          "from": 352,
+          "label": "Alternative",
+          "to": 351
+        }
+      ]
+    },
+    {
+      "index": 353,
+      "speaker": "william",
+      "utterance": "no sry",
+      "dda_edge": [
+        {
+          "from": 353,
+          "label": "Reject",
+          "to": 352
+        },
+        {
+          "from": 353,
+          "label": "Reject",
+          "to": 351
+        },
+        {
+          "from": 353,
+          "label": "Apology",
+          "to": 352
+        },
+        {
+          "from": 353,
+          "label": "Apology",
+          "to": 351
+        }
+      ]
+    },
+    {
+      "index": 354,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 355,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 356,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 3 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 357,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 358,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 359,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 360,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 361,
+      "speaker": "UI",
+      "utterance": "william has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 362,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 363,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone got clay?",
+      "dda_edge": [
+        {
+          "from": 363,
+          "label": "QuestionInfoRequest",
+          "to": 363
+        },
+        {
+          "from": 363,
+          "label": "Proposal",
+          "to": 363
+        }
+      ]
+    },
+    {
+      "index": 364,
+      "speaker": "william",
+      "utterance": "for a sheep",
+      "dda_edge": [
+        {
+          "from": 364,
+          "label": "Answer",
+          "to": 363
+        },
+        {
+          "from": 364,
+          "label": "Offer",
+          "to": 363
+        }
+      ]
+    },
+    {
+      "index": 365,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have 0 sheep,",
+      "dda_edge": [
+        {
+          "from": 365,
+          "label": "Reject",
+          "to": 364
+        },
+        {
+          "from": 365,
+          "label": "Causing",
+          "to": 365
+        },
+        {
+          "from": 365,
+          "label": "Statement",
+          "to": 364
+        }
+      ]
+    },
+    {
+      "index": 366,
+      "speaker": "gotwood4sheep",
+      "utterance": "sorry,",
+      "dda_edge": [
+        {
+          "from": 366,
+          "label": "Apology",
+          "to": 365
+        }
+      ]
+    },
+    {
+      "index": 367,
+      "speaker": "gotwood4sheep",
+      "utterance": "I know they are in high demand too",
+      "dda_edge": [
+        {
+          "from": 367,
+          "label": "GivingDetails",
+          "to": 365
+        },
+        {
+          "from": 367,
+          "label": "Statement",
+          "to": 365
+        }
+      ]
+    },
+    {
+      "index": 368,
+      "speaker": "gotwood4sheep",
+      "utterance": "tomas, any clay??",
+      "dda_edge": [
+        {
+          "from": 368,
+          "label": "Greeting",
+          "to": 363
+        },
+        {
+          "from": 368,
+          "label": "QuestionInfoRequest",
+          "to": 368
+        }
+      ]
+    },
+    {
+      "index": 369,
+      "speaker": "gotwood4sheep",
+      "utterance": "i appreciate we're all sheepless",
+      "dda_edge": [
+        {
+          "from": 369,
+          "label": "Statement",
+          "to": 369
+        }
+      ]
+    },
+    {
+      "index": 370,
+      "speaker": "tomas.kostan",
+      "utterance": "no clay :(",
+      "dda_edge": [
+        {
+          "from": 370,
+          "label": "Answer",
+          "to": 368
+        },
+        {
+          "from": 370,
+          "label": "Sympathy",
+          "to": 368
+        },
+        {
+          "from": 370,
+          "label": "Statement",
+          "to": 370
+        }
+      ]
+    },
+    {
+      "index": 371,
+      "speaker": "tomas.kostan",
+      "utterance": "robber steals it all!",
+      "dda_edge": [
+        {
+          "from": 371,
+          "label": "Causing",
+          "to": 370
+        },
+        {
+          "from": 371,
+          "label": "Exclamation",
+          "to": 370
+        },
+        {
+          "from": 371,
+          "label": "Statement",
+          "to": 370
+        }
+      ]
+    },
+    {
+      "index": 372,
+      "speaker": "gotwood4sheep",
+      "utterance": "so he does,",
+      "dda_edge": [
+        {
+          "from": 372,
+          "label": "Accept",
+          "to": 371
+        },
+        {
+          "from": 372,
+          "label": "Statement",
+          "to": 371
+        }
+      ]
+    },
+    {
+      "index": 373,
+      "speaker": "gotwood4sheep",
+      "utterance": "my bad...",
+      "dda_edge": [
+        {
+          "from": 373,
+          "label": "Apology",
+          "to": 371
+        }
+      ]
+    },
+    {
+      "index": 374,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 4 wood for 1 sheep from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 375,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 4 wood for 1 sheep from the bank.",
+      "dda_edge": []
+    },
+    {
+      "index": 376,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 377,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 378,
+      "speaker": "Server",
+      "utterance": "william rolled a 2 and a 6.",
+      "dda_edge": []
+    },
+    {
+      "index": 379,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 380,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 381,
+      "speaker": "UI",
+      "utterance": "william has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 382,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 383,
+      "speaker": "gotwood4sheep",
+      "utterance": "8 ouch",
+      "dda_edge": [
+        {
+          "from": 383,
+          "label": "Sympathy",
+          "to": 381
+        },
+        {
+          "from": 383,
+          "label": "Exclamation",
+          "to": 381
+        },
+        {
+          "from": 383,
+          "label": "Evaluating",
+          "to": 381
+        }
+      ]
+    },
+    {
+      "index": 384,
+      "speaker": "gotwood4sheep",
+      "utterance": "i wanted y'all to make clay too... ...",
+      "dda_edge": [
+        {
+          "from": 384,
+          "label": "GivingDetails",
+          "to": 383
+        }
+      ]
+    },
+    {
+      "index": 385,
+      "speaker": "tomas.kostan",
+      "utterance": "i know",
+      "dda_edge": [
+        {
+          "from": 385,
+          "label": "Accept",
+          "to": 384
+        },
+        {
+          "from": 385,
+          "label": "Statement",
+          "to": 384
+        }
+      ]
+    },
+    {
+      "index": 386,
+      "speaker": "UI",
+      "utterance": "william made an offer to trade 3 wood for 1 sheep from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 387,
+      "speaker": "Server",
+      "utterance": "william traded 3 wood for 1 sheep from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 388,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 389,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 390,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 3 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 391,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 392,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 393,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 394,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 395,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 396,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 397,
+      "speaker": "tomas.kostan",
+      "utterance": "i will give you sheep for a clay!",
+      "dda_edge": [
+        {
+          "from": 397,
+          "label": "Offer",
+          "to": 397
+        },
+        {
+          "from": 397,
+          "label": "Proposal",
+          "to": 397
+        }
+      ]
+    },
+    {
+      "index": 398,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have no clay :(",
+      "dda_edge": [
+        {
+          "from": 398,
+          "label": "Reject",
+          "to": 397
+        },
+        {
+          "from": 398,
+          "label": "Sympathy",
+          "to": 397
+        },
+        {
+          "from": 398,
+          "label": "Statement",
+          "to": 397
+        }
+      ]
+    },
+    {
+      "index": 399,
+      "speaker": "gotwood4sheep",
+      "utterance": "honest",
+      "dda_edge": [
+        {
+          "from": 399,
+          "label": "Justifying",
+          "to": 398
+        }
+      ]
+    },
+    {
+      "index": 400,
+      "speaker": "william",
+      "utterance": "here",
+      "dda_edge": [
+        {
+          "from": 400,
+          "label": "Accept",
+          "to": 397
+        }
+      ]
+    },
+    {
+      "index": 401,
+      "speaker": "Server",
+      "utterance": "tomas.kostan made an offer to trade 1 sheep for 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 402,
+      "speaker": "UI",
+      "utterance": "... from william",
+      "dda_edge": []
+    },
+    {
+      "index": 403,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 1 sheep for 1 clay from william.",
+      "dda_edge": []
+    },
+    {
+      "index": 404,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 405,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 406,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 407,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 1 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 408,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 409,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 410,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 411,
+      "speaker": "UI",
+      "utterance": "william has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 412,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 413,
+      "speaker": "gotwood4sheep",
+      "utterance": "william, how much for your clay :)",
+      "dda_edge": [
+        {
+          "from": 413,
+          "label": "QuestionInfoRequest",
+          "to": 413
+        },
+        {
+          "from": 413,
+          "label": "Proposal",
+          "to": 413
+        }
+      ]
+    },
+    {
+      "index": 414,
+      "speaker": "william",
+      "utterance": "none left to trade",
+      "dda_edge": [
+        {
+          "from": 414,
+          "label": "Reject",
+          "to": 413
+        },
+        {
+          "from": 414,
+          "label": "Statement",
+          "to": 413
+        },
+        {
+          "from": 414,
+          "label": "Answer",
+          "to": 413
+        }
+      ]
+    },
+    {
+      "index": 415,
+      "speaker": "gotwood4sheep",
+      "utterance": "c'est pas vrai",
+      "dda_edge": [
+        {
+          "from": 415,
+          "label": "Reject",
+          "to": 414
+        },
+        {
+          "from": 415,
+          "label": "Joke",
+          "to": 414
+        }
+      ]
+    },
+    {
+      "index": 416,
+      "speaker": "william",
+      "utterance": "to trade ;)",
+      "dda_edge": [
+        {
+          "from": 416,
+          "label": "Conceding",
+          "to": 415
+        }
+      ]
+    },
+    {
+      "index": 417,
+      "speaker": "gotwood4sheep",
+      "utterance": "lol",
+      "dda_edge": [
+        {
+          "from": 417,
+          "label": "Appreciation",
+          "to": 416
+        }
+      ]
+    },
+    {
+      "index": 418,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 4 wood for 1 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 419,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 4 wood for 1 clay from the bank.",
+      "dda_edge": []
+    },
+    {
+      "index": 420,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 421,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 422,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 423,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 424,
+      "speaker": "Server",
+      "utterance": "william needs to discard.",
+      "dda_edge": []
+    },
+    {
+      "index": 425,
+      "speaker": "gotwood4sheep",
+      "utterance": "ouch :(",
+      "dda_edge": [
+        {
+          "from": 425,
+          "label": "Exclamation",
+          "to": 424
+        },
+        {
+          "from": 425,
+          "label": "Sympathy",
+          "to": 424
+        }
+      ]
+    },
+    {
+      "index": 426,
+      "speaker": "gotwood4sheep",
+      "utterance": "robbed",
+      "dda_edge": [
+        {
+          "from": 426,
+          "label": "Justifying",
+          "to": 425
+        }
+      ]
+    },
+    {
+      "index": 427,
+      "speaker": "Server",
+      "utterance": "william discarded 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 428,
+      "speaker": "Server",
+      "utterance": "william will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 429,
+      "speaker": "william",
+      "utterance": "argh!",
+      "dda_edge": [
+        {
+          "from": 429,
+          "label": "Exclamation",
+          "to": 427
+        }
+      ]
+    },
+    {
+      "index": 430,
+      "speaker": "Server",
+      "utterance": "william stole a resource from tomas.kostan",
+      "dda_edge": []
+    },
+    {
+      "index": 431,
+      "speaker": "Server",
+      "utterance": "william built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 432,
+      "speaker": "tomas.kostan",
+      "utterance": "what was that? :D",
+      "dda_edge": [
+        {
+          "from": 432,
+          "label": "Joke",
+          "to": 430
+        },
+        {
+          "from": 432,
+          "label": "RhetoricalQuestion",
+          "to": 430
+        }
+      ]
+    },
+    {
+      "index": 433,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 434,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 435,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 6 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 436,
+      "speaker": "Server",
+      "utterance": "william gets 3 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 437,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 438,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 439,
+      "speaker": "UI",
+      "utterance": "william has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 440,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 441,
+      "speaker": "gotwood4sheep",
+      "utterance": "william, you're a true diplomat",
+      "dda_edge": [
+        {
+          "from": 441,
+          "label": "Appreciation",
+          "to": 441
+        },
+        {
+          "from": 441,
+          "label": "Opinion",
+          "to": 441
+        },
+        {
+          "from": 441,
+          "label": "Greeting",
+          "to": 441
+        }
+      ]
+    },
+    {
+      "index": 442,
+      "speaker": "william",
+      "utterance": "^^ it might just pay off in the long run",
+      "dda_edge": [
+        {
+          "from": 442,
+          "label": "Downplayer",
+          "to": 441
+        },
+        {
+          "from": 442,
+          "label": "Purposing",
+          "to": 441
+        }
+      ]
+    },
+    {
+      "index": 443,
+      "speaker": "tomas.kostan",
+      "utterance": "clay to spare? :)",
+      "dda_edge": [
+        {
+          "from": 443,
+          "label": "QuestionInfoRequest",
+          "to": 443
+        },
+        {
+          "from": 443,
+          "label": "Proposal",
+          "to": 442
+        }
+      ]
+    },
+    {
+      "index": 444,
+      "speaker": "william",
+      "utterance": "yup",
+      "dda_edge": [
+        {
+          "from": 444,
+          "label": "Answer",
+          "to": 443
+        }
+      ]
+    },
+    {
+      "index": 445,
+      "speaker": "gotwood4sheep",
+      "utterance": "lol",
+      "dda_edge": [
+        {
+          "from": 445,
+          "label": "Appreciation",
+          "to": 442
+        }
+      ]
+    },
+    {
+      "index": 446,
+      "speaker": "william",
+      "utterance": "i need ore or wood",
+      "dda_edge": [
+        {
+          "from": 446,
+          "label": "Offer",
+          "to": 446
+        },
+        {
+          "from": 446,
+          "label": "Statement",
+          "to": 446
+        }
+      ]
+    },
+    {
+      "index": 447,
+      "speaker": "tomas.kostan",
+      "utterance": "for a wood?",
+      "dda_edge": [
+        {
+          "from": 447,
+          "label": "GivingDetails",
+          "to": 446
+        },
+        {
+          "from": 447,
+          "label": "Offer",
+          "to": 446
+        },
+        {
+          "from": 447,
+          "label": "Accept",
+          "to": 446
+        }
+      ]
+    },
+    {
+      "index": 448,
+      "speaker": "william",
+      "utterance": "yes",
+      "dda_edge": [
+        {
+          "from": 448,
+          "label": "Accept",
+          "to": 447
+        }
+      ]
+    },
+    {
+      "index": 449,
+      "speaker": "Server",
+      "utterance": "tomas.kostan made an offer to trade 1 wood for 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 450,
+      "speaker": "UI",
+      "utterance": "... from william",
+      "dda_edge": []
+    },
+    {
+      "index": 451,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 1 wood for 1 clay from william.",
+      "dda_edge": []
+    },
+    {
+      "index": 452,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 453,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 454,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 455,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 4 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 456,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 457,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 458,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 459,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 460,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 461,
+      "speaker": "gotwood4sheep",
+      "utterance": "william, can you spare another clay for another wood?",
+      "dda_edge": [
+        {
+          "from": 461,
+          "label": "Offer",
+          "to": 449
+        },
+        {
+          "from": 461,
+          "label": "QuestionInfoRequest",
+          "to": 449
+        },
+        {
+          "from": 461,
+          "label": "Proposal",
+          "to": 449
+        },
+        {
+          "from": 461,
+          "label": "TakeStock",
+          "to": 449
+        },
+        {
+          "from": 461,
+          "label": "Greeting",
+          "to": 461
+        }
+      ]
+    },
+    {
+      "index": 462,
+      "speaker": "gotwood4sheep",
+      "utterance": "or are you now wooded up",
+      "dda_edge": [
+        {
+          "from": 462,
+          "label": "QuestionInfoRequest",
+          "to": 461
+        },
+        {
+          "from": 462,
+          "label": "Alternative",
+          "to": 461
+        },
+        {
+          "from": 462,
+          "label": "Joke",
+          "to": 462
+        }
+      ]
+    },
+    {
+      "index": 463,
+      "speaker": "william",
+      "utterance": "wooded up ;)",
+      "dda_edge": [
+        {
+          "from": 463,
+          "label": "Answer",
+          "to": 462
+        },
+        {
+          "from": 463,
+          "label": "Answer",
+          "to": 461
+        },
+        {
+          "from": 463,
+          "label": "Joke",
+          "to": 462
+        },
+        {
+          "from": 463,
+          "label": "Reject",
+          "to": 461
+        },
+        {
+          "from": 463,
+          "label": "Restatement",
+          "to": 462
+        }
+      ]
+    },
+    {
+      "index": 464,
+      "speaker": "gotwood4sheep",
+      "utterance": "no worries then :)",
+      "dda_edge": [
+        {
+          "from": 464,
+          "label": "Appreciation",
+          "to": 463
+        },
+        {
+          "from": 464,
+          "label": "Accept",
+          "to": 463
+        }
+      ]
+    },
+    {
+      "index": 465,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 466,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 467,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 468,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 469,
+      "speaker": "Server",
+      "utterance": "william gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 470,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 471,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 472,
+      "speaker": "UI",
+      "utterance": "william has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 473,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 474,
+      "speaker": "william",
+      "utterance": "sry about this,",
+      "dda_edge": [
+        {
+          "from": 474,
+          "label": "Apology",
+          "to": 474
+        }
+      ]
+    },
+    {
+      "index": 475,
+      "speaker": "william",
+      "utterance": "but i saw the spot first...",
+      "dda_edge": [
+        {
+          "from": 475,
+          "label": "Conceding",
+          "to": 474
+        },
+        {
+          "from": 475,
+          "label": "Statement",
+          "to": 475
+        }
+      ]
+    },
+    {
+      "index": 476,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 477,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 478,
+      "speaker": "Server",
+      "utterance": "william built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 479,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 480,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 481,
+      "speaker": "gotwood4sheep",
+      "utterance": "wowzer",
+      "dda_edge": [
+        {
+          "from": 481,
+          "label": "Exclamation",
+          "to": 476
+        },
+        {
+          "from": 481,
+          "label": "Exclamation",
+          "to": 477
+        },
+        {
+          "from": 481,
+          "label": "Exclamation",
+          "to": 478
+        }
+      ]
+    },
+    {
+      "index": 482,
+      "speaker": "gotwood4sheep",
+      "utterance": "quite the chain",
+      "dda_edge": [
+        {
+          "from": 482,
+          "label": "Evaluating",
+          "to": 475
+        },
+        {
+          "from": 482,
+          "label": "Appreciation",
+          "to": 478
+        },
+        {
+          "from": 482,
+          "label": "Appreciation",
+          "to": 477
+        },
+        {
+          "from": 482,
+          "label": "Appreciation",
+          "to": 476
+        }
+      ]
+    },
+    {
+      "index": 483,
+      "speaker": "tomas.kostan",
+      "utterance": "not again william :D",
+      "dda_edge": [
+        {
+          "from": 483,
+          "label": "Joke",
+          "to": 478
+        },
+        {
+          "from": 483,
+          "label": "Joke",
+          "to": 477
+        },
+        {
+          "from": 483,
+          "label": "Joke",
+          "to": 476
+        },
+        {
+          "from": 483,
+          "label": "Acknowledge",
+          "to": 478
+        },
+        {
+          "from": 483,
+          "label": "Acknowledge",
+          "to": 477
+        },
+        {
+          "from": 483,
+          "label": "Acknowledge",
+          "to": 476
+        }
+      ]
+    },
+    {
+      "index": 484,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 3 and a 6.",
+      "dda_edge": []
+    },
+    {
+      "index": 485,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 486,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 487,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 488,
+      "speaker": "UI",
+      "utterance": "william has 0 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 489,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 490,
+      "speaker": "tomas.kostan",
+      "utterance": "just one turn. just one :D",
+      "dda_edge": [
+        {
+          "from": 490,
+          "label": "Joke",
+          "to": 490
+        }
+      ]
+    },
+    {
+      "index": 491,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 492,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 493,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 6 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 494,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 495,
+      "speaker": "Server",
+      "utterance": "william gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 496,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 497,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 498,
+      "speaker": "UI",
+      "utterance": "william has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 499,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 500,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone got ore?",
+      "dda_edge": [
+        {
+          "from": 500,
+          "label": "QuestionInfoRequest",
+          "to": 500
+        },
+        {
+          "from": 500,
+          "label": "Proposal",
+          "to": 500
+        }
+      ]
+    },
+    {
+      "index": 501,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 501,
+          "label": "Answer",
+          "to": 500
+        },
+        {
+          "from": 501,
+          "label": "Reject",
+          "to": 500
+        }
+      ]
+    },
+    {
+      "index": 502,
+      "speaker": "tomas.kostan",
+      "utterance": "no sry",
+      "dda_edge": [
+        {
+          "from": 502,
+          "label": "Answer",
+          "to": 500
+        },
+        {
+          "from": 502,
+          "label": "Reject",
+          "to": 500
+        },
+        {
+          "from": 502,
+          "label": "Apology",
+          "to": 500
+        }
+      ]
+    },
+    {
+      "index": 503,
+      "speaker": "gotwood4sheep",
+      "utterance": "no worries then",
+      "dda_edge": [
+        {
+          "from": 503,
+          "label": "Accept",
+          "to": 502
+        },
+        {
+          "from": 503,
+          "label": "Accept",
+          "to": 501
+        }
+      ]
+    },
+    {
+      "index": 504,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 3 wood for 1 ore from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 505,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 3 wood for 1 ore from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 506,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 507,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 508,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 509,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 510,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 511,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 512,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 513,
+      "speaker": "UI",
+      "utterance": "william has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 514,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 515,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 516,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 517,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 5 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 518,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 519,
+      "speaker": "Server",
+      "utterance": "william gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 520,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 521,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 522,
+      "speaker": "UI",
+      "utterance": "william has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 523,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 524,
+      "speaker": "tomas.kostan",
+      "utterance": "need wood and clay",
+      "dda_edge": [
+        {
+          "from": 524,
+          "label": "Proposal",
+          "to": 524
+        },
+        {
+          "from": 524,
+          "label": "Statement",
+          "to": 524
+        }
+      ]
+    },
+    {
+      "index": 525,
+      "speaker": "william",
+      "utterance": "sry",
+      "dda_edge": [
+        {
+          "from": 525,
+          "label": "Reject",
+          "to": 524
+        },
+        {
+          "from": 525,
+          "label": "Apology",
+          "to": 524
+        }
+      ]
+    },
+    {
+      "index": 526,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have wood,",
+      "dda_edge": [
+        {
+          "from": 526,
+          "label": "Offer",
+          "to": 524
+        },
+        {
+          "from": 526,
+          "label": "Statement",
+          "to": 524
+        }
+      ]
+    },
+    {
+      "index": 527,
+      "speaker": "gotwood4sheep",
+      "utterance": "what you got?",
+      "dda_edge": [
+        {
+          "from": 527,
+          "label": "QuestionInfoRequest",
+          "to": 524
+        },
+        {
+          "from": 527,
+          "label": "Conditioning",
+          "to": 526
+        }
+      ]
+    },
+    {
+      "index": 528,
+      "speaker": "tomas.kostan",
+      "utterance": "sheep?",
+      "dda_edge": [
+        {
+          "from": 528,
+          "label": "Offer",
+          "to": 527
+        },
+        {
+          "from": 528,
+          "label": "Answer",
+          "to": 527
+        }
+      ]
+    },
+    {
+      "index": 529,
+      "speaker": "gotwood4sheep",
+      "utterance": "anything else?",
+      "dda_edge": [
+        {
+          "from": 529,
+          "label": "QuestionInfoRequest",
+          "to": 528
+        }
+      ]
+    },
+    {
+      "index": 530,
+      "speaker": "tomas.kostan",
+      "utterance": "wheat?",
+      "dda_edge": [
+        {
+          "from": 530,
+          "label": "Offer",
+          "to": 529
+        },
+        {
+          "from": 530,
+          "label": "Substituting",
+          "to": 528
+        }
+      ]
+    },
+    {
+      "index": 531,
+      "speaker": "gotwood4sheep",
+      "utterance": "i'll take your first offer",
+      "dda_edge": [
+        {
+          "from": 531,
+          "label": "Accept",
+          "to": 528
+        }
+      ]
+    },
+    {
+      "index": 532,
+      "speaker": "tomas.kostan",
+      "utterance": "ok then",
+      "dda_edge": [
+        {
+          "from": 532,
+          "label": "Accept",
+          "to": 531
+        }
+      ]
+    },
+    {
+      "index": 533,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have literally got wood for sheep",
+      "dda_edge": [
+        {
+          "from": 533,
+          "label": "Joke",
+          "to": 533
+        },
+        {
+          "from": 533,
+          "label": "Restatement",
+          "to": 531
+        }
+      ]
+    },
+    {
+      "index": 534,
+      "speaker": "gotwood4sheep",
+      "utterance": "joy!",
+      "dda_edge": [
+        {
+          "from": 534,
+          "label": "Exclamation",
+          "to": 533
+        }
+      ]
+    },
+    {
+      "index": 535,
+      "speaker": "Server",
+      "utterance": "tomas.kostan made an offer to trade 1 sheep for 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 536,
+      "speaker": "UI",
+      "utterance": "... from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 537,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 1 sheep for 1 wood from gotwood4sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 538,
+      "speaker": "tomas.kostan",
+      "utterance": "thx!",
+      "dda_edge": [
+        {
+          "from": 538,
+          "label": "Thanking",
+          "to": 537
+        }
+      ]
+    },
+    {
+      "index": 539,
+      "speaker": "gotwood4sheep",
+      "utterance": "i will never tire of that",
+      "dda_edge": [
+        {
+          "from": 539,
+          "label": "Appreciation",
+          "to": 533
+        },
+        {
+          "from": 539,
+          "label": "Statement",
+          "to": 533
+        }
+      ]
+    },
+    {
+      "index": 540,
+      "speaker": "gotwood4sheep",
+      "utterance": "yw",
+      "dda_edge": [
+        {
+          "from": 540,
+          "label": "Welcome",
+          "to": 538
+        }
+      ]
+    },
+    {
+      "index": 541,
+      "speaker": "tomas.kostan",
+      "utterance": "what about an ore?",
+      "dda_edge": [
+        {
+          "from": 541,
+          "label": "QuestionInfoRequest",
+          "to": 524
+        },
+        {
+          "from": 541,
+          "label": "Proposal",
+          "to": 538
+        },
+        {
+          "from": 541,
+          "label": "Conjunction",
+          "to": 524
+        }
+      ]
+    },
+    {
+      "index": 542,
+      "speaker": "william",
+      "utterance": "i'm broke",
+      "dda_edge": [
+        {
+          "from": 542,
+          "label": "Reject",
+          "to": 541
+        },
+        {
+          "from": 542,
+          "label": "Answer",
+          "to": 541
+        },
+        {
+          "from": 542,
+          "label": "Statement",
+          "to": 541
+        }
+      ]
+    },
+    {
+      "index": 543,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 544,
+      "speaker": "gotwood4sheep",
+      "utterance": "again, what do you have?",
+      "dda_edge": [
+        {
+          "from": 544,
+          "label": "QuestionInfoRequest",
+          "to": 541
+        },
+        {
+          "from": 544,
+          "label": "Restatement",
+          "to": 527
+        }
+      ]
+    },
+    {
+      "index": 545,
+      "speaker": "gotwood4sheep",
+      "utterance": "I'm not as sold on this trade",
+      "dda_edge": [
+        {
+          "from": 545,
+          "label": "Statement",
+          "to": 541
+        },
+        {
+          "from": 545,
+          "label": "Hedge",
+          "to": 544
+        },
+        {
+          "from": 545,
+          "label": "Justifying",
+          "to": 544
+        }
+      ]
+    },
+    {
+      "index": 546,
+      "speaker": "gotwood4sheep",
+      "utterance": "but i'll hear you out",
+      "dda_edge": [
+        {
+          "from": 546,
+          "label": "Conceding",
+          "to": 545
+        }
+      ]
+    },
+    {
+      "index": 547,
+      "speaker": "tomas.kostan",
+      "utterance": "sheep or wheat?",
+      "dda_edge": [
+        {
+          "from": 547,
+          "label": "Answer",
+          "to": 544
+        },
+        {
+          "from": 547,
+          "label": "Offer",
+          "to": 544
+        },
+        {
+          "from": 547,
+          "label": "QuestionInfoRequest",
+          "to": 544
+        }
+      ]
+    },
+    {
+      "index": 548,
+      "speaker": "gotwood4sheep",
+      "utterance": "one for one doesn't really work for me, sorry",
+      "dda_edge": [
+        {
+          "from": 548,
+          "label": "Reject",
+          "to": 547
+        },
+        {
+          "from": 548,
+          "label": "Apology",
+          "to": 547
+        },
+        {
+          "from": 548,
+          "label": "Statement",
+          "to": 547
+        }
+      ]
+    },
+    {
+      "index": 549,
+      "speaker": "tomas.kostan",
+      "utterance": "sheep or wheat + wood?",
+      "dda_edge": [
+        {
+          "from": 549,
+          "label": "Offer",
+          "to": 548
+        },
+        {
+          "from": 549,
+          "label": "QuestionInfoRequest",
+          "to": 548
+        }
+      ]
+    },
+    {
+      "index": 550,
+      "speaker": "gotwood4sheep",
+      "utterance": "i didn't need the wood i just gave you, alas",
+      "dda_edge": [
+        {
+          "from": 550,
+          "label": "Reject",
+          "to": 549
+        },
+        {
+          "from": 550,
+          "label": "TakeStock",
+          "to": 531
+        },
+        {
+          "from": 550,
+          "label": "Statement",
+          "to": 549
+        }
+      ]
+    },
+    {
+      "index": 551,
+      "speaker": "gotwood4sheep",
+      "utterance": "think i'll pass :)",
+      "dda_edge": [
+        {
+          "from": 551,
+          "label": "Justified",
+          "to": 550
+        },
+        {
+          "from": 551,
+          "label": "Reject",
+          "to": 549
+        },
+        {
+          "from": 551,
+          "label": "ExplicitPerformative",
+          "to": 549
+        },
+        {
+          "from": 551,
+          "label": "Hedge",
+          "to": 549
+        }
+      ]
+    },
+    {
+      "index": 552,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 553,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 554,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 5 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 555,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 556,
+      "speaker": "Server",
+      "utterance": "william gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 557,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 558,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 559,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 560,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 561,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 562,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 563,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 564,
+      "speaker": "Server",
+      "utterance": "william rolled a 2 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 565,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 566,
+      "speaker": "Server",
+      "utterance": "william gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 567,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 568,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 569,
+      "speaker": "UI",
+      "utterance": "william has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 570,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 571,
+      "speaker": "william",
+      "utterance": "can i get an ore for a sheep?",
+      "dda_edge": [
+        {
+          "from": 571,
+          "label": "Offer",
+          "to": 571
+        },
+        {
+          "from": 571,
+          "label": "QuestionInfoRequest",
+          "to": 571
+        }
+      ]
+    },
+    {
+      "index": 572,
+      "speaker": "tomas.kostan",
+      "utterance": "no ore here sry",
+      "dda_edge": [
+        {
+          "from": 572,
+          "label": "Answer",
+          "to": 571
+        },
+        {
+          "from": 572,
+          "label": "Reject",
+          "to": 571
+        },
+        {
+          "from": 572,
+          "label": "Apology",
+          "to": 571
+        },
+        {
+          "from": 572,
+          "label": "Statement",
+          "to": 571
+        }
+      ]
+    },
+    {
+      "index": 573,
+      "speaker": "gotwood4sheep",
+      "utterance": "fraid not",
+      "dda_edge": [
+        {
+          "from": 573,
+          "label": "Answer",
+          "to": 571
+        },
+        {
+          "from": 573,
+          "label": "Reject",
+          "to": 571
+        },
+        {
+          "from": 573,
+          "label": "Sympathy",
+          "to": 571
+        }
+      ]
+    },
+    {
+      "index": 574,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 575,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 576,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 1 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 577,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 4 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 578,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 579,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 580,
+      "speaker": "UI",
+      "utterance": "william has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 581,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 582,
+      "speaker": "tomas.kostan",
+      "utterance": "clay ore for trade anyone?",
+      "dda_edge": [
+        {
+          "from": 582,
+          "label": "QuestionInfoRequest",
+          "to": 582
+        },
+        {
+          "from": 582,
+          "label": "Proposal",
+          "to": 582
+        }
+      ]
+    },
+    {
+      "index": 583,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 583,
+          "label": "Answer",
+          "to": 582
+        },
+        {
+          "from": 583,
+          "label": "Reject",
+          "to": 582
+        }
+      ]
+    },
+    {
+      "index": 584,
+      "speaker": "gotwood4sheep",
+      "utterance": "i need a clay",
+      "dda_edge": [
+        {
+          "from": 584,
+          "label": "Statement",
+          "to": 584
+        },
+        {
+          "from": 584,
+          "label": "Reject",
+          "to": 582
+        }
+      ]
+    },
+    {
+      "index": 585,
+      "speaker": "gotwood4sheep",
+      "utterance": "can offer an ore",
+      "dda_edge": [
+        {
+          "from": 585,
+          "label": "Offer",
+          "to": 582
+        },
+        {
+          "from": 585,
+          "label": "Justified",
+          "to": 584
+        }
+      ]
+    },
+    {
+      "index": 586,
+      "speaker": "gotwood4sheep",
+      "utterance": "if that's what you mean?",
+      "dda_edge": [
+        {
+          "from": 586,
+          "label": "Conditioning",
+          "to": 585
+        },
+        {
+          "from": 586,
+          "label": "SignalNonUnderstanding",
+          "to": 582
+        },
+        {
+          "from": 586,
+          "label": "QuestionInfoRequest",
+          "to": 585
+        }
+      ]
+    },
+    {
+      "index": 587,
+      "speaker": "tomas.kostan",
+      "utterance": "yes i missed \"or\" there",
+      "dda_edge": [
+        {
+          "from": 587,
+          "label": "Answer",
+          "to": 586
+        },
+        {
+          "from": 587,
+          "label": "Correction",
+          "to": 582
+        }
+      ]
+    },
+    {
+      "index": 588,
+      "speaker": "tomas.kostan",
+      "utterance": "ore for what then?",
+      "dda_edge": [
+        {
+          "from": 588,
+          "label": "After",
+          "to": 587
+        },
+        {
+          "from": 588,
+          "label": "QuestionInfoRequest",
+          "to": 585
+        }
+      ]
+    },
+    {
+      "index": 589,
+      "speaker": "gotwood4sheep",
+      "utterance": "clay",
+      "dda_edge": [
+        {
+          "from": 589,
+          "label": "Answer",
+          "to": 588
+        },
+        {
+          "from": 589,
+          "label": "Offer",
+          "to": 588
+        }
+      ]
+    },
+    {
+      "index": 590,
+      "speaker": "gotwood4sheep",
+      "utterance": "which you don't have?",
+      "dda_edge": [
+        {
+          "from": 590,
+          "label": "QuestionInfoRequest",
+          "to": 589
+        },
+        {
+          "from": 590,
+          "label": "GivingDetails",
+          "to": 589
+        },
+        {
+          "from": 590,
+          "label": "Hedge",
+          "to": 589
+        }
+      ]
+    },
+    {
+      "index": 591,
+      "speaker": "tomas.kostan",
+      "utterance": "clay and ore :)",
+      "dda_edge": [
+        {
+          "from": 591,
+          "label": "Answer",
+          "to": 590
+        }
+      ]
+    },
+    {
+      "index": 592,
+      "speaker": "tomas.kostan",
+      "utterance": "ask for anything else",
+      "dda_edge": []
+    },
+    {
+      "index": 593,
+      "speaker": "gotwood4sheep",
+      "utterance": "sorry!",
+      "dda_edge": [
+        {
+          "from": 593,
+          "label": "Reject",
+          "to": 592
+        },
+        {
+          "from": 593,
+          "label": "Apology",
+          "to": 592
+        }
+      ]
+    },
+    {
+      "index": 594,
+      "speaker": "gotwood4sheep",
+      "utterance": "clay is my heart's desire",
+      "dda_edge": [
+        {
+          "from": 594,
+          "label": "Joke",
+          "to": 593
+        },
+        {
+          "from": 594,
+          "label": "Justifying",
+          "to": 593
+        }
+      ]
+    },
+    {
+      "index": 595,
+      "speaker": "tomas.kostan",
+      "utterance": "ok wood then?",
+      "dda_edge": [
+        {
+          "from": 595,
+          "label": "Acknowledge",
+          "to": 593
+        },
+        {
+          "from": 595,
+          "label": "QuestionInfoRequest",
+          "to": 593
+        },
+        {
+          "from": 595,
+          "label": "Substituting",
+          "to": 593
+        },
+        {
+          "from": 595,
+          "label": "Offer",
+          "to": 595
+        }
+      ]
+    },
+    {
+      "index": 596,
+      "speaker": "tomas.kostan",
+      "utterance": "anyone can trade wood?",
+      "dda_edge": [
+        {
+          "from": 596,
+          "label": "Restatement",
+          "to": 595
+        }
+      ]
+    },
+    {
+      "index": 597,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have wood but guess what",
+      "dda_edge": [
+        {
+          "from": 597,
+          "label": "Joke",
+          "to": 596
+        },
+        {
+          "from": 597,
+          "label": "OpenQuestion",
+          "to": 596
+        },
+        {
+          "from": 597,
+          "label": "Statement",
+          "to": 596
+        }
+      ]
+    },
+    {
+      "index": 598,
+      "speaker": "william",
+      "utterance": "nada",
+      "dda_edge": [
+        {
+          "from": 598,
+          "label": "Answer",
+          "to": 596
+        },
+        {
+          "from": 598,
+          "label": "Reject",
+          "to": 596
+        }
+      ]
+    },
+    {
+      "index": 599,
+      "speaker": "gotwood4sheep",
+      "utterance": "need clay",
+      "dda_edge": [
+        {
+          "from": 599,
+          "label": "Joke",
+          "to": 597
+        },
+        {
+          "from": 599,
+          "label": "Answer",
+          "to": 597
+        },
+        {
+          "from": 599,
+          "label": "Reject",
+          "to": 596
+        }
+      ]
+    },
+    {
+      "index": 600,
+      "speaker": "gotwood4sheep",
+      "utterance": "lol",
+      "dda_edge": [
+        {
+          "from": 600,
+          "label": "Appreciation",
+          "to": 599
+        },
+        {
+          "from": 600,
+          "label": "Downplayer",
+          "to": 599
+        }
+      ]
+    },
+    {
+      "index": 601,
+      "speaker": "gotwood4sheep",
+      "utterance": "i could do 1 wood for a sheep perhaps?",
+      "dda_edge": [
+        {
+          "from": 601,
+          "label": "Proposal",
+          "to": 596
+        },
+        {
+          "from": 601,
+          "label": "Hedge",
+          "to": 601
+        },
+        {
+          "from": 601,
+          "label": "Offer",
+          "to": 596
+        }
+      ]
+    },
+    {
+      "index": 602,
+      "speaker": "tomas.kostan",
+      "utterance": "i can give you a sheep and a wheat",
+      "dda_edge": [
+        {
+          "from": 602,
+          "label": "Offer",
+          "to": 601
+        },
+        {
+          "from": 602,
+          "label": "Accept",
+          "to": 601
+        }
+      ]
+    },
+    {
+      "index": 603,
+      "speaker": "tomas.kostan",
+      "utterance": "think about that :)",
+      "dda_edge": [
+        {
+          "from": 603,
+          "label": "ActionDirective",
+          "to": 602
+        },
+        {
+          "from": 603,
+          "label": "Joke",
+          "to": 602
+        }
+      ]
+    },
+    {
+      "index": 604,
+      "speaker": "gotwood4sheep",
+      "utterance": "ok then",
+      "dda_edge": [
+        {
+          "from": 604,
+          "label": "Accept",
+          "to": 602
+        }
+      ]
+    },
+    {
+      "index": 605,
+      "speaker": "tomas.kostan",
+      "utterance": ":)",
+      "dda_edge": [
+        {
+          "from": 605,
+          "label": "Appreciation",
+          "to": 604
+        }
+      ]
+    },
+    {
+      "index": 606,
+      "speaker": "gotwood4sheep",
+      "utterance": "you just got upsold",
+      "dda_edge": [
+        {
+          "from": 606,
+          "label": "Joke",
+          "to": 602
+        },
+        {
+          "from": 606,
+          "label": "Evaluating",
+          "to": 602
+        }
+      ]
+    },
+    {
+      "index": 607,
+      "speaker": "Server",
+      "utterance": "tomas.kostan made an offer to trade 1 sheep, 1 wheat for 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 608,
+      "speaker": "UI",
+      "utterance": "... from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 609,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 1 sheep, 1 wheat for 1 wood from gotwood4sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 610,
+      "speaker": "tomas.kostan",
+      "utterance": ":D",
+      "dda_edge": [
+        {
+          "from": 610,
+          "label": "Appreciation",
+          "to": 609
+        }
+      ]
+    },
+    {
+      "index": 611,
+      "speaker": "UI",
+      "utterance": "tomas.kostan made an offer to trade 4 wood for 1 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 612,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 4 wood for 1 clay from the bank.",
+      "dda_edge": []
+    },
+    {
+      "index": 613,
+      "speaker": "gotwood4sheep",
+      "utterance": "and now watch my prowess at rolling a 7...",
+      "dda_edge": [
+        {
+          "from": 613,
+          "label": "ActionDirective",
+          "to": 613
+        },
+        {
+          "from": 613,
+          "label": "Joke",
+          "to": 613
+        }
+      ]
+    },
+    {
+      "index": 614,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 615,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 616,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 617,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 1 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 618,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 619,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 620,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 12 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 621,
+      "speaker": "UI",
+      "utterance": "william has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 622,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 623,
+      "speaker": "gotwood4sheep",
+      "utterance": "aww, one off",
+      "dda_edge": [
+        {
+          "from": 623,
+          "label": "Exclamation",
+          "to": 617
+        },
+        {
+          "from": 623,
+          "label": "Statement",
+          "to": 617
+        },
+        {
+          "from": 623,
+          "label": "Sympathy",
+          "to": 617
+        }
+      ]
+    },
+    {
+      "index": 624,
+      "speaker": "william",
+      "utterance": "close one",
+      "dda_edge": [
+        {
+          "from": 624,
+          "label": "Sympathy",
+          "to": 623
+        }
+      ]
+    },
+    {
+      "index": 625,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone got clay?",
+      "dda_edge": [
+        {
+          "from": 625,
+          "label": "QuestionInfoRequest",
+          "to": 625
+        },
+        {
+          "from": 625,
+          "label": "Proposal",
+          "to": 625
+        }
+      ]
+    },
+    {
+      "index": 626,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 626,
+          "label": "Answer",
+          "to": 625
+        },
+        {
+          "from": 626,
+          "label": "Reject",
+          "to": 625
+        }
+      ]
+    },
+    {
+      "index": 627,
+      "speaker": "gotwood4sheep",
+      "utterance": "no problem!",
+      "dda_edge": [
+        {
+          "from": 627,
+          "label": "Accept",
+          "to": 626
+        },
+        {
+          "from": 627,
+          "label": "Downplayer",
+          "to": 626
+        }
+      ]
+    },
+    {
+      "index": 628,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 6 wheat for 2 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 629,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 6 wheat for 2 clay from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 630,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 631,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 632,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 633,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 634,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 635,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 3 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 636,
+      "speaker": "Server",
+      "utterance": "william gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 637,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 638,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 639,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 640,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 641,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 642,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 643,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 644,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 3 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 645,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 4 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 646,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 647,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 11 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 648,
+      "speaker": "UI",
+      "utterance": "william has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 649,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 650,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 651,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 652,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 653,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 1 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 654,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 655,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 656,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 13 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 657,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 658,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 659,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 3 wood for 1 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 660,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 3 wood for 1 clay from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 661,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 662,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 4 wheat for 2 ore from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 663,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 4 wheat for 2 ore from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 664,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 665,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 666,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 667,
+      "speaker": "Server",
+      "utterance": "william rolled a 5 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 668,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 669,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 670,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 671,
+      "speaker": "UI",
+      "utterance": "william has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 672,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 673,
+      "speaker": "william",
+      "utterance": "clay from someone?",
+      "dda_edge": [
+        {
+          "from": 673,
+          "label": "QuestionInfoRequest",
+          "to": 673
+        }
+      ]
+    },
+    {
+      "index": 674,
+      "speaker": "gotwood4sheep",
+      "utterance": "no clay at all, apologies",
+      "dda_edge": [
+        {
+          "from": 674,
+          "label": "Answer",
+          "to": 673
+        },
+        {
+          "from": 674,
+          "label": "Reject",
+          "to": 673
+        },
+        {
+          "from": 674,
+          "label": "Apology",
+          "to": 673
+        }
+      ]
+    },
+    {
+      "index": 675,
+      "speaker": "UI",
+      "utterance": "william made an offer to trade 3 wood for 1 ore from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 676,
+      "speaker": "Server",
+      "utterance": "william traded 3 wood for 1 ore from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 677,
+      "speaker": "tomas.kostan",
+      "utterance": "sry i only have a sheep",
+      "dda_edge": [
+        {
+          "from": 677,
+          "label": "Reject",
+          "to": 673
+        },
+        {
+          "from": 677,
+          "label": "Answer",
+          "to": 673
+        },
+        {
+          "from": 677,
+          "label": "Statement",
+          "to": 673
+        },
+        {
+          "from": 677,
+          "label": "Apology",
+          "to": 673
+        }
+      ]
+    },
+    {
+      "index": 678,
+      "speaker": "Server",
+      "utterance": "william bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 679,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 680,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 681,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 4 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 682,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 683,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 2 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 684,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 685,
+      "speaker": "UI",
+      "utterance": "william has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 686,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 687,
+      "speaker": "gotwood4sheep",
+      "utterance": "I'm property rich,",
+      "dda_edge": [
+        {
+          "from": 687,
+          "label": "Statement",
+          "to": 687
+        }
+      ]
+    },
+    {
+      "index": 688,
+      "speaker": "gotwood4sheep",
+      "utterance": "cash poor",
+      "dda_edge": [
+        {
+          "from": 688,
+          "label": "Contrast",
+          "to": 687
+        }
+      ]
+    },
+    {
+      "index": 689,
+      "speaker": "tomas.kostan",
+      "utterance": "ore anyone?",
+      "dda_edge": [
+        {
+          "from": 689,
+          "label": "QuestionInfoRequest",
+          "to": 689
+        },
+        {
+          "from": 689,
+          "label": "Proposal",
+          "to": 689
+        }
+      ]
+    },
+    {
+      "index": 690,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 690,
+          "label": "Answer",
+          "to": 689
+        },
+        {
+          "from": 690,
+          "label": "Reject",
+          "to": 689
+        }
+      ]
+    },
+    {
+      "index": 691,
+      "speaker": "gotwood4sheep",
+      "utterance": "I'd need 2 wheat for an ore",
+      "dda_edge": [
+        {
+          "from": 691,
+          "label": "Offer",
+          "to": 689
+        },
+        {
+          "from": 691,
+          "label": "Answer",
+          "to": 689
+        }
+      ]
+    },
+    {
+      "index": 692,
+      "speaker": "gotwood4sheep",
+      "utterance": "which I imagine is too pricey",
+      "dda_edge": [
+        {
+          "from": 692,
+          "label": "Conceding",
+          "to": 691
+        }
+      ]
+    },
+    {
+      "index": 693,
+      "speaker": "tomas.kostan",
+      "utterance": "can offer just one :)",
+      "dda_edge": [
+        {
+          "from": 693,
+          "label": "Reject",
+          "to": 691
+        },
+        {
+          "from": 693,
+          "label": "Offer",
+          "to": 691
+        }
+      ]
+    },
+    {
+      "index": 694,
+      "speaker": "gotwood4sheep",
+      "utterance": "sorry!",
+      "dda_edge": [
+        {
+          "from": 694,
+          "label": "Reject",
+          "to": 693
+        },
+        {
+          "from": 694,
+          "label": "Apology",
+          "to": 693
+        }
+      ]
+    },
+    {
+      "index": 695,
+      "speaker": "tomas.kostan",
+      "utterance": "np",
+      "dda_edge": [
+        {
+          "from": 695,
+          "label": "Acknowledge",
+          "to": 694
+        }
+      ]
+    },
+    {
+      "index": 696,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 697,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 698,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 6 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 699,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 700,
+      "speaker": "Server",
+      "utterance": "william gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 701,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 2 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 702,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 703,
+      "speaker": "UI",
+      "utterance": "william has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 704,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 705,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 3 wood for 1 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 706,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 3 wood for 1 clay from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 707,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 708,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 709,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 710,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 711,
+      "speaker": "Server",
+      "utterance": "william gets 3 clay, 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 712,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 713,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 714,
+      "speaker": "UI",
+      "utterance": "william has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 715,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 716,
+      "speaker": "gotwood4sheep",
+      "utterance": "so much clay!",
+      "dda_edge": [
+        {
+          "from": 716,
+          "label": "Exclamation",
+          "to": 711
+        },
+        {
+          "from": 716,
+          "label": "Statement",
+          "to": 711
+        }
+      ]
+    },
+    {
+      "index": 717,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 718,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 719,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 720,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 721,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 5 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 722,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 723,
+      "speaker": "Server",
+      "utterance": "william gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 724,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 725,
+      "speaker": "UI",
+      "utterance": "william has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 726,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 727,
+      "speaker": "tomas.kostan",
+      "utterance": "still no ore?",
+      "dda_edge": [
+        {
+          "from": 727,
+          "label": "QuestionInfoRequest",
+          "to": 689
+        },
+        {
+          "from": 727,
+          "label": "Proposal",
+          "to": 689
+        },
+        {
+          "from": 727,
+          "label": "TakeStock",
+          "to": 689
+        }
+      ]
+    },
+    {
+      "index": 728,
+      "speaker": "william",
+      "utterance": "no",
+      "dda_edge": [
+        {
+          "from": 728,
+          "label": "Answer",
+          "to": 727
+        },
+        {
+          "from": 728,
+          "label": "Reject",
+          "to": 727
+        }
+      ]
+    },
+    {
+      "index": 729,
+      "speaker": "gotwood4sheep",
+      "utterance": "only for clay or 2 wheat, sorry",
+      "dda_edge": [
+        {
+          "from": 729,
+          "label": "Offer",
+          "to": 727
+        },
+        {
+          "from": 729,
+          "label": "Answer",
+          "to": 727
+        },
+        {
+          "from": 729,
+          "label": "Apology",
+          "to": 727
+        }
+      ]
+    },
+    {
+      "index": 730,
+      "speaker": "tomas.kostan",
+      "utterance": "sheep perhaps?",
+      "dda_edge": [
+        {
+          "from": 730,
+          "label": "QuestionInfoRequest",
+          "to": 729
+        },
+        {
+          "from": 730,
+          "label": "Offer",
+          "to": 729
+        }
+      ]
+    },
+    {
+      "index": 731,
+      "speaker": "gotwood4sheep",
+      "utterance": "no sheep, sorry!",
+      "dda_edge": [
+        {
+          "from": 731,
+          "label": "Reject",
+          "to": 730
+        },
+        {
+          "from": 731,
+          "label": "Apology",
+          "to": 730
+        }
+      ]
+    },
+    {
+      "index": 732,
+      "speaker": "tomas.kostan",
+      "utterance": "2 sheep? :)",
+      "dda_edge": [
+        {
+          "from": 732,
+          "label": "Offer",
+          "to": 731
+        },
+        {
+          "from": 732,
+          "label": "QuestionInfoRequest",
+          "to": 731
+        }
+      ]
+    },
+    {
+      "index": 733,
+      "speaker": "gotwood4sheep",
+      "utterance": "still not enticing",
+      "dda_edge": [
+        {
+          "from": 733,
+          "label": "Reject",
+          "to": 732
+        },
+        {
+          "from": 733,
+          "label": "Evaluating",
+          "to": 732
+        }
+      ]
+    },
+    {
+      "index": 734,
+      "speaker": "gotwood4sheep",
+      "utterance": "I have fed well on sheep",
+      "dda_edge": [
+        {
+          "from": 734,
+          "label": "Justifying",
+          "to": 733
+        },
+        {
+          "from": 734,
+          "label": "Joke",
+          "to": 733
+        }
+      ]
+    },
+    {
+      "index": 735,
+      "speaker": "tomas.kostan",
+      "utterance": ":D",
+      "dda_edge": [
+        {
+          "from": 735,
+          "label": "Appreciation",
+          "to": 734
+        }
+      ]
+    },
+    {
+      "index": 736,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 737,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 738,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 4 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 739,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 4 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 740,
+      "speaker": "Server",
+      "utterance": "william gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 741,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 742,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 743,
+      "speaker": "UI",
+      "utterance": "william has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 744,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 745,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 4 wheat for 2 clay from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 746,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 4 wheat for 2 clay from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 747,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 748,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 749,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 750,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 751,
+      "speaker": "Server",
+      "utterance": "william rolled a 6 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 752,
+      "speaker": "Server",
+      "utterance": "william needs to discard.",
+      "dda_edge": []
+    },
+    {
+      "index": 753,
+      "speaker": "Server",
+      "utterance": "william discarded 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 754,
+      "speaker": "Server",
+      "utterance": "william will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 755,
+      "speaker": "gotwood4sheep",
+      "utterance": "ouch, you've burned yourself on those 7s",
+      "dda_edge": [
+        {
+          "from": 755,
+          "label": "Exclamation",
+          "to": 753
+        },
+        {
+          "from": 755,
+          "label": "Evaluating",
+          "to": 751
+        },
+        {
+          "from": 755,
+          "label": "Sympathy",
+          "to": 753
+        }
+      ]
+    },
+    {
+      "index": 756,
+      "speaker": "Server",
+      "utterance": "william stole a resource from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 757,
+      "speaker": "Server",
+      "utterance": "william built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 758,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 759,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 760,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 4 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 761,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 2 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 762,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 1 resource.",
+      "dda_edge": []
+    },
+    {
+      "index": 763,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 764,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 765,
+      "speaker": "gotwood4sheep",
+      "utterance": "9 nooo!",
+      "dda_edge": [
+        {
+          "from": 765,
+          "label": "Exclamation",
+          "to": 764
+        },
+        {
+          "from": 765,
+          "label": "TakeStock",
+          "to": 764
+        }
+      ]
+    },
+    {
+      "index": 766,
+      "speaker": "tomas.kostan",
+      "utterance": "ore, sheep or wheat to spare?",
+      "dda_edge": [
+        {
+          "from": 766,
+          "label": "QuestionInfoRequest",
+          "to": 766
+        },
+        {
+          "from": 766,
+          "label": "Proposal",
+          "to": 766
+        }
+      ]
+    },
+    {
+      "index": 767,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have an ore",
+      "dda_edge": [
+        {
+          "from": 767,
+          "label": "Answer",
+          "to": 766
+        },
+        {
+          "from": 767,
+          "label": "Statement",
+          "to": 766
+        }
+      ]
+    },
+    {
+      "index": 768,
+      "speaker": "william",
+      "utterance": "nope",
+      "dda_edge": [
+        {
+          "from": 768,
+          "label": "Answer",
+          "to": 766
+        },
+        {
+          "from": 768,
+          "label": "Reject",
+          "to": 766
+        }
+      ]
+    },
+    {
+      "index": 769,
+      "speaker": "gotwood4sheep",
+      "utterance": "what can you offer in return",
+      "dda_edge": [
+        {
+          "from": 769,
+          "label": "GivingDetails",
+          "to": 767
+        },
+        {
+          "from": 769,
+          "label": "QuestionInfoRequest",
+          "to": 767
+        }
+      ]
+    },
+    {
+      "index": 770,
+      "speaker": "tomas.kostan",
+      "utterance": "sheep or wheat?",
+      "dda_edge": [
+        {
+          "from": 770,
+          "label": "Answer",
+          "to": 769
+        },
+        {
+          "from": 770,
+          "label": "Offer",
+          "to": 769
+        }
+      ]
+    },
+    {
+      "index": 771,
+      "speaker": "gotwood4sheep",
+      "utterance": "nah, sorry, again it's clay on my mind",
+      "dda_edge": [
+        {
+          "from": 771,
+          "label": "Reject",
+          "to": 770
+        },
+        {
+          "from": 771,
+          "label": "TakeStock",
+          "to": 729
+        },
+        {
+          "from": 771,
+          "label": "Apology",
+          "to": 770
+        }
+      ]
+    },
+    {
+      "index": 772,
+      "speaker": "gotwood4sheep",
+      "utterance": "or 2 wood",
+      "dda_edge": [
+        {
+          "from": 772,
+          "label": "Alternative",
+          "to": 771
+        }
+      ]
+    },
+    {
+      "index": 773,
+      "speaker": "tomas.kostan",
+      "utterance": "hmmm...",
+      "dda_edge": [
+        {
+          "from": 773,
+          "label": "Stalling",
+          "to": 772
+        }
+      ]
+    },
+    {
+      "index": 774,
+      "speaker": "tomas.kostan",
+      "utterance": "i can give you a clay for an ore + a sheep or a wheat",
+      "dda_edge": [
+        {
+          "from": 774,
+          "label": "Offer",
+          "to": 771
+        }
+      ]
+    },
+    {
+      "index": 775,
+      "speaker": "gotwood4sheep",
+      "utterance": "i have but the one resource",
+      "dda_edge": [
+        {
+          "from": 775,
+          "label": "Reject",
+          "to": 774
+        },
+        {
+          "from": 775,
+          "label": "Statement",
+          "to": 774
+        }
+      ]
+    },
+    {
+      "index": 776,
+      "speaker": "gotwood4sheep",
+      "utterance": "it's mathematically impossible to oblige ;)",
+      "dda_edge": [
+        {
+          "from": 776,
+          "label": "Joke",
+          "to": 775
+        },
+        {
+          "from": 776,
+          "label": "CausedBy",
+          "to": 775
+        }
+      ]
+    },
+    {
+      "index": 777,
+      "speaker": "tomas.kostan",
+      "utterance": "i see now :D",
+      "dda_edge": [
+        {
+          "from": 777,
+          "label": "Accept",
+          "to": 776
+        }
+      ]
+    },
+    {
+      "index": 778,
+      "speaker": "tomas.kostan",
+      "utterance": "ok then... ore for clay?",
+      "dda_edge": [
+        {
+          "from": 778,
+          "label": "Offer",
+          "to": 776
+        },
+        {
+          "from": 778,
+          "label": "Proposal",
+          "to": 777
+        },
+        {
+          "from": 778,
+          "label": "QuestionInfoRequest",
+          "to": 776
+        }
+      ]
+    },
+    {
+      "index": 779,
+      "speaker": "gotwood4sheep",
+      "utterance": "go on then",
+      "dda_edge": [
+        {
+          "from": 779,
+          "label": "Accept",
+          "to": 778
+        }
+      ]
+    },
+    {
+      "index": 780,
+      "speaker": "gotwood4sheep",
+      "utterance": "it's a sunny day",
+      "dda_edge": [
+        {
+          "from": 780,
+          "label": "Joke",
+          "to": 779
+        },
+        {
+          "from": 780,
+          "label": "Motivating",
+          "to": 779
+        }
+      ]
+    },
+    {
+      "index": 781,
+      "speaker": "Server",
+      "utterance": "tomas.kostan made an offer to trade 1 clay for 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 782,
+      "speaker": "UI",
+      "utterance": "... from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 783,
+      "speaker": "Server",
+      "utterance": "tomas.kostan traded 1 clay for 1 ore from gotwood4sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 784,
+      "speaker": "tomas.kostan",
+      "utterance": ":)",
+      "dda_edge": [
+        {
+          "from": 784,
+          "label": "Appreciation",
+          "to": 783
+        }
+      ]
+    },
+    {
+      "index": 785,
+      "speaker": "gotwood4sheep",
+      "utterance": "build that well earned city wisely",
+      "dda_edge": [
+        {
+          "from": 785,
+          "label": "ActionDirective",
+          "to": 783
+        },
+        {
+          "from": 785,
+          "label": "Joke",
+          "to": 780
+        }
+      ]
+    },
+    {
+      "index": 786,
+      "speaker": "Server",
+      "utterance": "tomas.kostan bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 787,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 788,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 789,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep played a Soldier card.",
+      "dda_edge": []
+    },
+    {
+      "index": 790,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 791,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep moved the robber, must choose a victim.",
+      "dda_edge": []
+    },
+    {
+      "index": 792,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep stole a resource from william",
+      "dda_edge": []
+    },
+    {
+      "index": 793,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 794,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 5 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 795,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 796,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 2 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 797,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 798,
+      "speaker": "UI",
+      "utterance": "william has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 799,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 800,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 801,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 802,
+      "speaker": "Server",
+      "utterance": "william rolled a 2 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 803,
+      "speaker": "Server",
+      "utterance": "tomas.kostan needs to discard.",
+      "dda_edge": []
+    },
+    {
+      "index": 804,
+      "speaker": "Server",
+      "utterance": "tomas.kostan discarded 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 805,
+      "speaker": "Server",
+      "utterance": "william will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 806,
+      "speaker": "Server",
+      "utterance": "william moved the robber, must choose a victim.",
+      "dda_edge": []
+    },
+    {
+      "index": 807,
+      "speaker": "Server",
+      "utterance": "william stole a resource from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 808,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 809,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 810,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 6 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 811,
+      "speaker": "Server",
+      "utterance": "tomas.kostan will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 812,
+      "speaker": "gotwood4sheep",
+      "utterance": "7s abound!",
+      "dda_edge": [
+        {
+          "from": 812,
+          "label": "Exclamation",
+          "to": 810
+        },
+        {
+          "from": 812,
+          "label": "Exclamation",
+          "to": 802
+        }
+      ]
+    },
+    {
+      "index": 813,
+      "speaker": "Server",
+      "utterance": "tomas.kostan moved the robber, must choose a victim.",
+      "dda_edge": []
+    },
+    {
+      "index": 814,
+      "speaker": "Server",
+      "utterance": "tomas.kostan stole a resource from gotwood4sheep",
+      "dda_edge": []
+    },
+    {
+      "index": 815,
+      "speaker": "Server",
+      "utterance": "tomas.kostan bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 816,
+      "speaker": "gotwood4sheep",
+      "utterance": "aww :)",
+      "dda_edge": [
+        {
+          "from": 816,
+          "label": "Exclamation",
+          "to": 814
+        },
+        {
+          "from": 816,
+          "label": "Sympathy",
+          "to": 814
+        }
+      ]
+    },
+    {
+      "index": 817,
+      "speaker": "Server",
+      "utterance": "tomas.kostan played a Road Building card.",
+      "dda_edge": []
+    },
+    {
+      "index": 818,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 819,
+      "speaker": "Server",
+      "utterance": "tomas.kostan built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 820,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 821,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 822,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 3 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 823,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 4 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 824,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 825,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 826,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 827,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 828,
+      "speaker": "tomas.kostan",
+      "utterance": "thank you :)",
+      "dda_edge": [
+        {
+          "from": 828,
+          "label": "Thanking",
+          "to": 814
+        },
+        {
+          "from": 828,
+          "label": "Joke",
+          "to": 814
+        }
+      ]
+    },
+    {
+      "index": 829,
+      "speaker": "gotwood4sheep",
+      "utterance": "tomas - wheat for wood?",
+      "dda_edge": [
+        {
+          "from": 829,
+          "label": "Offer",
+          "to": 829
+        },
+        {
+          "from": 829,
+          "label": "QuestionInfoRequest",
+          "to": 829
+        },
+        {
+          "from": 829,
+          "label": "Greeting",
+          "to": 829
+        },
+        {
+          "from": 829,
+          "label": "Proposal",
+          "to": 829
+        }
+      ]
+    },
+    {
+      "index": 830,
+      "speaker": "tomas.kostan",
+      "utterance": "which one do you want?",
+      "dda_edge": [
+        {
+          "from": 830,
+          "label": "QuestionInfoRequest",
+          "to": 829
+        },
+        {
+          "from": 830,
+          "label": "SignalNonUnderstanding",
+          "to": 829
+        }
+      ]
+    },
+    {
+      "index": 831,
+      "speaker": "gotwood4sheep",
+      "utterance": "i need wood",
+      "dda_edge": [
+        {
+          "from": 831,
+          "label": "Answer",
+          "to": 830
+        }
+      ]
+    },
+    {
+      "index": 832,
+      "speaker": "gotwood4sheep",
+      "utterance": "and see you just gained one!",
+      "dda_edge": [
+        {
+          "from": 832,
+          "label": "Conjunction",
+          "to": 831
+        },
+        {
+          "from": 832,
+          "label": "Justifying",
+          "to": 829
+        }
+      ]
+    },
+    {
+      "index": 833,
+      "speaker": "tomas.kostan",
+      "utterance": "but i do not need wheat :)",
+      "dda_edge": [
+        {
+          "from": 833,
+          "label": "Reject",
+          "to": 829
+        },
+        {
+          "from": 833,
+          "label": "Contrast",
+          "to": 831
+        },
+        {
+          "from": 833,
+          "label": "Conceding",
+          "to": 831
+        }
+      ]
+    },
+    {
+      "index": 834,
+      "speaker": "gotwood4sheep",
+      "utterance": "ah well, thanks for investigating :D",
+      "dda_edge": [
+        {
+          "from": 834,
+          "label": "Thanking",
+          "to": 833
+        },
+        {
+          "from": 834,
+          "label": "Downplayer",
+          "to": 833
+        }
+      ]
+    },
+    {
+      "index": 835,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 2 wheat for 1 wood from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 836,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 2 wheat for 1 wood from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 837,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 838,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 839,
+      "speaker": "Server",
+      "utterance": "It's william's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 840,
+      "speaker": "Server",
+      "utterance": "william rolled a 3 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 841,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 4 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 842,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 843,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 844,
+      "speaker": "UI",
+      "utterance": "william has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 845,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 846,
+      "speaker": "Server",
+      "utterance": "william played a Monopoly card.",
+      "dda_edge": []
+    },
+    {
+      "index": 847,
+      "speaker": "tomas.kostan",
+      "utterance": "now i have wood to spare :)",
+      "dda_edge": [
+        {
+          "from": 847,
+          "label": "Contrast",
+          "to": 832
+        },
+        {
+          "from": 847,
+          "label": "Evaluating",
+          "to": 842
+        },
+        {
+          "from": 847,
+          "label": "After",
+          "to": 842
+        }
+      ]
+    },
+    {
+      "index": 848,
+      "speaker": "Server",
+      "utterance": "william monopolized wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 849,
+      "speaker": "gotwood4sheep",
+      "utterance": "noooooo!",
+      "dda_edge": [
+        {
+          "from": 849,
+          "label": "Exclamation",
+          "to": 848
+        }
+      ]
+    },
+    {
+      "index": 850,
+      "speaker": "william",
+      "utterance": "sry guys",
+      "dda_edge": [
+        {
+          "from": 850,
+          "label": "Apology",
+          "to": 849
+        }
+      ]
+    },
+    {
+      "index": 851,
+      "speaker": "gotwood4sheep",
+      "utterance": "great monopolizing",
+      "dda_edge": [
+        {
+          "from": 851,
+          "label": "Appreciation",
+          "to": 848
+        },
+        {
+          "from": 851,
+          "label": "Evaluating",
+          "to": 848
+        }
+      ]
+    },
+    {
+      "index": 852,
+      "speaker": "gotwood4sheep",
+      "utterance": "no no, respect!",
+      "dda_edge": [
+        {
+          "from": 852,
+          "label": "Downplayer",
+          "to": 850
+        }
+      ]
+    },
+    {
+      "index": 853,
+      "speaker": "UI",
+      "utterance": "william made an offer to trade 3 wheat for 1 ore from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 854,
+      "speaker": "Server",
+      "utterance": "william traded 3 wheat for 1 ore from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 855,
+      "speaker": "gotwood4sheep",
+      "utterance": "a true act of villainry",
+      "dda_edge": [
+        {
+          "from": 855,
+          "label": "Evaluating",
+          "to": 848
+        },
+        {
+          "from": 855,
+          "label": "Opinion",
+          "to": 848
+        },
+        {
+          "from": 855,
+          "label": "Joke",
+          "to": 851
+        }
+      ]
+    },
+    {
+      "index": 856,
+      "speaker": "Server",
+      "utterance": "william built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 857,
+      "speaker": "UI",
+      "utterance": "william ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 858,
+      "speaker": "Server",
+      "utterance": "It's tomas.kostan's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 859,
+      "speaker": "gotwood4sheep",
+      "utterance": "I admire your dastardly nature",
+      "dda_edge": [
+        {
+          "from": 859,
+          "label": "Opinion",
+          "to": 855
+        },
+        {
+          "from": 859,
+          "label": "Appreciation",
+          "to": 848
+        },
+        {
+          "from": 859,
+          "label": "Joke",
+          "to": 848
+        },
+        {
+          "from": 859,
+          "label": "GivingDetails",
+          "to": 855
+        }
+      ]
+    },
+    {
+      "index": 860,
+      "speaker": "Server",
+      "utterance": "tomas.kostan rolled a 4 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 861,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep gets 4 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 862,
+      "speaker": "Server",
+      "utterance": "william gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 863,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 864,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 865,
+      "speaker": "UI",
+      "utterance": "william has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 866,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 867,
+      "speaker": "UI",
+      "utterance": "tomas.kostan ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 868,
+      "speaker": "Server",
+      "utterance": "It's gotwood4sheep's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 869,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep rolled a 5 and a 6.",
+      "dda_edge": []
+    },
+    {
+      "index": 870,
+      "speaker": "Server",
+      "utterance": "william gets 4 clay, 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 871,
+      "speaker": "Server",
+      "utterance": "tomas.kostan gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 872,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 873,
+      "speaker": "UI",
+      "utterance": "william has 10 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 874,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 875,
+      "speaker": "william",
+      "utterance": "i dont choose which cards i draw :p",
+      "dda_edge": [
+        {
+          "from": 875,
+          "label": "Joke",
+          "to": 870
+        },
+        {
+          "from": 875,
+          "label": "Downplayer",
+          "to": 875
+        }
+      ]
+    },
+    {
+      "index": 876,
+      "speaker": "gotwood4sheep",
+      "utterance": "anyone want to trade a wheat for a sheep?",
+      "dda_edge": [
+        {
+          "from": 876,
+          "label": "Offer",
+          "to": 876
+        },
+        {
+          "from": 876,
+          "label": "QuestionInfoRequest",
+          "to": 876
+        },
+        {
+          "from": 876,
+          "label": "Proposal",
+          "to": 876
+        }
+      ]
+    },
+    {
+      "index": 877,
+      "speaker": "tomas.kostan",
+      "utterance": "i can give you your wood for wheat :)",
+      "dda_edge": [
+        {
+          "from": 877,
+          "label": "Offer",
+          "to": 876
+        },
+        {
+          "from": 877,
+          "label": "Proposal",
+          "to": 876
+        },
+        {
+          "from": 877,
+          "label": "Joke",
+          "to": 814
+        }
+      ]
+    },
+    {
+      "index": 878,
+      "speaker": "william",
+      "utterance": "nope",
+      "dda_edge": [
+        {
+          "from": 878,
+          "label": "Answer",
+          "to": 876
+        },
+        {
+          "from": 878,
+          "label": "Reject",
+          "to": 876
+        }
+      ]
+    },
+    {
+      "index": 879,
+      "speaker": "gotwood4sheep",
+      "utterance": "wood for wheat tomas?",
+      "dda_edge": [
+        {
+          "from": 879,
+          "label": "Restatement",
+          "to": 877
+        }
+      ]
+    },
+    {
+      "index": 880,
+      "speaker": "tomas.kostan",
+      "utterance": "yes",
+      "dda_edge": [
+        {
+          "from": 880,
+          "label": "Accept",
+          "to": 879
+        }
+      ]
+    },
+    {
+      "index": 881,
+      "speaker": "gotwood4sheep",
+      "utterance": "ok then, one sec!",
+      "dda_edge": [
+        {
+          "from": 881,
+          "label": "Acknowledge",
+          "to": 880
+        },
+        {
+          "from": 881,
+          "label": "Stalling",
+          "to": 880
+        }
+      ]
+    },
+    {
+      "index": 882,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep made an offer to trade 1 wheat for 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 883,
+      "speaker": "UI",
+      "utterance": "... from tomas.kostan",
+      "dda_edge": []
+    },
+    {
+      "index": 884,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 1 wheat for 1 wood from tomas.kostan.",
+      "dda_edge": []
+    },
+    {
+      "index": 885,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep made an offer to trade 2 wheat for 1 sheep from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 886,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep traded 2 wheat for 1 sheep from a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 887,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 888,
+      "speaker": "Server",
+      "utterance": ">>> gotwood4sheep has won the game with 10 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 889,
+      "speaker": "UI",
+      "utterance": "gotwood4sheep has 10 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 890,
+      "speaker": "UI",
+      "utterance": "william has 7 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 891,
+      "speaker": "UI",
+      "utterance": "tomas.kostan has 5 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 892,
+      "speaker": "Server",
+      "utterance": "william has a Temple (+1VP)",
+      "dda_edge": []
+    },
+    {
+      "index": 893,
+      "speaker": "Server",
+      "utterance": "tomas.kostan has a Market (+1VP)",
+      "dda_edge": []
+    },
+    {
+      "index": 894,
+      "speaker": "Server",
+      "utterance": "This game was 21 rounds, and took 52 minutes 48 seconds.",
+      "dda_edge": []
+    },
+    {
+      "index": 895,
+      "speaker": "gotwood4sheep",
+      "utterance": "sorry!",
+      "dda_edge": [
+        {
+          "from": 895,
+          "label": "Apology",
+          "to": 888
+        },
+        {
+          "from": 895,
+          "label": "Apology",
+          "to": 881
+        }
+      ]
+    },
+    {
+      "index": 896,
+      "speaker": "william",
+      "utterance": "nice one",
+      "dda_edge": [
+        {
+          "from": 896,
+          "label": "Appreciation",
+          "to": 888
+        },
+        {
+          "from": 896,
+          "label": "Evaluating",
+          "to": 888
+        }
+      ]
+    },
+    {
+      "index": 897,
+      "speaker": "gotwood4sheep",
+      "utterance": "good game though",
+      "dda_edge": [
+        {
+          "from": 897,
+          "label": "Conceding",
+          "to": 895
+        },
+        {
+          "from": 897,
+          "label": "Opinion",
+          "to": 897
+        },
+        {
+          "from": 897,
+          "label": "Appreciation",
+          "to": 896
+        }
+      ]
+    },
+    {
+      "index": 898,
+      "speaker": "tomas.kostan",
+      "utterance": "good game :)",
+      "dda_edge": [
+        {
+          "from": 898,
+          "label": "Restatement",
+          "to": 897
+        }
+      ]
+    },
+    {
+      "index": 899,
+      "speaker": "gotwood4sheep",
+      "utterance": "I was rather rich in wheat",
+      "dda_edge": [
+        {
+          "from": 899,
+          "label": "Statement",
+          "to": 899
+        }
+      ]
+    },
+    {
+      "index": 900,
+      "speaker": "gotwood4sheep",
+      "utterance": "but it was a splendid battle :D",
+      "dda_edge": [
+        {
+          "from": 900,
+          "label": "Conceding",
+          "to": 899
+        },
+        {
+          "from": 900,
+          "label": "Opinion",
+          "to": 900
+        }
+      ]
+    },
+    {
+      "index": 901,
+      "speaker": "gotwood4sheep",
+      "utterance": "who won on Sunday?",
+      "dda_edge": [
+        {
+          "from": 901,
+          "label": "QuestionInfoRequest",
+          "to": 901
+        }
+      ]
+    },
+    {
+      "index": 902,
+      "speaker": "william",
+      "utterance": "i was hoping for a clay empire, but no cigar",
+      "dda_edge": [
+        {
+          "from": 902,
+          "label": "Statement",
+          "to": 898
+        },
+        {
+          "from": 902,
+          "label": "Contrast",
+          "to": 899
+        }
+      ]
+    },
+    {
+      "index": 903,
+      "speaker": "william",
+      "utterance": "LJ",
+      "dda_edge": [
+        {
+          "from": 903,
+          "label": "Answer",
+          "to": 901
+        }
+      ]
+    },
+    {
+      "index": 904,
+      "speaker": "tomas.kostan",
+      "utterance": "lj won on sunday",
+      "dda_edge": [
+        {
+          "from": 904,
+          "label": "Answer",
+          "to": 901
+        }
+      ]
+    },
+    {
+      "index": 905,
+      "speaker": "gotwood4sheep",
+      "utterance": "indeed, the 3s were better than 11s",
+      "dda_edge": [
+        {
+          "from": 905,
+          "label": "Acknowledge",
+          "to": 902
+        },
+        {
+          "from": 905,
+          "label": "Causing",
+          "to": 902
+        }
+      ]
+    },
+    {
+      "index": 906,
+      "speaker": "gotwood4sheep",
+      "utterance": "ahh, she was very very close in the first game too",
+      "dda_edge": [
+        {
+          "from": 906,
+          "label": "Acknowledge",
+          "to": 903
+        },
+        {
+          "from": 906,
+          "label": "Acknowledge",
+          "to": 904
+        },
+        {
+          "from": 906,
+          "label": "Exclamation",
+          "to": 903
+        },
+        {
+          "from": 906,
+          "label": "Exclamation",
+          "to": 904
+        }
+      ]
+    },
+    {
+      "index": 907,
+      "speaker": "william",
+      "utterance": "next game on thursday?",
+      "dda_edge": [
+        {
+          "from": 907,
+          "label": "QuestionInfoRequest",
+          "to": 907
+        },
+        {
+          "from": 907,
+          "label": "Offer",
+          "to": 907
+        }
+      ]
+    },
+    {
+      "index": 908,
+      "speaker": "gotwood4sheep",
+      "utterance": "well, I look forward to thursday, yes",
+      "dda_edge": [
+        {
+          "from": 908,
+          "label": "Answer",
+          "to": 907
+        },
+        {
+          "from": 908,
+          "label": "Accept",
+          "to": 907
+        }
+      ]
+    },
+    {
+      "index": 909,
+      "speaker": "tomas.kostan",
+      "utterance": "yes :)",
+      "dda_edge": [
+        {
+          "from": 909,
+          "label": "Answer",
+          "to": 907
+        },
+        {
+          "from": 909,
+          "label": "Accept",
+          "to": 907
+        }
+      ]
+    },
+    {
+      "index": 910,
+      "speaker": "tomas.kostan",
+      "utterance": "me too",
+      "dda_edge": [
+        {
+          "from": 910,
+          "label": "Restatement",
+          "to": 908
+        }
+      ]
+    },
+    {
+      "index": 911,
+      "speaker": "william",
+      "utterance": "cool. see you then",
+      "dda_edge": [
+        {
+          "from": 911,
+          "label": "Appreciation",
+          "to": 908
+        },
+        {
+          "from": 911,
+          "label": "Appreciation",
+          "to": 909
+        },
+        {
+          "from": 911,
+          "label": "ConventionalClosing",
+          "to": 908
+        },
+        {
+          "from": 911,
+          "label": "ConventionalClosing",
+          "to": 909
+        }
+      ]
+    },
+    {
+      "index": 912,
+      "speaker": "gotwood4sheep",
+      "utterance": "we'll get LJ in the loop,",
+      "dda_edge": [
+        {
+          "from": 912,
+          "label": "Commit",
+          "to": 912
+        },
+        {
+          "from": 912,
+          "label": "Statement",
+          "to": 912
+        }
+      ]
+    },
+    {
+      "index": 913,
+      "speaker": "gotwood4sheep",
+      "utterance": "as she's playing both right?",
+      "dda_edge": [
+        {
+          "from": 913,
+          "label": "QuestionInfoRequest",
+          "to": 912
+        },
+        {
+          "from": 913,
+          "label": "Motivated",
+          "to": 912
+        }
+      ]
+    },
+    {
+      "index": 914,
+      "speaker": "william",
+      "utterance": "we finished just in time for football ;)",
+      "dda_edge": [
+        {
+          "from": 914,
+          "label": "Statement",
+          "to": 914
+        },
+        {
+          "from": 914,
+          "label": "Joke",
+          "to": 914
+        }
+      ]
+    },
+    {
+      "index": 915,
+      "speaker": "gotwood4sheep",
+      "utterance": "and I am, and you guys sit one out each?",
+      "dda_edge": [
+        {
+          "from": 915,
+          "label": "QuestionInfoRequest",
+          "to": 913
+        }
+      ]
+    },
+    {
+      "index": 916,
+      "speaker": "gotwood4sheep",
+      "utterance": "indeed, result!",
+      "dda_edge": [
+        {
+          "from": 916,
+          "label": "Appreciation",
+          "to": 914
+        },
+        {
+          "from": 916,
+          "label": "Accept",
+          "to": 914
+        }
+      ]
+    },
+    {
+      "index": 917,
+      "speaker": "william",
+      "utterance": "yup",
+      "dda_edge": [
+        {
+          "from": 917,
+          "label": "Answer",
+          "to": 915
+        }
+      ]
+    },
+    {
+      "index": 918,
+      "speaker": "gotwood4sheep",
+      "utterance": "I hope I have not jinxed it",
+      "dda_edge": [
+        {
+          "from": 918,
+          "label": "Joke",
+          "to": 916
+        }
+      ]
+    },
+    {
+      "index": 919,
+      "speaker": "gotwood4sheep",
+      "utterance": "and now england lose :D",
+      "dda_edge": [
+        {
+          "from": 919,
+          "label": "CausedBy",
+          "to": 918
+        }
+      ]
+    },
+    {
+      "index": 920,
+      "speaker": "Server",
+      "utterance": "william left the game",
+      "dda_edge": []
+    },
+    {
+      "index": 921,
+      "speaker": "gotwood4sheep",
+      "utterance": "cool well I'll defer to you both on your preferred times",
+      "dda_edge": [
+        {
+          "from": 921,
+          "label": "Proposal",
+          "to": 915
+        },
+        {
+          "from": 921,
+          "label": "TaskManagement",
+          "to": 915
+        },
+        {
+          "from": 921,
+          "label": "Appreciation",
+          "to": 917
+        }
+      ]
+    },
+    {
+      "index": 922,
+      "speaker": "gotwood4sheep",
+      "utterance": "so you're not stuck all the time",
+      "dda_edge": [
+        {
+          "from": 922,
+          "label": "Motivating",
+          "to": 921
+        }
+      ]
+    },
+    {
+      "index": 923,
+      "speaker": "gotwood4sheep",
+      "utterance": "thanks Tomas!!",
+      "dda_edge": [
+        {
+          "from": 923,
+          "label": "Thanking",
+          "to": 923
+        }
+      ]
+    },
+    {
+      "index": 924,
+      "speaker": "gotwood4sheep",
+      "utterance": "good game :)",
+      "dda_edge": [
+        {
+          "from": 924,
+          "label": "Appreciation",
+          "to": 923
+        }
+      ]
+    },
+    {
+      "index": 925,
+      "speaker": "tomas.kostan",
+      "utterance": "ok see you on thursday :)",
+      "dda_edge": [
+        {
+          "from": 925,
+          "label": "ConventionalClosing",
+          "to": 923
+        }
+      ]
+    },
+    {
+      "index": 926,
+      "speaker": "gotwood4sheep",
+      "utterance": "see you then :)",
+      "dda_edge": [
+        {
+          "from": 926,
+          "label": "ConventionalClosing",
+          "to": 925
+        }
+      ]
+    },
+    {
+      "index": 927,
+      "speaker": "tomas.kostan",
+      "utterance": "you are too good for us",
+      "dda_edge": [
+        {
+          "from": 927,
+          "label": "Appreciation",
+          "to": 926
+        }
+      ]
+    },
+    {
+      "index": 928,
+      "speaker": "tomas.kostan",
+      "utterance": ":))",
+      "dda_edge": [
+        {
+          "from": 928,
+          "label": "Empty",
+          "to": 927
+        }
+      ]
+    },
+    {
+      "index": 929,
+      "speaker": "gotwood4sheep",
+      "utterance": "I have played a lot",
+      "dda_edge": [
+        {
+          "from": 929,
+          "label": "Causing",
+          "to": 927
+        },
+        {
+          "from": 929,
+          "label": "Downplayer",
+          "to": 927
+        }
+      ]
+    },
+    {
+      "index": 930,
+      "speaker": "gotwood4sheep",
+      "utterance": "since Markus first contacted ;)",
+      "dda_edge": [
+        {
+          "from": 930,
+          "label": "Before",
+          "to": 929
+        },
+        {
+          "from": 930,
+          "label": "Joke",
+          "to": 929
+        }
+      ]
+    },
+    {
+      "index": 931,
+      "speaker": "gotwood4sheep",
+      "utterance": "and I have been pretty lucky with the rolls!",
+      "dda_edge": [
+        {
+          "from": 931,
+          "label": "Conjunction",
+          "to": 929
+        },
+        {
+          "from": 931,
+          "label": "Causing",
+          "to": 927
+        }
+      ]
+    },
+    {
+      "index": 932,
+      "speaker": "tomas.kostan",
+      "utterance": "and it pays off :)",
+      "dda_edge": [
+        {
+          "from": 932,
+          "label": "Evaluating",
+          "to": 929
+        },
+        {
+          "from": 932,
+          "label": "Appreciation",
+          "to": 929
+        }
+      ]
+    },
+    {
+      "index": 933,
+      "speaker": "tomas.kostan",
+      "utterance": "i admire you.",
+      "dda_edge": [
+        {
+          "from": 933,
+          "label": "Appreciation",
+          "to": 932
+        }
+      ]
+    },
+    {
+      "index": 934,
+      "speaker": "tomas.kostan",
+      "utterance": "good luck on thursday games",
+      "dda_edge": [
+        {
+          "from": 934,
+          "label": "Appreciation",
+          "to": 929
+        }
+      ]
+    },
+    {
+      "index": 935,
+      "speaker": "tomas.kostan",
+      "utterance": "bye",
+      "dda_edge": [
+        {
+          "from": 935,
+          "label": "ConventionalClosing",
+          "to": 934
+        }
+      ]
+    },
+    {
+      "index": 936,
+      "speaker": "Server",
+      "utterance": "tomas.kostan left the game",
+      "dda_edge": []
+    },
+    {
+      "index": 937,
+      "speaker": "Server",
+      "utterance": "gotwood4sheep left the game",
+      "dda_edge": []
+    }
+  ]
+}

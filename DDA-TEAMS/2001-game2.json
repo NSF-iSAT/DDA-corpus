@@ -1,0 +1,4947 @@
+{
+  "domain": "teams",
+  "dialogue_id": "2001-game2",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Engineer",
+      "utterance": "clap",
+      "dda_edge": []
+    },
+    {
+      "index": 1,
+      "speaker": "Messenger",
+      "utterance": "clap",
+      "dda_edge": []
+    },
+    {
+      "index": 2,
+      "speaker": "Pilot",
+      "utterance": "clap",
+      "dda_edge": []
+    },
+    {
+      "index": 3,
+      "speaker": "Engineer",
+      "utterance": "Ok Engineer, shore up to two tile, two tiles for one action.",
+      "dda_edge": [
+        {
+          "from": 3,
+          "label": "Statement",
+          "to": 3
+        },
+        {
+          "from": 3,
+          "label": "SelfTalk",
+          "to": 3
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Messenger",
+      "utterance": "Messenger, give treasure cards to anyone on the island, for one action per card.",
+      "dda_edge": [
+        {
+          "from": 4,
+          "label": "Statement",
+          "to": 4
+        },
+        {
+          "from": 4,
+          "label": "SelfTalk",
+          "to": 4
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Pilot",
+      "utterance": "Pilot, once per turn, fly to any tile on the island for one action.",
+      "dda_edge": [
+        {
+          "from": 5,
+          "label": "Statement",
+          "to": 5
+        },
+        {
+          "from": 5,
+          "label": "SelfTalk",
+          "to": 5
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Engineer",
+      "utterance": "Ok so my first move is going to be um",
+      "dda_edge": [
+        {
+          "from": 6,
+          "label": "Commit",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Engineer",
+      "utterance": "shore these up",
+      "dda_edge": [
+        {
+          "from": 7,
+          "label": "Empty",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Engineer",
+      "utterance": "and then I'm going to shore these up.",
+      "dda_edge": [
+        {
+          "from": 8,
+          "label": "After",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "Engineer",
+      "utterance": "Hmm.",
+      "dda_edge": [
+        {
+          "from": 9,
+          "label": "Stalling",
+          "to": 8
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Engineer",
+      "utterance": "Thank you.",
+      "dda_edge": [
+        {
+          "from": 10,
+          "label": "Thanking",
+          "to": 10
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Engineer",
+      "utterance": "Ah Water's Rise of course, ahh, so I'll move that up one tick mark and shuffle these.",
+      "dda_edge": [
+        {
+          "from": 11,
+          "label": "Statement",
+          "to": 11
+        },
+        {
+          "from": 11,
+          "label": "Commit",
+          "to": 11
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Messenger",
+      "utterance": "I think this deck is stacked.",
+      "dda_edge": [
+        {
+          "from": 12,
+          "label": "Joke",
+          "to": 11
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Engineer",
+      "utterance": "Mk, oh I can well I guess that's treasure trash.",
+      "dda_edge": [
+        {
+          "from": 13,
+          "label": "Stalling",
+          "to": 13
+        },
+        {
+          "from": 13,
+          "label": "Opinion",
+          "to": 13
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Engineer",
+      "utterance": "Um.",
+      "dda_edge": [
+        {
+          "from": 14,
+          "label": "Stalling",
+          "to": 13
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Engineer",
+      "utterance": "And then I have to take two unfortunately.",
+      "dda_edge": [
+        {
+          "from": 15,
+          "label": "Statement",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Messenger",
+      "utterance": "Still at two alright.",
+      "dda_edge": [
+        {
+          "from": 16,
+          "label": "Acknowledge",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Engineer",
+      "utterance": "So Cliffs of Abandon and Lost Lagoon.",
+      "dda_edge": [
+        {
+          "from": 17,
+          "label": "Statement",
+          "to": 17
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Pilot",
+      "utterance": "Cliffs of Abandon",
+      "dda_edge": [
+        {
+          "from": 18,
+          "label": "Restatement",
+          "to": 17
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Engineer",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 19,
+          "label": "Exclamation",
+          "to": 19
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Messenger",
+      "utterance": "Right there.",
+      "dda_edge": [
+        {
+          "from": 20,
+          "label": "Statement",
+          "to": 17
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "Engineer",
+      "utterance": "Mk. (laughs)",
+      "dda_edge": [
+        {
+          "from": 21,
+          "label": "Acknowledge",
+          "to": 20
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Messenger",
+      "utterance": "(sighs)",
+      "dda_edge": []
+    },
+    {
+      "index": 23,
+      "speaker": "Messenger",
+      "utterance": "No one.",
+      "dda_edge": [
+        {
+          "from": 23,
+          "label": "Greeting",
+          "to": 23
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Messenger",
+      "utterance": "One.",
+      "dda_edge": [
+        {
+          "from": 24,
+          "label": "Statement",
+          "to": 23
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "Messenger",
+      "utterance": "Two.",
+      "dda_edge": [
+        {
+          "from": 25,
+          "label": "Empty",
+          "to": 24
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Messenger",
+      "utterance": "Three.",
+      "dda_edge": [
+        {
+          "from": 26,
+          "label": "Empty",
+          "to": 25
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Messenger",
+      "utterance": "One.",
+      "dda_edge": [
+        {
+          "from": 27,
+          "label": "Empty",
+          "to": 26
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Messenger",
+      "utterance": "Oh two.",
+      "dda_edge": [
+        {
+          "from": 28,
+          "label": "Empty",
+          "to": 27
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "Messenger",
+      "utterance": "Flood one ah oh.",
+      "dda_edge": [
+        {
+          "from": 29,
+          "label": "Statement",
+          "to": 29
+        },
+        {
+          "from": 29,
+          "label": "Exclamation",
+          "to": 29
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Engineer",
+      "utterance": "Woe. So early.",
+      "dda_edge": [
+        {
+          "from": 30,
+          "label": "Exclamation",
+          "to": 29
+        },
+        {
+          "from": 30,
+          "label": "Opinion",
+          "to": 29
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Messenger",
+      "utterance": "Flood two.",
+      "dda_edge": [
+        {
+          "from": 31,
+          "label": "Statement",
+          "to": 29
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Engineer",
+      "utterance": "Iron rock.",
+      "dda_edge": [
+        {
+          "from": 32,
+          "label": "Statement",
+          "to": 31
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Pilot",
+      "utterance": "Phanthom.",
+      "dda_edge": [
+        {
+          "from": 33,
+          "label": "Empty",
+          "to": 32
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Messenger",
+      "utterance": "Ohaaa.",
+      "dda_edge": [
+        {
+          "from": 34,
+          "label": "Exclamation",
+          "to": 32
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Pilot",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 35,
+          "label": "Exclamation",
+          "to": 32
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Messenger",
+      "utterance": "Island's gettin' thinner around the edges.",
+      "dda_edge": [
+        {
+          "from": 36,
+          "label": "Statement",
+          "to": 32
+        },
+        {
+          "from": 36,
+          "label": "SelfTalk",
+          "to": 32
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "Engineer",
+      "utterance": "Oh my goodness.",
+      "dda_edge": [
+        {
+          "from": 37,
+          "label": "Exclamation",
+          "to": 32
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Messenger",
+      "utterance": "Alright.",
+      "dda_edge": [
+        {
+          "from": 38,
+          "label": "Acknowledge",
+          "to": 36
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "speaker": "Pilot",
+      "utterance": "Ok um. Hmm.",
+      "dda_edge": [
+        {
+          "from": 39,
+          "label": "Stalling",
+          "to": 36
+        },
+        {
+          "from": 39,
+          "label": "Greeting",
+          "to": 36
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Pilot",
+      "utterance": "I don't really have much I can do.",
+      "dda_edge": [
+        {
+          "from": 40,
+          "label": "Statement",
+          "to": 39
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "Pilot",
+      "utterance": "I'm just gonna stay where I am and draw two cards.",
+      "dda_edge": [
+        {
+          "from": 41,
+          "label": "Commit",
+          "to": 40
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 43,
+      "speaker": "Pilot",
+      "utterance": "Helicopter Lift.",
+      "dda_edge": [
+        {
+          "from": 43,
+          "label": "SelfTalk",
+          "to": 41
+        },
+        {
+          "from": 43,
+          "label": "Statement",
+          "to": 41
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "speaker": "Pilot",
+      "utterance": "And this",
+      "dda_edge": [
+        {
+          "from": 44,
+          "label": "Conjunction",
+          "to": 43
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "Pilot",
+      "utterance": "And",
+      "dda_edge": [
+        {
+          "from": 45,
+          "label": "Empty",
+          "to": 44
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "Pilot",
+      "utterance": "two island cards.",
+      "dda_edge": [
+        {
+          "from": 46,
+          "label": "Empty",
+          "to": 45
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Pilot",
+      "utterance": "Temple of the Moon and Breaker's Bridge.",
+      "dda_edge": [
+        {
+          "from": 47,
+          "label": "GivingDetails",
+          "to": 44
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "Engineer",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 48,
+          "label": "Exclamation",
+          "to": 48
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "Messenger",
+      "utterance": "Ohh.",
+      "dda_edge": [
+        {
+          "from": 49,
+          "label": "Exclamation",
+          "to": 49
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "speaker": "Engineer",
+      "utterance": "Uhoh.",
+      "dda_edge": [
+        {
+          "from": 50,
+          "label": "Exclamation",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "speaker": "Pilot",
+      "utterance": "Oh sorry.",
+      "dda_edge": [
+        {
+          "from": 51,
+          "label": "Apology",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "speaker": "Messenger",
+      "utterance": "I'm the one droppin' 'em what are you apologizin' for?",
+      "dda_edge": [
+        {
+          "from": 52,
+          "label": "Downplayer",
+          "to": 51
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "speaker": "Pilot",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 54,
+      "speaker": "Engineer",
+      "utterance": "Ok um, I 'm going to shore these guys up.",
+      "dda_edge": [
+        {
+          "from": 54,
+          "label": "Greeting",
+          "to": 54
+        },
+        {
+          "from": 54,
+          "label": "Commit",
+          "to": 54
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "Engineer",
+      "utterance": "And.",
+      "dda_edge": [
+        {
+          "from": 55,
+          "label": "After",
+          "to": 54
+        },
+        {
+          "from": 55,
+          "label": "Conjunction",
+          "to": 54
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "speaker": "Engineer",
+      "utterance": "(--) let's see I can I want to give you this.",
+      "dda_edge": [
+        {
+          "from": 56,
+          "label": "Abandoned",
+          "to": 55
+        },
+        {
+          "from": 56,
+          "label": "Statement",
+          "to": 55
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "speaker": "Messenger",
+      "utterance": "We gotta be on the same.",
+      "dda_edge": [
+        {
+          "from": 57,
+          "label": "Reject",
+          "to": 56
+        },
+        {
+          "from": 57,
+          "label": "Correction",
+          "to": 56
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "Engineer",
+      "utterance": "Oh yeah that's true ok ignore me. Nevermind.",
+      "dda_edge": [
+        {
+          "from": 58,
+          "label": "Apology",
+          "to": 57
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "Pilot",
+      "utterance": "Oh wait, I can helicopter lift you over to his place.",
+      "dda_edge": [
+        {
+          "from": 59,
+          "label": "Greeting",
+          "to": 58
+        },
+        {
+          "from": 59,
+          "label": "Statement",
+          "to": 58
+        },
+        {
+          "from": 59,
+          "label": "Enabling",
+          "to": 56
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "speaker": "Engineer",
+      "utterance": "Um.",
+      "dda_edge": [
+        {
+          "from": 60,
+          "label": "Stalling",
+          "to": 59
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "speaker": "Engineer",
+      "utterance": "Should we?",
+      "dda_edge": [
+        {
+          "from": 61,
+          "label": "QuestionInfoRequest",
+          "to": 59
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "speaker": "Pilot",
+      "utterance": "Maybe you want to save it for later?",
+      "dda_edge": [
+        {
+          "from": 62,
+          "label": "Answer",
+          "to": 61
+        },
+        {
+          "from": 62,
+          "label": "Proposal",
+          "to": 61
+        },
+        {
+          "from": 62,
+          "label": "Hedge",
+          "to": 61
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "speaker": "Engineer",
+      "utterance": "Maybe save it for later. We'll see.",
+      "dda_edge": [
+        {
+          "from": 63,
+          "label": "Accept",
+          "to": 62
+        },
+        {
+          "from": 63,
+          "label": "Restatement",
+          "to": 62
+        },
+        {
+          "from": 63,
+          "label": "Downplayer",
+          "to": 62
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "speaker": "Engineer",
+      "utterance": "(--)",
+      "dda_edge": []
+    },
+    {
+      "index": 65,
+      "speaker": "Engineer",
+      "utterance": "Should I save Lost Lagoon? Does it really matter?",
+      "dda_edge": [
+        {
+          "from": 65,
+          "label": "Proposal",
+          "to": 65
+        },
+        {
+          "from": 65,
+          "label": "Hedge",
+          "to": 65
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "speaker": "Engineer",
+      "utterance": "Oh I'll get closer to, I'll get closer to the chalice.",
+      "dda_edge": [
+        {
+          "from": 66,
+          "label": "SelfTalk",
+          "to": 65
+        },
+        {
+          "from": 66,
+          "label": "Exclamation",
+          "to": 65
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "speaker": "Engineer",
+      "utterance": "Click, oh another one of these and then a rock thing.",
+      "dda_edge": [
+        {
+          "from": 67,
+          "label": "Statement",
+          "to": 66
+        },
+        {
+          "from": 67,
+          "label": "After",
+          "to": 66
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "speaker": "Engineer",
+      "utterance": "M. ok and then two Flood Cards.",
+      "dda_edge": [
+        {
+          "from": 68,
+          "label": "Acknowledge",
+          "to": 67
+        },
+        {
+          "from": 68,
+          "label": "Statement",
+          "to": 67
+        },
+        {
+          "from": 68,
+          "label": "After",
+          "to": 67
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "speaker": "Engineer",
+      "utterance": "Opps sorry. Whispering Garden and Iron Gate.",
+      "dda_edge": [
+        {
+          "from": 69,
+          "label": "Apology",
+          "to": 68
+        },
+        {
+          "from": 69,
+          "label": "Statement",
+          "to": 68
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "speaker": "Pilot",
+      "utterance": "Whispering Garden.",
+      "dda_edge": [
+        {
+          "from": 70,
+          "label": "Restatement",
+          "to": 69
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "speaker": "Engineer",
+      "utterance": "Ah that's Silver Gate.",
+      "dda_edge": [
+        {
+          "from": 71,
+          "label": "Contrast",
+          "to": 69
+        },
+        {
+          "from": 71,
+          "label": "Statement",
+          "to": 69
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "speaker": "Messenger",
+      "utterance": "Up there.",
+      "dda_edge": [
+        {
+          "from": 72,
+          "label": "Statement",
+          "to": 71
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "speaker": "Pilot",
+      "utterance": "And Iron Gate.",
+      "dda_edge": [
+        {
+          "from": 73,
+          "label": "Restatement",
+          "to": 69
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "speaker": "Engineer",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 74,
+          "label": "Acknowledge",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "speaker": "Messenger",
+      "utterance": "Whoop.",
+      "dda_edge": [
+        {
+          "from": 75,
+          "label": "Exclamation",
+          "to": 75
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "speaker": "Engineer",
+      "utterance": "Whoops.",
+      "dda_edge": [
+        {
+          "from": 76,
+          "label": "Restatement",
+          "to": 75
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "speaker": "Messenger",
+      "utterance": "Whoop, I lost mine.",
+      "dda_edge": [
+        {
+          "from": 77,
+          "label": "Statement",
+          "to": 76
+        },
+        {
+          "from": 77,
+          "label": "Restatement",
+          "to": 76
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "speaker": "Engineer",
+      "utterance": "(laughs)",
+      "dda_edge": []
+    },
+    {
+      "index": 79,
+      "speaker": "Messenger",
+      "utterance": "(Identifier today)",
+      "dda_edge": [
+        {
+          "from": 79,
+          "label": "Joke",
+          "to": 77
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "speaker": "Messenger",
+      "utterance": "K.",
+      "dda_edge": [
+        {
+          "from": 80,
+          "label": "Greeting",
+          "to": 80
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "speaker": "Messenger",
+      "utterance": "Move to the Cave of Embers.",
+      "dda_edge": [
+        {
+          "from": 81,
+          "label": "Statement",
+          "to": 80
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "speaker": "Messenger",
+      "utterance": "Play the Sandbags, no point in me using messenger to give stuff away but shore that up",
+      "dda_edge": [
+        {
+          "from": 82,
+          "label": "SelfTalk",
+          "to": 81
+        },
+        {
+          "from": 82,
+          "label": "Justifying",
+          "to": 81
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "speaker": "Messenger",
+      "utterance": "Ah Water's Rise",
+      "dda_edge": [
+        {
+          "from": 83,
+          "label": "Statement",
+          "to": 82
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "speaker": "Messenger",
+      "utterance": "And I will also (--)",
+      "dda_edge": [
+        {
+          "from": 84,
+          "label": "Commit",
+          "to": 83
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "speaker": "Messenger",
+      "utterance": "Or (--) three cards.",
+      "dda_edge": [
+        {
+          "from": 85,
+          "label": "Empty",
+          "to": 84
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "speaker": "Messenger",
+      "utterance": "Shuffling.",
+      "dda_edge": [
+        {
+          "from": 86,
+          "label": "Statement",
+          "to": 84
+        },
+        {
+          "from": 86,
+          "label": "After",
+          "to": 84
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "speaker": "Messenger",
+      "utterance": "Cliffs of Abandon",
+      "dda_edge": [
+        {
+          "from": 87,
+          "label": "Statement",
+          "to": 86
+        },
+        {
+          "from": 87,
+          "label": "SelfTalk",
+          "to": 86
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "speaker": "Messenger",
+      "utterance": "Whispering Gardens.",
+      "dda_edge": [
+        {
+          "from": 88,
+          "label": "Empty",
+          "to": 87
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "speaker": "Engineer",
+      "utterance": "(laughs)",
+      "dda_edge": []
+    },
+    {
+      "index": 90,
+      "speaker": "Messenger",
+      "utterance": "Iron Gate.",
+      "dda_edge": [
+        {
+          "from": 90,
+          "label": "Empty",
+          "to": 88
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "speaker": "Pilot",
+      "utterance": "Tsss.",
+      "dda_edge": [
+        {
+          "from": 91,
+          "label": "Exclamation",
+          "to": 90
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "speaker": "Pilot",
+      "utterance": "Iron gate's gone.",
+      "dda_edge": [
+        {
+          "from": 92,
+          "label": "Statement",
+          "to": 90
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "speaker": "Engineer",
+      "utterance": "Where's Cliffs of Abandon, oh.",
+      "dda_edge": [
+        {
+          "from": 93,
+          "label": "QuestionInfoRequest",
+          "to": 87
+        },
+        {
+          "from": 93,
+          "label": "Acknowledge",
+          "to": 93
+        }
+      ]
+    },
+    {
+      "index": 94,
+      "speaker": "Messenger",
+      "utterance": "Ok (--) go.",
+      "dda_edge": [
+        {
+          "from": 94,
+          "label": "ActionDirective",
+          "to": 94
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "speaker": "Pilot",
+      "utterance": "Ok umm hmm.",
+      "dda_edge": [
+        {
+          "from": 95,
+          "label": "Accept",
+          "to": 94
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "speaker": "Pilot",
+      "utterance": "Think I'm going to use my ability to fly to where you are.",
+      "dda_edge": [
+        {
+          "from": 96,
+          "label": "Commit",
+          "to": 95
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "speaker": "Pilot",
+      "utterance": "And then that's one, this two.",
+      "dda_edge": [
+        {
+          "from": 97,
+          "label": "After",
+          "to": 96
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "speaker": "Engineer",
+      "utterance": "Ok. I will discard this guy.",
+      "dda_edge": [
+        {
+          "from": 98,
+          "label": "Commit",
+          "to": 96
+        },
+        {
+          "from": 98,
+          "label": "Accept",
+          "to": 96
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "speaker": "Engineer",
+      "utterance": "Or can I (--) right now.",
+      "dda_edge": [
+        {
+          "from": 99,
+          "label": "Alternative",
+          "to": 98
+        }
+      ]
+    },
+    {
+      "index": 100,
+      "speaker": "Messenger",
+      "utterance": "(--)",
+      "dda_edge": []
+    },
+    {
+      "index": 101,
+      "speaker": "Pilot",
+      "utterance": "And then",
+      "dda_edge": [
+        {
+          "from": 101,
+          "label": "After",
+          "to": 97
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "speaker": "Pilot",
+      "utterance": "third power, um, hmm.",
+      "dda_edge": [
+        {
+          "from": 102,
+          "label": "Stalling",
+          "to": 101
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "speaker": "Pilot",
+      "utterance": "Oh no I'll just end my turn there.",
+      "dda_edge": [
+        {
+          "from": 103,
+          "label": "Commit",
+          "to": 102
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "speaker": "Engineer",
+      "utterance": "Ok so I'm gonna get the treasure.",
+      "dda_edge": []
+    },
+    {
+      "index": 105,
+      "speaker": "Pilot",
+      "utterance": "Oh wait.",
+      "dda_edge": [
+        {
+          "from": 105,
+          "label": "ActionDirective",
+          "to": 104
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "speaker": "Engineer",
+      "utterance": "Am I allowed to? No I'm not (--)",
+      "dda_edge": [
+        {
+          "from": 106,
+          "label": "QuestionInfoRequest",
+          "to": 105
+        },
+        {
+          "from": 106,
+          "label": "Answer",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "speaker": "Messenger",
+      "utterance": "Wait.",
+      "dda_edge": [
+        {
+          "from": 107,
+          "label": "ActionDirective",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "speaker": "Messenger",
+      "utterance": "Oh wait, she had said.",
+      "dda_edge": [
+        {
+          "from": 108,
+          "label": "ActionDirective",
+          "to": 106
+        },
+        {
+          "from": 108,
+          "label": "TakeStock",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "speaker": "Engineer",
+      "utterance": "Oh yeah sorry.",
+      "dda_edge": [
+        {
+          "from": 109,
+          "label": "Accept",
+          "to": 108
+        },
+        {
+          "from": 109,
+          "label": "Apology",
+          "to": 108
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "speaker": "Messenger",
+      "utterance": "Trasure and Flood.",
+      "dda_edge": [
+        {
+          "from": 110,
+          "label": "Empty",
+          "to": 108
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "speaker": "Pilot",
+      "utterance": "Ah Sandbag and this.",
+      "dda_edge": [
+        {
+          "from": 111,
+          "label": "Statement",
+          "to": 111
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "speaker": "Pilot",
+      "utterance": "I'm gonan immediately play that.",
+      "dda_edge": [
+        {
+          "from": 112,
+          "label": "Commit",
+          "to": 111
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "speaker": "Engineer",
+      "utterance": "Yeah huh.",
+      "dda_edge": [
+        {
+          "from": 113,
+          "label": "Accept",
+          "to": 112
+        },
+        {
+          "from": 113,
+          "label": "Acknowledge",
+          "to": 112
+        },
+        {
+          "from": 113,
+          "label": "Appreciation",
+          "to": 112
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "speaker": "Pilot",
+      "utterance": "And save that.",
+      "dda_edge": [
+        {
+          "from": 114,
+          "label": "Conjunction",
+          "to": 112
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "speaker": "Pilot",
+      "utterance": "Um and then three flood cards.",
+      "dda_edge": [
+        {
+          "from": 115,
+          "label": "Stalling",
+          "to": 114
+        },
+        {
+          "from": 115,
+          "label": "After",
+          "to": 114
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "speaker": "Messenger",
+      "utterance": "And then when you're flooding three.",
+      "dda_edge": [
+        {
+          "from": 116,
+          "label": "Restatement",
+          "to": 115
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "speaker": "Pilot",
+      "utterance": "Ok Lost Lagooon.",
+      "dda_edge": [
+        {
+          "from": 117,
+          "label": "Greeting",
+          "to": 116
+        },
+        {
+          "from": 117,
+          "label": "Statement",
+          "to": 116
+        },
+        {
+          "from": 117,
+          "label": "SelfTalk",
+          "to": 116
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "speaker": "Engineer",
+      "utterance": "It's gone?",
+      "dda_edge": [
+        {
+          "from": 118,
+          "label": "QuestionInfoRequest",
+          "to": 117
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "speaker": "Pilot",
+      "utterance": "Breaker's Bridge.",
+      "dda_edge": [
+        {
+          "from": 119,
+          "label": "Conjunction",
+          "to": 117
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "speaker": "Pilot",
+      "utterance": "And Temple of the Moon.",
+      "dda_edge": [
+        {
+          "from": 120,
+          "label": "Conjunction",
+          "to": 119
+        }
+      ]
+    },
+    {
+      "index": 121,
+      "speaker": "Engineer",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 121,
+          "label": "Acknowledge",
+          "to": 120
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "speaker": "Pilot",
+      "utterance": "Oh that one.",
+      "dda_edge": [
+        {
+          "from": 122,
+          "label": "SelfTalk",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "speaker": "Messenger",
+      "utterance": "Sun not moon.",
+      "dda_edge": [
+        {
+          "from": 123,
+          "label": "Correction",
+          "to": 120
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "speaker": "Engineer",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 124,
+          "label": "Greeting",
+          "to": 124
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "speaker": "Engineer",
+      "utterance": "I mean two, with one, claim this for two.",
+      "dda_edge": [
+        {
+          "from": 125,
+          "label": "Statement",
+          "to": 124
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "speaker": "Engineer",
+      "utterance": "Um and for three.",
+      "dda_edge": [
+        {
+          "from": 126,
+          "label": "Conjunction",
+          "to": 125
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "speaker": "Messenger",
+      "utterance": "Probably another move.",
+      "dda_edge": [
+        {
+          "from": 127,
+          "label": "Proposal",
+          "to": 125
+        },
+        {
+          "from": 127,
+          "label": "Hedge",
+          "to": 125
+        }
+      ]
+    },
+    {
+      "index": 128,
+      "speaker": "Engineer",
+      "utterance": "Yeah. Ummmm.",
+      "dda_edge": [
+        {
+          "from": 128,
+          "label": "Accept",
+          "to": 127
+        },
+        {
+          "from": 128,
+          "label": "Stalling",
+          "to": 127
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "speaker": "Messenger",
+      "utterance": "Yeah move to Cave of Shadows.",
+      "dda_edge": [
+        {
+          "from": 129,
+          "label": "ActionDirective",
+          "to": 128
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "speaker": "Engineer",
+      "utterance": "Ok um two Treasure cards please.",
+      "dda_edge": [
+        {
+          "from": 130,
+          "label": "Accept",
+          "to": 129
+        },
+        {
+          "from": 130,
+          "label": "ActionDirective",
+          "to": 130
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "speaker": "Engineer",
+      "utterance": "Mmk and unforutnately three Flood cards.",
+      "dda_edge": [
+        {
+          "from": 131,
+          "label": "Acknowledge",
+          "to": 130
+        },
+        {
+          "from": 131,
+          "label": "Conjunction",
+          "to": 130
+        }
+      ]
+    },
+    {
+      "index": 132,
+      "speaker": "Messenger",
+      "utterance": "Yes.",
+      "dda_edge": [
+        {
+          "from": 132,
+          "label": "Accept",
+          "to": 131
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "speaker": "Engineer",
+      "utterance": "Which are Copper Gate, Crimson Forest and Temple of the Sun, Oh temple of the Moon.",
+      "dda_edge": [
+        {
+          "from": 133,
+          "label": "GivingDetails",
+          "to": 131
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "speaker": "Pilot",
+      "utterance": "And Copper Gate.",
+      "dda_edge": [
+        {
+          "from": 134,
+          "label": "Restatement",
+          "to": 133
+        }
+      ]
+    },
+    {
+      "index": 135,
+      "speaker": "Engineer",
+      "utterance": "Oh no. Ok.",
+      "dda_edge": [
+        {
+          "from": 135,
+          "label": "Exclamation",
+          "to": 133
+        },
+        {
+          "from": 135,
+          "label": "Acknowledge",
+          "to": 133
+        }
+      ]
+    },
+    {
+      "index": 136,
+      "speaker": "Engineer",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 136,
+          "label": "SelfTalk",
+          "to": 135
+        }
+      ]
+    },
+    {
+      "index": 137,
+      "speaker": "Messenger",
+      "utterance": "Ok since I'm the Messenger I can give cards away to anybody.",
+      "dda_edge": [
+        {
+          "from": 137,
+          "label": "Greeting",
+          "to": 137
+        },
+        {
+          "from": 137,
+          "label": "Statement",
+          "to": 137
+        },
+        {
+          "from": 137,
+          "label": "Enabling",
+          "to": 137
+        },
+        {
+          "from": 137,
+          "label": "Justified",
+          "to": 137
+        }
+      ]
+    },
+    {
+      "index": 138,
+      "speaker": "Messenger",
+      "utterance": "One.",
+      "dda_edge": [
+        {
+          "from": 138,
+          "label": "Instantiated",
+          "to": 137
+        }
+      ]
+    },
+    {
+      "index": 139,
+      "speaker": "Messenger",
+      "utterance": "two.",
+      "dda_edge": [
+        {
+          "from": 139,
+          "label": "After",
+          "to": 138
+        }
+      ]
+    },
+    {
+      "index": 140,
+      "speaker": "Engineer",
+      "utterance": "Thank you.",
+      "dda_edge": [
+        {
+          "from": 140,
+          "label": "Thanking",
+          "to": 139
+        }
+      ]
+    },
+    {
+      "index": 141,
+      "speaker": "Messenger",
+      "utterance": "You're already there.",
+      "dda_edge": [
+        {
+          "from": 141,
+          "label": "Statement",
+          "to": 141
+        }
+      ]
+    },
+    {
+      "index": 142,
+      "speaker": "Messenger",
+      "utterance": "Alright and then do I want to move or shore up for my third.",
+      "dda_edge": [
+        {
+          "from": 142,
+          "label": "After",
+          "to": 141
+        },
+        {
+          "from": 142,
+          "label": "Acknowledge",
+          "to": 141
+        },
+        {
+          "from": 142,
+          "label": "QuestionInfoRequest",
+          "to": 141
+        },
+        {
+          "from": 142,
+          "label": "SelfTalk",
+          "to": 141
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "speaker": "Messenger",
+      "utterance": "That's one, two, three right. I'm gonna shore up for my third.",
+      "dda_edge": [
+        {
+          "from": 143,
+          "label": "Statement",
+          "to": 142
+        },
+        {
+          "from": 143,
+          "label": "Commit",
+          "to": 142
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "speaker": "Pilot",
+      "utterance": "And two Treasure cards.",
+      "dda_edge": [
+        {
+          "from": 144,
+          "label": "TaskManagement",
+          "to": 143
+        },
+        {
+          "from": 144,
+          "label": "Conjunction",
+          "to": 143
+        }
+      ]
+    },
+    {
+      "index": 145,
+      "speaker": "Messenger",
+      "utterance": "Chalice, water's rise.",
+      "dda_edge": [
+        {
+          "from": 145,
+          "label": "SelfTalk",
+          "to": 144
+        },
+        {
+          "from": 145,
+          "label": "Statement",
+          "to": 144
+        },
+        {
+          "from": 145,
+          "label": "Exclamation",
+          "to": 144
+        }
+      ]
+    },
+    {
+      "index": 146,
+      "speaker": "Engineer",
+      "utterance": "Oh no.",
+      "dda_edge": [
+        {
+          "from": 146,
+          "label": "Exclamation",
+          "to": 145
+        }
+      ]
+    },
+    {
+      "index": 147,
+      "speaker": "Messenger",
+      "utterance": "Still at three. Shuffling.",
+      "dda_edge": [
+        {
+          "from": 147,
+          "label": "Statement",
+          "to": 147
+        }
+      ]
+    },
+    {
+      "index": 148,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 149,
+      "speaker": "Messenger",
+      "utterance": "Ooo, we might lose Temple of the Sun.",
+      "dda_edge": [
+        {
+          "from": 149,
+          "label": "Exclamation",
+          "to": 149
+        },
+        {
+          "from": 149,
+          "label": "Opinion",
+          "to": 149
+        },
+        {
+          "from": 149,
+          "label": "Hedge",
+          "to": 149
+        }
+      ]
+    },
+    {
+      "index": 150,
+      "speaker": "Engineer",
+      "utterance": "Or Temple of the Moon.",
+      "dda_edge": [
+        {
+          "from": 150,
+          "label": "Alternative",
+          "to": 149
+        }
+      ]
+    },
+    {
+      "index": 151,
+      "speaker": "Messenger",
+      "utterance": "Well we might lose them both here.",
+      "dda_edge": [
+        {
+          "from": 151,
+          "label": "Accept",
+          "to": 150
+        },
+        {
+          "from": 151,
+          "label": "Accept",
+          "to": 149
+        }
+      ]
+    },
+    {
+      "index": 152,
+      "speaker": "Pilot",
+      "utterance": "(--)",
+      "dda_edge": []
+    },
+    {
+      "index": 153,
+      "speaker": "Messenger",
+      "utterance": "And no Sandbags, that's bad.",
+      "dda_edge": [
+        {
+          "from": 153,
+          "label": "Evaluating",
+          "to": 151
+        }
+      ]
+    },
+    {
+      "index": 154,
+      "speaker": "Messenger",
+      "utterance": "Oh, Temple of the Sun.",
+      "dda_edge": [
+        {
+          "from": 154,
+          "label": "Exclamation",
+          "to": 154
+        },
+        {
+          "from": 154,
+          "label": "Statement",
+          "to": 154
+        },
+        {
+          "from": 154,
+          "label": "SelfTalk",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 155,
+      "speaker": "Engineer",
+      "utterance": "Oh no.",
+      "dda_edge": [
+        {
+          "from": 155,
+          "label": "Exclamation",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 156,
+      "speaker": "Messenger",
+      "utterance": "Cliffs of Abandon.",
+      "dda_edge": [
+        {
+          "from": 156,
+          "label": "SelfTalk",
+          "to": 154
+        },
+        {
+          "from": 156,
+          "label": "Statement",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 157,
+      "speaker": "Messenger",
+      "utterance": "Crimson Forest.",
+      "dda_edge": [
+        {
+          "from": 157,
+          "label": "Statement",
+          "to": 156
+        },
+        {
+          "from": 157,
+          "label": "SelfTalk",
+          "to": 156
+        }
+      ]
+    },
+    {
+      "index": 158,
+      "speaker": "Pilot",
+      "utterance": "And all of them are gone.",
+      "dda_edge": [
+        {
+          "from": 158,
+          "label": "Statement",
+          "to": 157
+        }
+      ]
+    },
+    {
+      "index": 159,
+      "speaker": "Engineer",
+      "utterance": "Oh, oh well nice.",
+      "dda_edge": [
+        {
+          "from": 159,
+          "label": "Exclamation",
+          "to": 158
+        },
+        {
+          "from": 159,
+          "label": "Sympathy",
+          "to": 158
+        },
+        {
+          "from": 159,
+          "label": "Joke",
+          "to": 158
+        }
+      ]
+    },
+    {
+      "index": 160,
+      "speaker": "Engineer",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 160,
+          "label": "Acknowledge",
+          "to": 159
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "speaker": "Pilot",
+      "utterance": "Ok um, hmm.",
+      "dda_edge": [
+        {
+          "from": 161,
+          "label": "Greeting",
+          "to": 161
+        },
+        {
+          "from": 161,
+          "label": "Stalling",
+          "to": 161
+        }
+      ]
+    },
+    {
+      "index": 162,
+      "speaker": "Messenger",
+      "utterance": "We need to shore up Temple of the Moon before we lose it.",
+      "dda_edge": [
+        {
+          "from": 162,
+          "label": "TaskManagement",
+          "to": 162
+        },
+        {
+          "from": 162,
+          "label": "Proposal",
+          "to": 162
+        },
+        {
+          "from": 162,
+          "label": "NegConditioned",
+          "to": 162
+        }
+      ]
+    },
+    {
+      "index": 163,
+      "speaker": "Engineer",
+      "utterance": "Also Cave of the Shadows is on it.",
+      "dda_edge": [
+        {
+          "from": 163,
+          "label": "Conjunction",
+          "to": 162
+        }
+      ]
+    },
+    {
+      "index": 164,
+      "speaker": "Pilot",
+      "utterance": "Ok. I'm going.",
+      "dda_edge": [
+        {
+          "from": 164,
+          "label": "Acknowledge",
+          "to": 162
+        },
+        {
+          "from": 164,
+          "label": "Commit",
+          "to": 162
+        },
+        {
+          "from": 164,
+          "label": "Incomplete",
+          "to": 162
+        }
+      ]
+    },
+    {
+      "index": 165,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 166,
+      "speaker": "Messenger",
+      "utterance": "Mm.",
+      "dda_edge": [
+        {
+          "from": 166,
+          "label": "Reject",
+          "to": 163
+        }
+      ]
+    },
+    {
+      "index": 167,
+      "speaker": "Messenger",
+      "utterance": "Well that's, that's not flooded that Temple of the Moon is flooded we lost that other orb one that's a lose condition.",
+      "dda_edge": [
+        {
+          "from": 167,
+          "label": "Empty",
+          "to": 166
+        }
+      ]
+    },
+    {
+      "index": 168,
+      "speaker": "Engineer",
+      "utterance": "No that's not sorry,that's just a dark picture.",
+      "dda_edge": [
+        {
+          "from": 168,
+          "label": "Apology",
+          "to": 167
+        },
+        {
+          "from": 168,
+          "label": "Justifying",
+          "to": 163
+        }
+      ]
+    },
+    {
+      "index": 169,
+      "speaker": "Pilot",
+      "utterance": "That's one and I'm gonna use my power and go here.",
+      "dda_edge": [
+        {
+          "from": 169,
+          "label": "Commit",
+          "to": 169
+        },
+        {
+          "from": 169,
+          "label": "Statement",
+          "to": 169
+        }
+      ]
+    },
+    {
+      "index": 170,
+      "speaker": "Messenger",
+      "utterance": "Okay.",
+      "dda_edge": [
+        {
+          "from": 170,
+          "label": "Accept",
+          "to": 169
+        }
+      ]
+    },
+    {
+      "index": 171,
+      "speaker": "Pilot",
+      "utterance": "So that's one. That's two.",
+      "dda_edge": [
+        {
+          "from": 171,
+          "label": "After",
+          "to": 169
+        },
+        {
+          "from": 171,
+          "label": "TakeStock",
+          "to": 169
+        }
+      ]
+    },
+    {
+      "index": 172,
+      "speaker": "Pilot",
+      "utterance": "Um, can't save Breaker's Bridge.",
+      "dda_edge": [
+        {
+          "from": 172,
+          "label": "Stalling",
+          "to": 171
+        },
+        {
+          "from": 172,
+          "label": "Statement",
+          "to": 172
+        }
+      ]
+    },
+    {
+      "index": 173,
+      "speaker": "Messenger",
+      "utterance": "You can use it, yeah you can shore it up.",
+      "dda_edge": [
+        {
+          "from": 173,
+          "label": "TaskManagement",
+          "to": 172
+        },
+        {
+          "from": 173,
+          "label": "Proposal",
+          "to": 172
+        },
+        {
+          "from": 173,
+          "label": "Reject",
+          "to": 172
+        }
+      ]
+    },
+    {
+      "index": 174,
+      "speaker": "Pilot",
+      "utterance": "Oh wait cause it's adjacent ok.",
+      "dda_edge": [
+        {
+          "from": 174,
+          "label": "Exclamation",
+          "to": 173
+        },
+        {
+          "from": 174,
+          "label": "Enabling",
+          "to": 173
+        },
+        {
+          "from": 174,
+          "label": "Accept",
+          "to": 173
+        }
+      ]
+    },
+    {
+      "index": 175,
+      "speaker": "Messenger",
+      "utterance": "Well that was your third, unless you have something better.",
+      "dda_edge": [
+        {
+          "from": 175,
+          "label": "Statement",
+          "to": 174
+        },
+        {
+          "from": 175,
+          "label": "NegConditioning",
+          "to": 175
+        },
+        {
+          "from": 175,
+          "label": "TaskManagement",
+          "to": 174
+        },
+        {
+          "from": 175,
+          "label": "QuestionInfoRequest",
+          "to": 174
+        }
+      ]
+    },
+    {
+      "index": 176,
+      "speaker": "Engineer",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 176,
+          "label": "Accept",
+          "to": 174
+        }
+      ]
+    },
+    {
+      "index": 177,
+      "speaker": "Pilot",
+      "utterance": "Nope.",
+      "dda_edge": [
+        {
+          "from": 177,
+          "label": "Answer",
+          "to": 175
+        }
+      ]
+    },
+    {
+      "index": 178,
+      "speaker": "Pilot",
+      "utterance": "That's three.",
+      "dda_edge": [
+        {
+          "from": 178,
+          "label": "Empty",
+          "to": 177
+        }
+      ]
+    },
+    {
+      "index": 179,
+      "speaker": "Engineer",
+      "utterance": "Good.",
+      "dda_edge": [
+        {
+          "from": 179,
+          "label": "Appreciation",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 180,
+      "speaker": "Messenger",
+      "utterance": "Alright.",
+      "dda_edge": [
+        {
+          "from": 180,
+          "label": "Acknowledge",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 181,
+      "speaker": "Pilot",
+      "utterance": "And",
+      "dda_edge": [
+        {
+          "from": 181,
+          "label": "After",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 182,
+      "speaker": "Pilot",
+      "utterance": "Two.",
+      "dda_edge": [
+        {
+          "from": 182,
+          "label": "Statement",
+          "to": 181
+        }
+      ]
+    },
+    {
+      "index": 183,
+      "speaker": "Pilot",
+      "utterance": "Helicopter Lift",
+      "dda_edge": [
+        {
+          "from": 183,
+          "label": "Statement",
+          "to": 182
+        },
+        {
+          "from": 183,
+          "label": "SelfTalk",
+          "to": 182
+        }
+      ]
+    },
+    {
+      "index": 184,
+      "speaker": "Engineer",
+      "utterance": "Wow.",
+      "dda_edge": [
+        {
+          "from": 184,
+          "label": "Exclamation",
+          "to": 183
+        }
+      ]
+    },
+    {
+      "index": 185,
+      "speaker": "Pilot",
+      "utterance": "And that.",
+      "dda_edge": [
+        {
+          "from": 185,
+          "label": "After",
+          "to": 183
+        }
+      ]
+    },
+    {
+      "index": 186,
+      "speaker": "Pilot",
+      "utterance": "And three Flood Cards.",
+      "dda_edge": [
+        {
+          "from": 186,
+          "label": "After",
+          "to": 185
+        }
+      ]
+    },
+    {
+      "index": 187,
+      "speaker": "Messenger",
+      "utterance": "Alright.",
+      "dda_edge": [
+        {
+          "from": 187,
+          "label": "Acknowledge",
+          "to": 186
+        }
+      ]
+    },
+    {
+      "index": 188,
+      "speaker": "Pilot",
+      "utterance": "Oh I have five cards umm.",
+      "dda_edge": [
+        {
+          "from": 188,
+          "label": "Exclamation",
+          "to": 188
+        },
+        {
+          "from": 188,
+          "label": "Statement",
+          "to": 188
+        },
+        {
+          "from": 188,
+          "label": "Stalling",
+          "to": 188
+        }
+      ]
+    },
+    {
+      "index": 189,
+      "speaker": "Engineer",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 189,
+          "label": "Exclamation",
+          "to": 188
+        }
+      ]
+    },
+    {
+      "index": 190,
+      "speaker": "Pilot",
+      "utterance": "Let me see.",
+      "dda_edge": [
+        {
+          "from": 190,
+          "label": "Stalling",
+          "to": 188
+        }
+      ]
+    },
+    {
+      "index": 191,
+      "speaker": "Pilot",
+      "utterance": "Does anybody want to move anywhere?",
+      "dda_edge": [
+        {
+          "from": 191,
+          "label": "QuestionInfoRequest",
+          "to": 190
+        }
+      ]
+    },
+    {
+      "index": 192,
+      "speaker": "Engineer",
+      "utterance": "No.",
+      "dda_edge": [
+        {
+          "from": 192,
+          "label": "Answer",
+          "to": 191
+        }
+      ]
+    },
+    {
+      "index": 193,
+      "speaker": "Messenger",
+      "utterance": "Move me to Fool's Landing if you're looking to burn a card.",
+      "dda_edge": [
+        {
+          "from": 193,
+          "label": "Answer",
+          "to": 191
+        },
+        {
+          "from": 193,
+          "label": "ActionDirective",
+          "to": 191
+        },
+        {
+          "from": 193,
+          "label": "Conditioning",
+          "to": 193
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "speaker": "Pilot",
+      "utterance": "Fool's Landing.",
+      "dda_edge": [
+        {
+          "from": 194,
+          "label": "QuestionInfoRequest",
+          "to": 193
+        },
+        {
+          "from": 194,
+          "label": "SignalNonUnderstanding",
+          "to": 193
+        }
+      ]
+    },
+    {
+      "index": 195,
+      "speaker": "Messenger",
+      "utterance": "Yup.",
+      "dda_edge": [
+        {
+          "from": 195,
+          "label": "Answer",
+          "to": 194
+        },
+        {
+          "from": 195,
+          "label": "Accept",
+          "to": 194
+        }
+      ]
+    },
+    {
+      "index": 196,
+      "speaker": "Messenger",
+      "utterance": "Not a particularly strong use but it's better than discard.",
+      "dda_edge": [
+        {
+          "from": 196,
+          "label": "Motivating",
+          "to": 193
+        }
+      ]
+    },
+    {
+      "index": 197,
+      "speaker": "Pilot",
+      "utterance": "yay.",
+      "dda_edge": [
+        {
+          "from": 197,
+          "label": "Greeting",
+          "to": 197
+        }
+      ]
+    },
+    {
+      "index": 198,
+      "speaker": "Pilot",
+      "utterance": "Ahh.",
+      "dda_edge": [
+        {
+          "from": 198,
+          "label": "Stalling",
+          "to": 198
+        }
+      ]
+    },
+    {
+      "index": 199,
+      "speaker": "Pilot",
+      "utterance": "Temple of the Moon Copper's Gate.",
+      "dda_edge": [
+        {
+          "from": 199,
+          "label": "Statement",
+          "to": 198
+        },
+        {
+          "from": 199,
+          "label": "SelfTalk",
+          "to": 198
+        }
+      ]
+    },
+    {
+      "index": 200,
+      "speaker": "Messenger",
+      "utterance": "Ooo saved it just in time.",
+      "dda_edge": [
+        {
+          "from": 200,
+          "label": "Exclamation",
+          "to": 199
+        },
+        {
+          "from": 200,
+          "label": "Statement",
+          "to": 199
+        },
+        {
+          "from": 200,
+          "label": "Appreciation",
+          "to": 199
+        }
+      ]
+    },
+    {
+      "index": 201,
+      "speaker": "Pilot",
+      "utterance": "And Whispering Garden.",
+      "dda_edge": [
+        {
+          "from": 201,
+          "label": "Conjunction",
+          "to": 199
+        }
+      ]
+    },
+    {
+      "index": 202,
+      "speaker": "Engineer",
+      "utterance": "Ok so I'm gonna get this Treasure.",
+      "dda_edge": [
+        {
+          "from": 202,
+          "label": "Greeting",
+          "to": 202
+        },
+        {
+          "from": 202,
+          "label": "Commit",
+          "to": 202
+        }
+      ]
+    },
+    {
+      "index": 203,
+      "speaker": "Engineer",
+      "utterance": "Mm.",
+      "dda_edge": [
+        {
+          "from": 203,
+          "label": "Stalling",
+          "to": 202
+        }
+      ]
+    },
+    {
+      "index": 204,
+      "speaker": "Messenger",
+      "utterance": "Dun Dun Dun. (olympic) torch.",
+      "dda_edge": [
+        {
+          "from": 204,
+          "label": "Joke",
+          "to": 202
+        }
+      ]
+    },
+    {
+      "index": 205,
+      "speaker": "Engineer",
+      "utterance": "Um so that's my one move.",
+      "dda_edge": [
+        {
+          "from": 205,
+          "label": "Statement",
+          "to": 202
+        },
+        {
+          "from": 205,
+          "label": "TakeStock",
+          "to": 202
+        }
+      ]
+    },
+    {
+      "index": 206,
+      "speaker": "Engineer",
+      "utterance": "Err. Let's see what else can I do.",
+      "dda_edge": [
+        {
+          "from": 206,
+          "label": "Stalling",
+          "to": 205
+        },
+        {
+          "from": 206,
+          "label": "TaskManagement",
+          "to": 205
+        }
+      ]
+    },
+    {
+      "index": 207,
+      "speaker": "Messenger",
+      "utterance": "You can move over and shore up Temple of the Moon.",
+      "dda_edge": [
+        {
+          "from": 207,
+          "label": "Proposal",
+          "to": 206
+        }
+      ]
+    },
+    {
+      "index": 208,
+      "speaker": "Engineer",
+      "utterance": "That's true.",
+      "dda_edge": [
+        {
+          "from": 208,
+          "label": "Accept",
+          "to": 207
+        }
+      ]
+    },
+    {
+      "index": 209,
+      "speaker": "Engineer",
+      "utterance": "Two and do we have alot of fire pieces? No. So I will go toward...",
+      "dda_edge": [
+        {
+          "from": 209,
+          "label": "Statement",
+          "to": 209
+        },
+        {
+          "from": 209,
+          "label": "QuestionInfoRequest",
+          "to": 206
+        },
+        {
+          "from": 209,
+          "label": "Answer",
+          "to": 209
+        },
+        {
+          "from": 209,
+          "label": "Commit",
+          "to": 206
+        },
+        {
+          "from": 209,
+          "label": "Incomplete",
+          "to": 206
+        }
+      ]
+    },
+    {
+      "index": 210,
+      "speaker": "Engineer",
+      "utterance": "does it really matter?",
+      "dda_edge": [
+        {
+          "from": 210,
+          "label": "RhetoricalQuestion",
+          "to": 209
+        }
+      ]
+    },
+    {
+      "index": 211,
+      "speaker": "Engineer",
+      "utterance": "I'll try to go closer to this chalice piece. May I please have two?",
+      "dda_edge": [
+        {
+          "from": 211,
+          "label": "Commit",
+          "to": 209
+        },
+        {
+          "from": 211,
+          "label": "ActionDirective",
+          "to": 209
+        }
+      ]
+    },
+    {
+      "index": 212,
+      "speaker": "Engineer",
+      "utterance": "Thank you.",
+      "dda_edge": [
+        {
+          "from": 212,
+          "label": "Thanking",
+          "to": 211
+        }
+      ]
+    },
+    {
+      "index": 213,
+      "speaker": "Engineer",
+      "utterance": "Wow that's maybe a good idea ok and then unfortunatley three flood cards.",
+      "dda_edge": [
+        {
+          "from": 213,
+          "label": "After",
+          "to": 213
+        },
+        {
+          "from": 213,
+          "label": "Exclamation",
+          "to": 213
+        },
+        {
+          "from": 213,
+          "label": "Statement",
+          "to": 213
+        },
+        {
+          "from": 213,
+          "label": "Evaluating",
+          "to": 213
+        }
+      ]
+    },
+    {
+      "index": 214,
+      "speaker": "Engineer",
+      "utterance": "Ok um Silver Gate, Tidal Palace and Breaker's Bridge. Oh I don't see that one.",
+      "dda_edge": [
+        {
+          "from": 214,
+          "label": "SelfTalk",
+          "to": 213
+        },
+        {
+          "from": 214,
+          "label": "Statement",
+          "to": 213
+        },
+        {
+          "from": 214,
+          "label": "Stalling",
+          "to": 214
+        }
+      ]
+    },
+    {
+      "index": 215,
+      "speaker": "Pilot",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 215,
+          "label": "Exclamation",
+          "to": 214
+        }
+      ]
+    },
+    {
+      "index": 216,
+      "speaker": "Engineer",
+      "utterance": "Thank you.",
+      "dda_edge": [
+        {
+          "from": 216,
+          "label": "Thanking",
+          "to": 216
+        }
+      ]
+    },
+    {
+      "index": 217,
+      "speaker": "Messenger",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 217,
+          "label": "Greeting",
+          "to": 217
+        }
+      ]
+    },
+    {
+      "index": 218,
+      "speaker": "Messenger",
+      "utterance": "(--)",
+      "dda_edge": []
+    },
+    {
+      "index": 219,
+      "speaker": "Engineer",
+      "utterance": "Hmm.",
+      "dda_edge": [
+        {
+          "from": 219,
+          "label": "SelfTalk",
+          "to": 219
+        }
+      ]
+    },
+    {
+      "index": 220,
+      "speaker": "Messenger",
+      "utterance": "Move one. Shore up.",
+      "dda_edge": [
+        {
+          "from": 220,
+          "label": "Commit",
+          "to": 217
+        }
+      ]
+    },
+    {
+      "index": 221,
+      "speaker": "Messenger",
+      "utterance": "i want to give you one be then you'll have to use another Helicopter Lift.",
+      "dda_edge": [
+        {
+          "from": 221,
+          "label": "Statement",
+          "to": 220
+        },
+        {
+          "from": 221,
+          "label": "Conditioned",
+          "to": 221
+        }
+      ]
+    },
+    {
+      "index": 222,
+      "speaker": "Pilot",
+      "utterance": "Oh. I could helicopter lift myself over there to the chalice.",
+      "dda_edge": [
+        {
+          "from": 222,
+          "label": "Proposal",
+          "to": 221
+        }
+      ]
+    },
+    {
+      "index": 223,
+      "speaker": "Engineer",
+      "utterance": "Mmhmm.",
+      "dda_edge": [
+        {
+          "from": 223,
+          "label": "Accept",
+          "to": 222
+        }
+      ]
+    },
+    {
+      "index": 224,
+      "speaker": "Messenger",
+      "utterance": "But (--) on the rock one and you'd have the rock.",
+      "dda_edge": [
+        {
+          "from": 224,
+          "label": "Conditioning",
+          "to": 222
+        },
+        {
+          "from": 224,
+          "label": "Reject",
+          "to": 222
+        }
+      ]
+    },
+    {
+      "index": 225,
+      "speaker": "Engineer",
+      "utterance": "You could throw the lion away.",
+      "dda_edge": [
+        {
+          "from": 225,
+          "label": "Proposal",
+          "to": 224
+        }
+      ]
+    },
+    {
+      "index": 226,
+      "speaker": "Pilot",
+      "utterance": "Oh wait no I'm already there I'm the blue one. I could throw the lion away.",
+      "dda_edge": [
+        {
+          "from": 226,
+          "label": "Statement",
+          "to": 224
+        },
+        {
+          "from": 226,
+          "label": "Accept",
+          "to": 225
+        },
+        {
+          "from": 226,
+          "label": "Restatement",
+          "to": 225
+        }
+      ]
+    },
+    {
+      "index": 227,
+      "speaker": "Messenger",
+      "utterance": "Yeah I got",
+      "dda_edge": [
+        {
+          "from": 227,
+          "label": "Incomplete",
+          "to": 226
+        },
+        {
+          "from": 227,
+          "label": "Acknowledge",
+          "to": 226
+        }
+      ]
+    },
+    {
+      "index": 228,
+      "speaker": "Engineer",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 228,
+          "label": "Acknowledge",
+          "to": 226
+        },
+        {
+          "from": 228,
+          "label": "Accept",
+          "to": 226
+        }
+      ]
+    },
+    {
+      "index": 229,
+      "speaker": "Messenger",
+      "utterance": "I got two (--) I can give.",
+      "dda_edge": [
+        {
+          "from": 229,
+          "label": "Statement",
+          "to": 227
+        },
+        {
+          "from": 229,
+          "label": "Proposal",
+          "to": 226
+        }
+      ]
+    },
+    {
+      "index": 230,
+      "speaker": "Messenger",
+      "utterance": "This one to you.",
+      "dda_edge": [
+        {
+          "from": 230,
+          "label": "Empty",
+          "to": 229
+        }
+      ]
+    },
+    {
+      "index": 231,
+      "speaker": "Messenger",
+      "utterance": "Aand.",
+      "dda_edge": [
+        {
+          "from": 231,
+          "label": "Conjunction",
+          "to": 229
+        },
+        {
+          "from": 231,
+          "label": "Stalling",
+          "to": 229
+        }
+      ]
+    },
+    {
+      "index": 232,
+      "speaker": "Messenger",
+      "utterance": "Pass this one to you.",
+      "dda_edge": [
+        {
+          "from": 232,
+          "label": "Empty",
+          "to": 231
+        }
+      ]
+    },
+    {
+      "index": 233,
+      "speaker": "Pilot",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 233,
+          "label": "Acknowledge",
+          "to": 232
+        }
+      ]
+    },
+    {
+      "index": 234,
+      "speaker": "Messenger",
+      "utterance": "And then flip over.",
+      "dda_edge": [
+        {
+          "from": 234,
+          "label": "After",
+          "to": 232
+        }
+      ]
+    },
+    {
+      "index": 235,
+      "speaker": "Messenger",
+      "utterance": "The lion.",
+      "dda_edge": [
+        {
+          "from": 235,
+          "label": "Statement",
+          "to": 235
+        }
+      ]
+    },
+    {
+      "index": 236,
+      "speaker": "Messenger",
+      "utterance": "(Good Lord) would have reather had one of those to start.",
+      "dda_edge": [
+        {
+          "from": 236,
+          "label": "Exclamation",
+          "to": 235
+        },
+        {
+          "from": 236,
+          "label": "Opinion",
+          "to": 235
+        }
+      ]
+    },
+    {
+      "index": 237,
+      "speaker": "Messenger",
+      "utterance": "and flooding.",
+      "dda_edge": [
+        {
+          "from": 237,
+          "label": "After",
+          "to": 234
+        }
+      ]
+    },
+    {
+      "index": 238,
+      "speaker": "Engineer",
+      "utterance": "Oh did you get, oh sorry.",
+      "dda_edge": [
+        {
+          "from": 238,
+          "label": "Apology",
+          "to": 237
+        },
+        {
+          "from": 238,
+          "label": "QuestionInfoRequest",
+          "to": 237
+        },
+        {
+          "from": 238,
+          "label": "Incomplete",
+          "to": 237
+        }
+      ]
+    },
+    {
+      "index": 239,
+      "speaker": "Messenger",
+      "utterance": "Right.",
+      "dda_edge": [
+        {
+          "from": 239,
+          "label": "Acknowledge",
+          "to": 238
+        }
+      ]
+    },
+    {
+      "index": 240,
+      "speaker": "Messenger",
+      "utterance": "Move one and shore it up.",
+      "dda_edge": [
+        {
+          "from": 240,
+          "label": "Restatement",
+          "to": 220
+        }
+      ]
+    },
+    {
+      "index": 241,
+      "speaker": "Messenger",
+      "utterance": "Yeah I'm cheatin.",
+      "dda_edge": [
+        {
+          "from": 241,
+          "label": "Evaluating",
+          "to": 240
+        },
+        {
+          "from": 241,
+          "label": "Joke",
+          "to": 240
+        }
+      ]
+    },
+    {
+      "index": 242,
+      "speaker": "Engineer",
+      "utterance": "Sorry.Hmm.",
+      "dda_edge": [
+        {
+          "from": 242,
+          "label": "Apology",
+          "to": 241
+        }
+      ]
+    },
+    {
+      "index": 243,
+      "speaker": "Messenger",
+      "utterance": "(--) the other order beacuse I took four moves alright flip over.",
+      "dda_edge": [
+        {
+          "from": 243,
+          "label": "Justifying",
+          "to": 241
+        }
+      ]
+    },
+    {
+      "index": 244,
+      "speaker": "Messenger",
+      "utterance": "Dunes of Deception.",
+      "dda_edge": [
+        {
+          "from": 244,
+          "label": "SelfTalk",
+          "to": 243
+        },
+        {
+          "from": 244,
+          "label": "Statement",
+          "to": 243
+        },
+        {
+          "from": 244,
+          "label": "GivingDetails",
+          "to": 243
+        }
+      ]
+    },
+    {
+      "index": 245,
+      "speaker": "Messenger",
+      "utterance": "Cave of Shadows.",
+      "dda_edge": [
+        {
+          "from": 245,
+          "label": "Conjunction",
+          "to": 244
+        }
+      ]
+    },
+    {
+      "index": 246,
+      "speaker": "Messenger",
+      "utterance": "And bronze gate.",
+      "dda_edge": [
+        {
+          "from": 246,
+          "label": "Conjunction",
+          "to": 245
+        }
+      ]
+    },
+    {
+      "index": 247,
+      "speaker": "Engineer",
+      "utterance": "Hmm.",
+      "dda_edge": [
+        {
+          "from": 247,
+          "label": "Acknowledge",
+          "to": 244
+        }
+      ]
+    },
+    {
+      "index": 248,
+      "speaker": "Pilot",
+      "utterance": "Ok my turn. Um. Hmm.",
+      "dda_edge": [
+        {
+          "from": 248,
+          "label": "Greeting",
+          "to": 248
+        },
+        {
+          "from": 248,
+          "label": "Stalling",
+          "to": 248
+        },
+        {
+          "from": 248,
+          "label": "Statement",
+          "to": 248
+        }
+      ]
+    },
+    {
+      "index": 249,
+      "speaker": "Pilot",
+      "utterance": "Hmm.",
+      "dda_edge": [
+        {
+          "from": 249,
+          "label": "Empty",
+          "to": 248
+        }
+      ]
+    },
+    {
+      "index": 250,
+      "speaker": "Pilot",
+      "utterance": "Tssss.",
+      "dda_edge": [
+        {
+          "from": 250,
+          "label": "Empty",
+          "to": 249
+        }
+      ]
+    },
+    {
+      "index": 251,
+      "speaker": "Pilot",
+      "utterance": "I think I'm going to use Helicotper Lift to send you guys to Fool's landing.",
+      "dda_edge": [
+        {
+          "from": 251,
+          "label": "Commit",
+          "to": 248
+        },
+        {
+          "from": 251,
+          "label": "Hedge",
+          "to": 251
+        }
+      ]
+    },
+    {
+      "index": 252,
+      "speaker": "Messenger",
+      "utterance": "You won the orb!",
+      "dda_edge": [
+        {
+          "from": 252,
+          "label": "Statement",
+          "to": 252
+        },
+        {
+          "from": 252,
+          "label": "Joke",
+          "to": 252
+        }
+      ]
+    },
+    {
+      "index": 253,
+      "speaker": "Engineer",
+      "utterance": "Oh wait.",
+      "dda_edge": [
+        {
+          "from": 253,
+          "label": "ActionDirective",
+          "to": 251
+        }
+      ]
+    },
+    {
+      "index": 254,
+      "speaker": "Pilot",
+      "utterance": "Oh.",
+      "dda_edge": []
+    },
+    {
+      "index": 255,
+      "speaker": "Engineer",
+      "utterance": "Ok.",
+      "dda_edge": []
+    },
+    {
+      "index": 256,
+      "speaker": "Messenger",
+      "utterance": "We, we still need one more treasure but, ok.",
+      "dda_edge": [
+        {
+          "from": 256,
+          "label": "Accept",
+          "to": 251
+        },
+        {
+          "from": 256,
+          "label": "Hedge",
+          "to": 251
+        }
+      ]
+    },
+    {
+      "index": 257,
+      "speaker": "Engineer",
+      "utterance": "No, no just nothin'.",
+      "dda_edge": [
+        {
+          "from": 257,
+          "label": "Apology",
+          "to": 255
+        }
+      ]
+    },
+    {
+      "index": 258,
+      "speaker": "Pilot",
+      "utterance": "I'm trying, hoping that I pick up a chalice.",
+      "dda_edge": [
+        {
+          "from": 258,
+          "label": "Justifying",
+          "to": 251
+        },
+        {
+          "from": 258,
+          "label": "TaskManagement",
+          "to": 256
+        }
+      ]
+    },
+    {
+      "index": 259,
+      "speaker": "Messenger",
+      "utterance": "(--)",
+      "dda_edge": []
+    },
+    {
+      "index": 260,
+      "speaker": "Pilot",
+      "utterance": "Because I have five cards already.",
+      "dda_edge": [
+        {
+          "from": 260,
+          "label": "Enabling",
+          "to": 258
+        },
+        {
+          "from": 260,
+          "label": "Statement",
+          "to": 258
+        }
+      ]
+    },
+    {
+      "index": 261,
+      "speaker": "Engineer",
+      "utterance": "Really.",
+      "dda_edge": [
+        {
+          "from": 261,
+          "label": "QuestionInfoRequest",
+          "to": 260
+        }
+      ]
+    },
+    {
+      "index": 262,
+      "speaker": "Engineer",
+      "utterance": "yeah.",
+      "dda_edge": [
+        {
+          "from": 262,
+          "label": "Answer",
+          "to": 261
+        }
+      ]
+    },
+    {
+      "index": 263,
+      "speaker": "Pilot",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 263,
+          "label": "Greeting",
+          "to": 263
+        }
+      ]
+    },
+    {
+      "index": 264,
+      "speaker": "Pilot",
+      "utterance": "Move you guys there.",
+      "dda_edge": [
+        {
+          "from": 264,
+          "label": "Restatement",
+          "to": 251
+        }
+      ]
+    },
+    {
+      "index": 265,
+      "speaker": "Pilot",
+      "utterance": "That's one.",
+      "dda_edge": [
+        {
+          "from": 265,
+          "label": "Statement",
+          "to": 264
+        }
+      ]
+    },
+    {
+      "index": 266,
+      "speaker": "Messenger",
+      "utterance": "Cause if you're using Helicopter Lift, that's not an action.",
+      "dda_edge": [
+        {
+          "from": 266,
+          "label": "Correction",
+          "to": 264
+        }
+      ]
+    },
+    {
+      "index": 267,
+      "speaker": "Pilot",
+      "utterance": "Oh wait that's not an action ok, so.",
+      "dda_edge": [
+        {
+          "from": 267,
+          "label": "Accept",
+          "to": 266
+        },
+        {
+          "from": 267,
+          "label": "Exclamation",
+          "to": 266
+        },
+        {
+          "from": 267,
+          "label": "Restatement",
+          "to": 266
+        }
+      ]
+    },
+    {
+      "index": 268,
+      "speaker": "Messenger",
+      "utterance": "If you're stayin' put shore up the stuff next to you. If you have a better plan do it.",
+      "dda_edge": [
+        {
+          "from": 268,
+          "label": "Proposal",
+          "to": 266
+        }
+      ]
+    },
+    {
+      "index": 269,
+      "speaker": "Pilot",
+      "utterance": "Ehh. I don't want to get rid of my other Helicopter Lift though.",
+      "dda_edge": [
+        {
+          "from": 269,
+          "label": "Opinion",
+          "to": 268
+        }
+      ]
+    },
+    {
+      "index": 270,
+      "speaker": "Messenger",
+      "utterance": "You have your original pilot ability or you can shore up the two next to you if you're stayin' put.",
+      "dda_edge": [
+        {
+          "from": 270,
+          "label": "Alternative",
+          "to": 270
+        },
+        {
+          "from": 270,
+          "label": "Proposal",
+          "to": 269
+        },
+        {
+          "from": 270,
+          "label": "Restatement",
+          "to": 268
+        },
+        {
+          "from": 270,
+          "label": "Substituting",
+          "to": 269
+        }
+      ]
+    },
+    {
+      "index": 271,
+      "speaker": "Pilot",
+      "utterance": "Ok um hmm.",
+      "dda_edge": [
+        {
+          "from": 271,
+          "label": "Accept",
+          "to": 270
+        },
+        {
+          "from": 271,
+          "label": "Stalling",
+          "to": 270
+        }
+      ]
+    },
+    {
+      "index": 272,
+      "speaker": "Messenger",
+      "utterance": "Cause I can give you this on my turn.",
+      "dda_edge": [
+        {
+          "from": 272,
+          "label": "Enabling",
+          "to": 270
+        },
+        {
+          "from": 272,
+          "label": "Proposal",
+          "to": 270
+        }
+      ]
+    },
+    {
+      "index": 273,
+      "speaker": "Pilot",
+      "utterance": "Ok I'm gonna shore up.",
+      "dda_edge": [
+        {
+          "from": 273,
+          "label": "Accept",
+          "to": 272
+        },
+        {
+          "from": 273,
+          "label": "Commit",
+          "to": 272
+        }
+      ]
+    },
+    {
+      "index": 274,
+      "speaker": "Pilot",
+      "utterance": "these.",
+      "dda_edge": [
+        {
+          "from": 274,
+          "label": "Empty",
+          "to": 273
+        }
+      ]
+    },
+    {
+      "index": 275,
+      "speaker": "Pilot",
+      "utterance": "That's one.",
+      "dda_edge": [
+        {
+          "from": 275,
+          "label": "Statement",
+          "to": 273
+        }
+      ]
+    },
+    {
+      "index": 276,
+      "speaker": "Engineer",
+      "utterance": "Oh sorry. I forgot on that, I didn't know which one you wanted to shore up.",
+      "dda_edge": [
+        {
+          "from": 276,
+          "label": "Apology",
+          "to": 275
+        },
+        {
+          "from": 276,
+          "label": "Justifying",
+          "to": 276
+        }
+      ]
+    },
+    {
+      "index": 277,
+      "speaker": "Messenger",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 277,
+          "label": "Acknowledge",
+          "to": 276
+        }
+      ]
+    },
+    {
+      "index": 278,
+      "speaker": "Pilot",
+      "utterance": "Well there's not like there's no point though. Well I guess.",
+      "dda_edge": [
+        {
+          "from": 278,
+          "label": "Opinion",
+          "to": 276
+        },
+        {
+          "from": 278,
+          "label": "Hedge",
+          "to": 276
+        }
+      ]
+    },
+    {
+      "index": 279,
+      "speaker": "Messenger",
+      "utterance": "There is because it's more cards in the deck that",
+      "dda_edge": [
+        {
+          "from": 279,
+          "label": "Reject",
+          "to": 278
+        },
+        {
+          "from": 279,
+          "label": "Motivating",
+          "to": 279
+        }
+      ]
+    },
+    {
+      "index": 280,
+      "speaker": "Pilot",
+      "utterance": "(well then)",
+      "dda_edge": [
+        {
+          "from": 280,
+          "label": "SelfTalk",
+          "to": 280
+        }
+      ]
+    },
+    {
+      "index": 281,
+      "speaker": "Pilot",
+      "utterance": "One.",
+      "dda_edge": [
+        {
+          "from": 281,
+          "label": "Statement",
+          "to": 281
+        }
+      ]
+    },
+    {
+      "index": 282,
+      "speaker": "Pilot",
+      "utterance": "Two.",
+      "dda_edge": [
+        {
+          "from": 282,
+          "label": "After",
+          "to": 281
+        }
+      ]
+    },
+    {
+      "index": 283,
+      "speaker": "Pilot",
+      "utterance": "Um, I don't want to move.",
+      "dda_edge": [
+        {
+          "from": 283,
+          "label": "Statement",
+          "to": 283
+        },
+        {
+          "from": 283,
+          "label": "Stalling",
+          "to": 283
+        }
+      ]
+    },
+    {
+      "index": 284,
+      "speaker": "Pilot",
+      "utterance": "So I guess that's it.",
+      "dda_edge": [
+        {
+          "from": 284,
+          "label": "Justified",
+          "to": 283
+        }
+      ]
+    },
+    {
+      "index": 285,
+      "speaker": "Messenger",
+      "utterance": "Alright draw your Treasure Cards.",
+      "dda_edge": [
+        {
+          "from": 285,
+          "label": "ActionDirective",
+          "to": 283
+        },
+        {
+          "from": 285,
+          "label": "Accept",
+          "to": 283
+        }
+      ]
+    },
+    {
+      "index": 286,
+      "speaker": "Engineer",
+      "utterance": "Hmm.",
+      "dda_edge": [
+        {
+          "from": 286,
+          "label": "Acknowledge",
+          "to": 283
+        }
+      ]
+    },
+    {
+      "index": 287,
+      "speaker": "Pilot",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 287,
+          "label": "Exclamation",
+          "to": 285
+        },
+        {
+          "from": 287,
+          "label": "Accept",
+          "to": 285
+        }
+      ]
+    },
+    {
+      "index": 288,
+      "speaker": "Pilot",
+      "utterance": "Mmk.",
+      "dda_edge": [
+        {
+          "from": 288,
+          "label": "Empty",
+          "to": 287
+        }
+      ]
+    },
+    {
+      "index": 289,
+      "speaker": "Pilot",
+      "utterance": "Then I'm going.",
+      "dda_edge": [
+        {
+          "from": 289,
+          "label": "Incomplete",
+          "to": 287
+        },
+        {
+          "from": 289,
+          "label": "Statement",
+          "to": 287
+        }
+      ]
+    },
+    {
+      "index": 290,
+      "speaker": "Pilot",
+      "utterance": "in this",
+      "dda_edge": [
+        {
+          "from": 290,
+          "label": "Empty",
+          "to": 289
+        }
+      ]
+    },
+    {
+      "index": 291,
+      "speaker": "Pilot",
+      "utterance": "No.",
+      "dda_edge": [
+        {
+          "from": 291,
+          "label": "Exclamation",
+          "to": 291
+        }
+      ]
+    },
+    {
+      "index": 292,
+      "speaker": "Messenger",
+      "utterance": "That's ok. We already have the fire. That Treasure card is useless.",
+      "dda_edge": [
+        {
+          "from": 292,
+          "label": "Downplayer",
+          "to": 291
+        },
+        {
+          "from": 292,
+          "label": "Justifying",
+          "to": 292
+        },
+        {
+          "from": 292,
+          "label": "Opinion",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 293,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 294,
+      "speaker": "Pilot",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 294,
+          "label": "Accept",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 295,
+      "speaker": "Pilot",
+      "utterance": "Um, three flood cards.",
+      "dda_edge": [
+        {
+          "from": 295,
+          "label": "Statement",
+          "to": 295
+        },
+        {
+          "from": 295,
+          "label": "Stalling",
+          "to": 295
+        }
+      ]
+    },
+    {
+      "index": 296,
+      "speaker": "Messenger",
+      "utterance": "And three flood cards.",
+      "dda_edge": [
+        {
+          "from": 296,
+          "label": "Statement",
+          "to": 296
+        }
+      ]
+    },
+    {
+      "index": 297,
+      "speaker": "Engineer",
+      "utterance": "(--)",
+      "dda_edge": []
+    },
+    {
+      "index": 298,
+      "speaker": "Pilot",
+      "utterance": "Ok, Cave of Embers.",
+      "dda_edge": [
+        {
+          "from": 298,
+          "label": "Greeting",
+          "to": 295
+        },
+        {
+          "from": 298,
+          "label": "SelfTalk",
+          "to": 295
+        },
+        {
+          "from": 298,
+          "label": "Statement",
+          "to": 295
+        }
+      ]
+    },
+    {
+      "index": 299,
+      "speaker": "Pilot",
+      "utterance": "Misty Marsh and Howling Garden.",
+      "dda_edge": [
+        {
+          "from": 299,
+          "label": "Conjunction",
+          "to": 298
+        }
+      ]
+    },
+    {
+      "index": 300,
+      "speaker": "Pilot",
+      "utterance": "So Howling Garden",
+      "dda_edge": [
+        {
+          "from": 300,
+          "label": "SelfTalk",
+          "to": 299
+        }
+      ]
+    },
+    {
+      "index": 301,
+      "speaker": "Messenger",
+      "utterance": "Cave of Embers.",
+      "dda_edge": [
+        {
+          "from": 301,
+          "label": "Restatement",
+          "to": 298
+        }
+      ]
+    },
+    {
+      "index": 302,
+      "speaker": "Pilot",
+      "utterance": "And Misty Marsh.",
+      "dda_edge": [
+        {
+          "from": 302,
+          "label": "CollaborativeCompletion",
+          "to": 301
+        }
+      ]
+    },
+    {
+      "index": 303,
+      "speaker": "Engineer",
+      "utterance": "Mm. oh.",
+      "dda_edge": [
+        {
+          "from": 303,
+          "label": "Exclamation",
+          "to": 303
+        },
+        {
+          "from": 303,
+          "label": "Stalling",
+          "to": 303
+        }
+      ]
+    },
+    {
+      "index": 304,
+      "speaker": "Messenger",
+      "utterance": "Getting more marshy.",
+      "dda_edge": [
+        {
+          "from": 304,
+          "label": "Joke",
+          "to": 302
+        }
+      ]
+    },
+    {
+      "index": 305,
+      "speaker": "Engineer",
+      "utterance": "Umm.",
+      "dda_edge": [
+        {
+          "from": 305,
+          "label": "Stalling",
+          "to": 305
+        }
+      ]
+    },
+    {
+      "index": 306,
+      "speaker": "Engineer",
+      "utterance": "So I don't know what the (--) is.",
+      "dda_edge": [
+        {
+          "from": 306,
+          "label": "Statement",
+          "to": 305
+        }
+      ]
+    },
+    {
+      "index": 307,
+      "speaker": "Engineer",
+      "utterance": "I could save this.",
+      "dda_edge": [
+        {
+          "from": 307,
+          "label": "Proposal",
+          "to": 307
+        }
+      ]
+    },
+    {
+      "index": 308,
+      "speaker": "Engineer",
+      "utterance": "It wouldn't matter cause that's one move. Does anyone want anything now?",
+      "dda_edge": [
+        {
+          "from": 308,
+          "label": "QuestionInfoRequest",
+          "to": 308
+        },
+        {
+          "from": 308,
+          "label": "Motivating",
+          "to": 308
+        },
+        {
+          "from": 308,
+          "label": "Opinion",
+          "to": 307
+        }
+      ]
+    },
+    {
+      "index": 309,
+      "speaker": "Messenger",
+      "utterance": "I think you just stay.",
+      "dda_edge": [
+        {
+          "from": 309,
+          "label": "Answer",
+          "to": 308
+        },
+        {
+          "from": 309,
+          "label": "ActionDirective",
+          "to": 308
+        },
+        {
+          "from": 309,
+          "label": "Hedge",
+          "to": 308
+        },
+        {
+          "from": 309,
+          "label": "Opinion",
+          "to": 308
+        }
+      ]
+    },
+    {
+      "index": 310,
+      "speaker": "Engineer",
+      "utterance": "Oh yeah. I mean do you want a Lion?",
+      "dda_edge": [
+        {
+          "from": 310,
+          "label": "Accept",
+          "to": 309
+        },
+        {
+          "from": 310,
+          "label": "Offer",
+          "to": 309
+        },
+        {
+          "from": 310,
+          "label": "Restatement",
+          "to": 309
+        }
+      ]
+    },
+    {
+      "index": 311,
+      "speaker": "Messenger",
+      "utterance": "You can give me a Lion, but I don't think it's gonna matter.",
+      "dda_edge": [
+        {
+          "from": 311,
+          "label": "Answer",
+          "to": 310
+        },
+        {
+          "from": 311,
+          "label": "Conceding",
+          "to": 311
+        },
+        {
+          "from": 311,
+          "label": "Opinion",
+          "to": 310
+        }
+      ]
+    },
+    {
+      "index": 312,
+      "speaker": "Engineer",
+      "utterance": "Yeah it really wouldn't matter um.",
+      "dda_edge": [
+        {
+          "from": 312,
+          "label": "Accept",
+          "to": 311
+        },
+        {
+          "from": 312,
+          "label": "Restatement",
+          "to": 311
+        }
+      ]
+    },
+    {
+      "index": 313,
+      "speaker": "Pilot",
+      "utterance": "(laughs)",
+      "dda_edge": []
+    },
+    {
+      "index": 314,
+      "speaker": "Engineer",
+      "utterance": "I'm just gonna say and then just...",
+      "dda_edge": [
+        {
+          "from": 314,
+          "label": "Commit",
+          "to": 312
+        },
+        {
+          "from": 314,
+          "label": "Motivated",
+          "to": 312
+        }
+      ]
+    },
+    {
+      "index": 315,
+      "speaker": "Pilot",
+      "utterance": "Ok.",
+      "dda_edge": [
+        {
+          "from": 315,
+          "label": "Accept",
+          "to": 314
+        }
+      ]
+    },
+    {
+      "index": 316,
+      "speaker": "Pilot",
+      "utterance": "Capture cards.",
+      "dda_edge": [
+        {
+          "from": 316,
+          "label": "Statement",
+          "to": 316
+        }
+      ]
+    },
+    {
+      "index": 317,
+      "speaker": "Engineer",
+      "utterance": "(--) Oh a Helicopter Lift ohh and a Water's rise.",
+      "dda_edge": [
+        {
+          "from": 317,
+          "label": "Exclamation",
+          "to": 317
+        },
+        {
+          "from": 317,
+          "label": "Statement",
+          "to": 317
+        },
+        {
+          "from": 317,
+          "label": "SelfTalk",
+          "to": 317
+        }
+      ]
+    },
+    {
+      "index": 318,
+      "speaker": "Messenger",
+      "utterance": "Dun, dun, dun!",
+      "dda_edge": [
+        {
+          "from": 318,
+          "label": "Joke",
+          "to": 317
+        }
+      ]
+    },
+    {
+      "index": 319,
+      "speaker": "Engineer",
+      "utterance": "Sorry.",
+      "dda_edge": [
+        {
+          "from": 319,
+          "label": "Apology",
+          "to": 319
+        }
+      ]
+    },
+    {
+      "index": 320,
+      "speaker": "Engineer",
+      "utterance": "Still at three. We're still kind of safe.",
+      "dda_edge": [
+        {
+          "from": 320,
+          "label": "Downplayer",
+          "to": 317
+        },
+        {
+          "from": 320,
+          "label": "Opinion",
+          "to": 320
+        },
+        {
+          "from": 320,
+          "label": "Statement",
+          "to": 320
+        }
+      ]
+    },
+    {
+      "index": 321,
+      "speaker": "Messenger",
+      "utterance": "Temple of the Moon is not flooded right now.",
+      "dda_edge": [
+        {
+          "from": 321,
+          "label": "Statement",
+          "to": 321
+        }
+      ]
+    },
+    {
+      "index": 322,
+      "speaker": "Messenger",
+      "utterance": "Mmm.",
+      "dda_edge": [
+        {
+          "from": 322,
+          "label": "Stalling",
+          "to": 321
+        }
+      ]
+    },
+    {
+      "index": 323,
+      "speaker": "Messenger",
+      "utterance": "Shuffling face down. What a concept.",
+      "dda_edge": [
+        {
+          "from": 323,
+          "label": "Statement",
+          "to": 323
+        },
+        {
+          "from": 323,
+          "label": "Joke",
+          "to": 323
+        }
+      ]
+    },
+    {
+      "index": 324,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 325,
+      "speaker": "Pilot",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 326,
+      "speaker": "Messenger",
+      "utterance": "Silver Gate.",
+      "dda_edge": [
+        {
+          "from": 326,
+          "label": "SelfTalk",
+          "to": 326
+        },
+        {
+          "from": 326,
+          "label": "Statement",
+          "to": 326
+        }
+      ]
+    },
+    {
+      "index": 327,
+      "speaker": "Messenger",
+      "utterance": "Cave of Embers.",
+      "dda_edge": [
+        {
+          "from": 327,
+          "label": "Conjunction",
+          "to": 326
+        }
+      ]
+    },
+    {
+      "index": 328,
+      "speaker": "Pilot",
+      "utterance": "Oh Cave of Embers is gone. Copper Gate is gone.",
+      "dda_edge": [
+        {
+          "from": 328,
+          "label": "Exclamation",
+          "to": 326
+        },
+        {
+          "from": 328,
+          "label": "Statement",
+          "to": 326
+        }
+      ]
+    },
+    {
+      "index": 329,
+      "speaker": "Messenger",
+      "utterance": "Copper Gate.",
+      "dda_edge": [
+        {
+          "from": 329,
+          "label": "Conjunction",
+          "to": 327
+        }
+      ]
+    },
+    {
+      "index": 330,
+      "speaker": "Engineer",
+      "utterance": "And Copper Gate is also gone.",
+      "dda_edge": [
+        {
+          "from": 330,
+          "label": "Restatement",
+          "to": 328
+        }
+      ]
+    },
+    {
+      "index": 331,
+      "speaker": "Messenger",
+      "utterance": "Alright.",
+      "dda_edge": [
+        {
+          "from": 331,
+          "label": "Greeting",
+          "to": 331
+        }
+      ]
+    },
+    {
+      "index": 332,
+      "speaker": "Messenger",
+      "utterance": "My turn. (--) action to give you that.",
+      "dda_edge": [
+        {
+          "from": 332,
+          "label": "Commit",
+          "to": 331
+        }
+      ]
+    },
+    {
+      "index": 333,
+      "speaker": "Pilot",
+      "utterance": "(--) discarded this one.",
+      "dda_edge": [
+        {
+          "from": 333,
+          "label": "Statement",
+          "to": 333
+        },
+        {
+          "from": 333,
+          "label": "SelfTalk",
+          "to": 333
+        }
+      ]
+    },
+    {
+      "index": 334,
+      "speaker": "Messenger",
+      "utterance": "Do not want to move. Nothing I can shore up.",
+      "dda_edge": [
+        {
+          "from": 334,
+          "label": "Statement",
+          "to": 332
+        }
+      ]
+    },
+    {
+      "index": 335,
+      "speaker": "Messenger",
+      "utterance": "Draw one, draw two.",
+      "dda_edge": [
+        {
+          "from": 335,
+          "label": "After",
+          "to": 334
+        }
+      ]
+    },
+    {
+      "index": 336,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 337,
+      "speaker": "Messenger",
+      "utterance": "Flood one.",
+      "dda_edge": [
+        {
+          "from": 337,
+          "label": "After",
+          "to": 335
+        }
+      ]
+    },
+    {
+      "index": 338,
+      "speaker": "Pilot",
+      "utterance": "Hallow gardens is out.",
+      "dda_edge": [
+        {
+          "from": 338,
+          "label": "CausedBy",
+          "to": 337
+        },
+        {
+          "from": 338,
+          "label": "Statement",
+          "to": 337
+        }
+      ]
+    },
+    {
+      "index": 339,
+      "speaker": "Messenger",
+      "utterance": "Misty Marsh is out.",
+      "dda_edge": [
+        {
+          "from": 339,
+          "label": "Conjunction",
+          "to": 338
+        }
+      ]
+    },
+    {
+      "index": 340,
+      "speaker": "Messenger",
+      "utterance": "Tidal Palace is out.",
+      "dda_edge": [
+        {
+          "from": 340,
+          "label": "Conjunction",
+          "to": 339
+        }
+      ]
+    },
+    {
+      "index": 341,
+      "speaker": "Pilot",
+      "utterance": "Misty Marsh",
+      "dda_edge": [
+        {
+          "from": 341,
+          "label": "Restatement",
+          "to": 339
+        }
+      ]
+    },
+    {
+      "index": 342,
+      "speaker": "Pilot",
+      "utterance": "And Tidal Palace.",
+      "dda_edge": [
+        {
+          "from": 342,
+          "label": "Conjunction",
+          "to": 341
+        }
+      ]
+    },
+    {
+      "index": 343,
+      "speaker": "Engineer",
+      "utterance": "Oh.",
+      "dda_edge": [
+        {
+          "from": 343,
+          "label": "Acknowledge",
+          "to": 339
+        }
+      ]
+    },
+    {
+      "index": 344,
+      "speaker": "Messenger",
+      "utterance": "Howling Garden's also out.",
+      "dda_edge": [
+        {
+          "from": 344,
+          "label": "Conjunction",
+          "to": 340
+        }
+      ]
+    },
+    {
+      "index": 345,
+      "speaker": "Pilot",
+      "utterance": "Mk. Um.",
+      "dda_edge": [
+        {
+          "from": 345,
+          "label": "Greeting",
+          "to": 345
+        },
+        {
+          "from": 345,
+          "label": "Stalling",
+          "to": 345
+        }
+      ]
+    },
+    {
+      "index": 346,
+      "speaker": "Pilot",
+      "utterance": "I keep knocking that down. Ok use one turn to get this treasure.",
+      "dda_edge": [
+        {
+          "from": 346,
+          "label": "Commit",
+          "to": 346
+        },
+        {
+          "from": 346,
+          "label": "SelfTalk",
+          "to": 346
+        },
+        {
+          "from": 346,
+          "label": "Statement",
+          "to": 346
+        }
+      ]
+    },
+    {
+      "index": 347,
+      "speaker": "Engineer",
+      "utterance": "Hmm.",
+      "dda_edge": [
+        {
+          "from": 347,
+          "label": "Acknowledge",
+          "to": 346
+        }
+      ]
+    },
+    {
+      "index": 348,
+      "speaker": "Pilot",
+      "utterance": "And then one turn yeah Pilot ability to do that and then Helicopter Lift to get us all out.",
+      "dda_edge": [
+        {
+          "from": 348,
+          "label": "After",
+          "to": 346
+        },
+        {
+          "from": 348,
+          "label": "Commit",
+          "to": 346
+        }
+      ]
+    },
+    {
+      "index": 349,
+      "speaker": "Messenger",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 350,
+      "speaker": "Engineer",
+      "utterance": "Yes.",
+      "dda_edge": [
+        {
+          "from": 350,
+          "label": "Exclamation",
+          "to": 348
+        },
+        {
+          "from": 350,
+          "label": "Appreciation",
+          "to": 348
+        }
+      ]
+    },
+    {
+      "index": 351,
+      "speaker": "Messenger",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 352,
+      "speaker": "Engineer",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 353,
+      "speaker": "Messenger",
+      "utterance": "",
+      "dda_edge": []
+    },
+    {
+      "index": 354,
+      "speaker": "Pilot",
+      "utterance": "",
+      "dda_edge": []
+    }
+  ]
+}

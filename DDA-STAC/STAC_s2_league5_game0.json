@@ -1,0 +1,2946 @@
+{
+  "domain": "stac",
+  "dialogue_id": "STAC_s2_league5_game0",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "UI",
+      "utterance": "zorburt joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 1,
+      "speaker": "UI",
+      "utterance": "zorburt sat down at seat 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 2,
+      "speaker": "UI",
+      "utterance": "Game state 0.",
+      "dda_edge": []
+    },
+    {
+      "index": 3,
+      "speaker": "UI",
+      "utterance": "raefbrisbin joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 4,
+      "speaker": "UI",
+      "utterance": "raefbrisbin sat down at seat 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 5,
+      "speaker": "UI",
+      "utterance": "Ghettoette joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 6,
+      "speaker": "UI",
+      "utterance": "catanstrophe joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 7,
+      "speaker": "UI",
+      "utterance": "Ghettoette sat down at seat 0.",
+      "dda_edge": []
+    },
+    {
+      "index": 8,
+      "speaker": "UI",
+      "utterance": "catanstrophe sat down at seat 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 9,
+      "speaker": "zorburt",
+      "utterance": "great!",
+      "dda_edge": [
+        {
+          "from": 9,
+          "label": "Greeting",
+          "to": 9
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "UI",
+      "utterance": "Game started.",
+      "dda_edge": []
+    },
+    {
+      "index": 11,
+      "speaker": "UI",
+      "utterance": "Board layout set.",
+      "dda_edge": []
+    },
+    {
+      "index": 12,
+      "speaker": "Server",
+      "utterance": "Randomly picking a starting player...",
+      "dda_edge": []
+    },
+    {
+      "index": 13,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 14,
+      "speaker": "catanstrophe",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 14,
+          "label": "Greeting",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "catanstrophe",
+      "utterance": "so what do we do now?",
+      "dda_edge": [
+        {
+          "from": 15,
+          "label": "QuestionInfoRequest",
+          "to": 14
+        },
+        {
+          "from": 15,
+          "label": "TaskManagement",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "catanstrophe",
+      "utterance": "who moves first i mean",
+      "dda_edge": [
+        {
+          "from": 16,
+          "label": "Instantiating",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "zorburt",
+      "utterance": "oh, apparently it says raef has to build a settlement.",
+      "dda_edge": [
+        {
+          "from": 17,
+          "label": "TaskManagement",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "raefbrisbin",
+      "utterance": "sorry",
+      "dda_edge": [
+        {
+          "from": 18,
+          "label": "Apology",
+          "to": 17
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Ghettoette",
+      "utterance": "i think click where you want a settlement",
+      "dda_edge": [
+        {
+          "from": 19,
+          "label": "ActionDirective",
+          "to": 18
+        },
+        {
+          "from": 19,
+          "label": "Hedge",
+          "to": 19
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "raefbrisbin",
+      "utterance": "just figuring out the resources",
+      "dda_edge": [
+        {
+          "from": 20,
+          "label": "Justifying",
+          "to": 18
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "zorburt",
+      "utterance": "yeah that's cool.",
+      "dda_edge": [
+        {
+          "from": 21,
+          "label": "Accept",
+          "to": 20
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Server",
+      "utterance": "raefbrisbin built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 23,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 24,
+      "speaker": "Server",
+      "utterance": "raefbrisbin built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 25,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 26,
+      "speaker": "Server",
+      "utterance": "catanstrophe built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 27,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 28,
+      "speaker": "Server",
+      "utterance": "catanstrophe built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 29,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 30,
+      "speaker": "Server",
+      "utterance": "Ghettoette built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 31,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 32,
+      "speaker": "Server",
+      "utterance": "Ghettoette built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 33,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 34,
+      "speaker": "Server",
+      "utterance": "zorburt built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 35,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 36,
+      "speaker": "Server",
+      "utterance": "zorburt built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 37,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 38,
+      "speaker": "Server",
+      "utterance": "zorburt built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 39,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 40,
+      "speaker": "Server",
+      "utterance": "zorburt built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 41,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 42,
+      "speaker": "Server",
+      "utterance": "Ghettoette built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 43,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 44,
+      "speaker": "Server",
+      "utterance": "Ghettoette built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 45,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 46,
+      "speaker": "Server",
+      "utterance": "catanstrophe built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 47,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 48,
+      "speaker": "Server",
+      "utterance": "catanstrophe built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 49,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to build a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 50,
+      "speaker": "Server",
+      "utterance": "raefbrisbin built a settlement.",
+      "dda_edge": []
+    },
+    {
+      "index": 51,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to build a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 52,
+      "speaker": "Server",
+      "utterance": "raefbrisbin built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 53,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 54,
+      "speaker": "Server",
+      "utterance": "raefbrisbin rolled a 3 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 55,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 56,
+      "speaker": "Server",
+      "utterance": "raefbrisbin gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 57,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 58,
+      "speaker": "UI",
+      "utterance": "zorburt has 2 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 59,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 60,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 61,
+      "speaker": "UI",
+      "utterance": "raefbrisbin ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 62,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 63,
+      "speaker": "Server",
+      "utterance": "catanstrophe rolled a 6 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 64,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 65,
+      "speaker": "Server",
+      "utterance": "raefbrisbin gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 66,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 67,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 68,
+      "speaker": "UI",
+      "utterance": "zorburt has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 69,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 70,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 71,
+      "speaker": "raefbrisbin",
+      "utterance": "?",
+      "dda_edge": []
+    },
+    {
+      "index": 72,
+      "speaker": "catanstrophe",
+      "utterance": "whose turn is it?",
+      "dda_edge": [
+        {
+          "from": 72,
+          "label": "QuestionInfoRequest",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "speaker": "raefbrisbin",
+      "utterance": "yours",
+      "dda_edge": [
+        {
+          "from": 73,
+          "label": "Answer",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "speaker": "zorburt",
+      "utterance": "i think ghettoette?",
+      "dda_edge": [
+        {
+          "from": 74,
+          "label": "Answer",
+          "to": 72
+        },
+        {
+          "from": 74,
+          "label": "Hedge",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "speaker": "Ghettoette",
+      "utterance": "you have to press done when done",
+      "dda_edge": [
+        {
+          "from": 75,
+          "label": "Statement",
+          "to": 74
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "speaker": "Ghettoette",
+      "utterance": "or i cant roll",
+      "dda_edge": [
+        {
+          "from": 76,
+          "label": "Conditioned",
+          "to": 75
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "speaker": "catanstrophe",
+      "utterance": "wait it skipped me?",
+      "dda_edge": [
+        {
+          "from": 77,
+          "label": "QuestionInfoRequest",
+          "to": 76
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "speaker": "catanstrophe",
+      "utterance": "I figured if it were my turn",
+      "dda_edge": [
+        {
+          "from": 78,
+          "label": "Justifying",
+          "to": 77
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "speaker": "catanstrophe",
+      "utterance": "the \"roll\" button would be enabled",
+      "dda_edge": [
+        {
+          "from": 79,
+          "label": "Conditioned",
+          "to": 78
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "speaker": "raefbrisbin",
+      "utterance": "it's been your turn the whole time",
+      "dda_edge": [
+        {
+          "from": 80,
+          "label": "Answer",
+          "to": 77
+        },
+        {
+          "from": 80,
+          "label": "Reject",
+          "to": 79
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "speaker": "raefbrisbin",
+      "utterance": "it auto rolls",
+      "dda_edge": [
+        {
+          "from": 81,
+          "label": "GivenDetails",
+          "to": 80
+        },
+        {
+          "from": 81,
+          "label": "GivingManner",
+          "to": 79
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "speaker": "zorburt",
+      "utterance": "i think it said catanstrophe rolled an 8",
+      "dda_edge": [
+        {
+          "from": 82,
+          "label": "Instantiating",
+          "to": 81
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "speaker": "catanstrophe",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 83,
+          "label": "Accept",
+          "to": 82
+        },
+        {
+          "from": 83,
+          "label": "Accept",
+          "to": 80
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "speaker": "catanstrophe",
+      "utterance": "sorry",
+      "dda_edge": [
+        {
+          "from": 84,
+          "label": "Apology",
+          "to": 83
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "speaker": "raefbrisbin",
+      "utterance": "the arrow points to the player as well",
+      "dda_edge": [
+        {
+          "from": 85,
+          "label": "Conjunction",
+          "to": 81
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "speaker": "catanstrophe",
+      "utterance": "anyone have brick?",
+      "dda_edge": [
+        {
+          "from": 86,
+          "label": "QuestionInfoRequest",
+          "to": 86
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "speaker": "raefbrisbin",
+      "utterance": "no worries, all figuring it out",
+      "dda_edge": [
+        {
+          "from": 87,
+          "label": "Sympathy",
+          "to": 84
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "speaker": "zorburt",
+      "utterance": "no brick.",
+      "dda_edge": [
+        {
+          "from": 88,
+          "label": "Answer",
+          "to": 86
+        },
+        {
+          "from": 88,
+          "label": "Reject",
+          "to": 86
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "speaker": "catanstrophe",
+      "utterance": "ahhh",
+      "dda_edge": [
+        {
+          "from": 89,
+          "label": "Exclamation",
+          "to": 85
+        }
+      ]
+    },
+    {
+      "index": 90,
+      "speaker": "catanstrophe",
+      "utterance": "i see the arrow thanks",
+      "dda_edge": [
+        {
+          "from": 90,
+          "label": "Thanking",
+          "to": 89
+        },
+        {
+          "from": 90,
+          "label": "Accept",
+          "to": 85
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "speaker": "raefbrisbin",
+      "utterance": "nope",
+      "dda_edge": [
+        {
+          "from": 91,
+          "label": "Answer",
+          "to": 86
+        },
+        {
+          "from": 91,
+          "label": "Reject",
+          "to": 86
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "speaker": "UI",
+      "utterance": "catanstrophe ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 93,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 94,
+      "speaker": "Server",
+      "utterance": "Ghettoette rolled a 2 and a 1.",
+      "dda_edge": []
+    },
+    {
+      "index": 95,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 96,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 97,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 98,
+      "speaker": "UI",
+      "utterance": "zorburt has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 99,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 100,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 101,
+      "speaker": "UI",
+      "utterance": "Ghettoette ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 102,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 103,
+      "speaker": "Server",
+      "utterance": "zorburt rolled a 5 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 104,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 105,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 106,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 107,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 108,
+      "speaker": "UI",
+      "utterance": "zorburt has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 109,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 110,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 111,
+      "speaker": "UI",
+      "utterance": "zorburt ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 112,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 113,
+      "speaker": "Server",
+      "utterance": "raefbrisbin rolled a 4 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 114,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 115,
+      "speaker": "Server",
+      "utterance": "raefbrisbin gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 116,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 117,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 118,
+      "speaker": "UI",
+      "utterance": "zorburt has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 119,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 120,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 121,
+      "speaker": "UI",
+      "utterance": "raefbrisbin ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 122,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 123,
+      "speaker": "Server",
+      "utterance": "catanstrophe rolled a 1 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 124,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 125,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 1 wheat.",
+      "dda_edge": []
+    },
+    {
+      "index": 126,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 127,
+      "speaker": "UI",
+      "utterance": "zorburt has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 128,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 129,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 130,
+      "speaker": "catanstrophe",
+      "utterance": "anyone have ore?",
+      "dda_edge": [
+        {
+          "from": 130,
+          "label": "QuestionInfoRequest",
+          "to": 130
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "speaker": "raefbrisbin",
+      "utterance": "yup",
+      "dda_edge": [
+        {
+          "from": 131,
+          "label": "Answer",
+          "to": 130
+        }
+      ]
+    },
+    {
+      "index": 132,
+      "speaker": "zorburt",
+      "utterance": "i hav an ore",
+      "dda_edge": [
+        {
+          "from": 132,
+          "label": "Answer",
+          "to": 130
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "speaker": "raefbrisbin",
+      "utterance": "4",
+      "dda_edge": [
+        {
+          "from": 133,
+          "label": "GivingDetails",
+          "to": 131
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "speaker": "catanstrophe",
+      "utterance": "will trade a sheep or wood or wheat",
+      "dda_edge": [
+        {
+          "from": 134,
+          "label": "Offer",
+          "to": 131
+        }
+      ]
+    },
+    {
+      "index": 135,
+      "speaker": "raefbrisbin",
+      "utterance": "wood",
+      "dda_edge": [
+        {
+          "from": 135,
+          "label": "Accept",
+          "to": 134
+        },
+        {
+          "from": 135,
+          "label": "Offer",
+          "to": 134
+        }
+      ]
+    },
+    {
+      "index": 136,
+      "speaker": "zorburt",
+      "utterance": "i'll take wood or wheat for an ore",
+      "dda_edge": [
+        {
+          "from": 136,
+          "label": "Accept",
+          "to": 134
+        },
+        {
+          "from": 136,
+          "label": "Offer",
+          "to": 134
+        }
+      ]
+    },
+    {
+      "index": 137,
+      "speaker": "raefbrisbin",
+      "utterance": "for 2",
+      "dda_edge": [
+        {
+          "from": 137,
+          "label": "Empty",
+          "to": 135
+        }
+      ]
+    },
+    {
+      "index": 138,
+      "speaker": "catanstrophe",
+      "utterance": "ok will trade wood",
+      "dda_edge": [
+        {
+          "from": 138,
+          "label": "Accept",
+          "to": 137
+        }
+      ]
+    },
+    {
+      "index": 139,
+      "speaker": "catanstrophe",
+      "utterance": "hold on let me figure this out",
+      "dda_edge": [
+        {
+          "from": 139,
+          "label": "Stalling",
+          "to": 138
+        }
+      ]
+    },
+    {
+      "index": 140,
+      "speaker": "catanstrophe",
+      "utterance": "hmm",
+      "dda_edge": [
+        {
+          "from": 140,
+          "label": "Empty",
+          "to": 139
+        }
+      ]
+    },
+    {
+      "index": 141,
+      "speaker": "catanstrophe",
+      "utterance": "can you do 1 for 1?",
+      "dda_edge": [
+        {
+          "from": 141,
+          "label": "QuestionInfoRequest",
+          "to": 140
+        },
+        {
+          "from": 141,
+          "label": "Proposal",
+          "to": 140
+        }
+      ]
+    },
+    {
+      "index": 142,
+      "speaker": "zorburt",
+      "utterance": "i can!",
+      "dda_edge": [
+        {
+          "from": 142,
+          "label": "Answer",
+          "to": 141
+        },
+        {
+          "from": 142,
+          "label": "Accept",
+          "to": 141
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "speaker": "raefbrisbin",
+      "utterance": "i'll give 2",
+      "dda_edge": [
+        {
+          "from": 143,
+          "label": "Accept",
+          "to": 141
+        },
+        {
+          "from": 143,
+          "label": "Answer",
+          "to": 141
+        },
+        {
+          "from": 143,
+          "label": "Contrast",
+          "to": 141
+        },
+        {
+          "from": 143,
+          "label": "Restatement",
+          "to": 137
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "speaker": "catanstrophe",
+      "utterance": "raef: give two ore for 1 what?",
+      "dda_edge": [
+        {
+          "from": 144,
+          "label": "QuestionInfoRequest",
+          "to": 143
+        }
+      ]
+    },
+    {
+      "index": 145,
+      "speaker": "raefbrisbin",
+      "utterance": "wood",
+      "dda_edge": [
+        {
+          "from": 145,
+          "label": "Answer",
+          "to": 144
+        }
+      ]
+    },
+    {
+      "index": 146,
+      "speaker": "catanstrophe",
+      "utterance": "oksounds good",
+      "dda_edge": [
+        {
+          "from": 146,
+          "label": "Accept",
+          "to": 145
+        }
+      ]
+    },
+    {
+      "index": 147,
+      "speaker": "Server",
+      "utterance": "catanstrophe made an offer to trade 1 wood for 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 148,
+      "speaker": "UI",
+      "utterance": "... from raefbrisbin",
+      "dda_edge": []
+    },
+    {
+      "index": 149,
+      "speaker": "Server",
+      "utterance": "catanstrophe traded 1 wood for 2 ore from raefbrisbin.",
+      "dda_edge": []
+    },
+    {
+      "index": 150,
+      "speaker": "catanstrophe",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 150,
+          "label": "Greeting",
+          "to": 150
+        }
+      ]
+    },
+    {
+      "index": 151,
+      "speaker": "catanstrophe",
+      "utterance": "did you get the trade?",
+      "dda_edge": [
+        {
+          "from": 151,
+          "label": "QuestionInfoRequest",
+          "to": 150
+        }
+      ]
+    },
+    {
+      "index": 152,
+      "speaker": "raefbrisbin",
+      "utterance": "ya",
+      "dda_edge": [
+        {
+          "from": 152,
+          "label": "Answer",
+          "to": 151
+        }
+      ]
+    },
+    {
+      "index": 153,
+      "speaker": "catanstrophe",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 153,
+          "label": "Acknowledge",
+          "to": 152
+        }
+      ]
+    },
+    {
+      "index": 154,
+      "speaker": "catanstrophe",
+      "utterance": "how does one buy something?",
+      "dda_edge": [
+        {
+          "from": 154,
+          "label": "QuestionInfoRequest",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 155,
+      "speaker": "catanstrophe",
+      "utterance": "(sorry",
+      "dda_edge": [
+        {
+          "from": 155,
+          "label": "Apology",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 156,
+      "speaker": "catanstrophe",
+      "utterance": "thisis taking a long time)",
+      "dda_edge": [
+        {
+          "from": 156,
+          "label": "Empty",
+          "to": 155
+        }
+      ]
+    },
+    {
+      "index": 157,
+      "speaker": "zorburt",
+      "utterance": "trade with bank i think",
+      "dda_edge": [
+        {
+          "from": 157,
+          "label": "Answer",
+          "to": 154
+        },
+        {
+          "from": 157,
+          "label": "Hedge",
+          "to": 157
+        }
+      ]
+    },
+    {
+      "index": 158,
+      "speaker": "Ghettoette",
+      "utterance": "trade w/ bank/port button",
+      "dda_edge": [
+        {
+          "from": 158,
+          "label": "Answer",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 159,
+      "speaker": "zorburt",
+      "utterance": "that's ok.",
+      "dda_edge": [
+        {
+          "from": 159,
+          "label": "Downplayer",
+          "to": 155
+        }
+      ]
+    },
+    {
+      "index": 160,
+      "speaker": "zorburt",
+      "utterance": "we're still all figuring it out too",
+      "dda_edge": [
+        {
+          "from": 160,
+          "label": "GivingDetails",
+          "to": 159
+        },
+        {
+          "from": 160,
+          "label": "Sympathy",
+          "to": 159
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "speaker": "UI",
+      "utterance": "catanstrophe made an offer to trade 3 ore, 2 wheat for  from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 162,
+      "speaker": "Server",
+      "utterance": "You can't make that trade.",
+      "dda_edge": []
+    },
+    {
+      "index": 163,
+      "speaker": "raefbrisbin",
+      "utterance": "not buttons beside the buildings?",
+      "dda_edge": [
+        {
+          "from": 163,
+          "label": "QuestionInfoRequest",
+          "to": 154
+        }
+      ]
+    },
+    {
+      "index": 164,
+      "speaker": "Server",
+      "utterance": "catanstrophe built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 165,
+      "speaker": "catanstrophe",
+      "utterance": "ok it worked",
+      "dda_edge": [
+        {
+          "from": 165,
+          "label": "Statement",
+          "to": 163
+        },
+        {
+          "from": 165,
+          "label": "Greeting",
+          "to": 165
+        }
+      ]
+    },
+    {
+      "index": 166,
+      "speaker": "catanstrophe",
+      "utterance": "do the trade with bank",
+      "dda_edge": [
+        {
+          "from": 166,
+          "label": "Accept",
+          "to": 158
+        },
+        {
+          "from": 166,
+          "label": "Accept",
+          "to": 157
+        },
+        {
+          "from": 166,
+          "label": "Restatement",
+          "to": 158
+        },
+        {
+          "from": 166,
+          "label": "Restatement",
+          "to": 157
+        },
+        {
+          "from": 166,
+          "label": "ActionDirective",
+          "to": 166
+        }
+      ]
+    },
+    {
+      "index": 167,
+      "speaker": "catanstrophe",
+      "utterance": "and then right click on the settllement you want to upgrade to a city",
+      "dda_edge": [
+        {
+          "from": 167,
+          "label": "After",
+          "to": 166
+        }
+      ]
+    },
+    {
+      "index": 168,
+      "speaker": "UI",
+      "utterance": "catanstrophe ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 169,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 170,
+      "speaker": "Server",
+      "utterance": "Ghettoette rolled a 2 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 171,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 172,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 173,
+      "speaker": "Server",
+      "utterance": "raefbrisbin gets 1 clay.",
+      "dda_edge": []
+    },
+    {
+      "index": 174,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 175,
+      "speaker": "UI",
+      "utterance": "zorburt has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 176,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 177,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 178,
+      "speaker": "catanstrophe",
+      "utterance": "goodthing we are doing this practice round",
+      "dda_edge": [
+        {
+          "from": 178,
+          "label": "Opinion",
+          "to": 178
+        }
+      ]
+    },
+    {
+      "index": 179,
+      "speaker": "UI",
+      "utterance": "Ghettoette made an offer to trade 1 clay, 1 sheep for  from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 180,
+      "speaker": "Server",
+      "utterance": "You can't make that trade.",
+      "dda_edge": []
+    },
+    {
+      "index": 181,
+      "speaker": "Server",
+      "utterance": "Ghettoette built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 182,
+      "speaker": "UI",
+      "utterance": "Ghettoette ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 183,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 184,
+      "speaker": "Server",
+      "utterance": "zorburt rolled a 5 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 185,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 186,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 187,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 2 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 188,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 189,
+      "speaker": "UI",
+      "utterance": "zorburt has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 190,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 191,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 192,
+      "speaker": "zorburt",
+      "utterance": "trade a sheep or ore for a clay?",
+      "dda_edge": [
+        {
+          "from": 192,
+          "label": "Offer",
+          "to": 192
+        },
+        {
+          "from": 192,
+          "label": "QuestionInfoRequest",
+          "to": 192
+        }
+      ]
+    },
+    {
+      "index": 193,
+      "speaker": "zorburt",
+      "utterance": "anyone?",
+      "dda_edge": [
+        {
+          "from": 193,
+          "label": "Restatement",
+          "to": 192
+        }
+      ]
+    },
+    {
+      "index": 194,
+      "speaker": "zorburt",
+      "utterance": "sorry not clay.",
+      "dda_edge": [
+        {
+          "from": 194,
+          "label": "Apology",
+          "to": 192
+        },
+        {
+          "from": 194,
+          "label": "Correction",
+          "to": 192
+        }
+      ]
+    },
+    {
+      "index": 195,
+      "speaker": "zorburt",
+      "utterance": "wood.",
+      "dda_edge": [
+        {
+          "from": 195,
+          "label": "GivingDetails",
+          "to": 194
+        }
+      ]
+    },
+    {
+      "index": 196,
+      "speaker": "raefbrisbin",
+      "utterance": "nay",
+      "dda_edge": [
+        {
+          "from": 196,
+          "label": "Answer",
+          "to": 192
+        },
+        {
+          "from": 196,
+          "label": "Reject",
+          "to": 192
+        }
+      ]
+    },
+    {
+      "index": 197,
+      "speaker": "catanstrophe",
+      "utterance": "no i am looking for clay as well",
+      "dda_edge": [
+        {
+          "from": 197,
+          "label": "Answer",
+          "to": 192
+        },
+        {
+          "from": 197,
+          "label": "Justifying",
+          "to": 197
+        },
+        {
+          "from": 197,
+          "label": "Reject",
+          "to": 192
+        }
+      ]
+    },
+    {
+      "index": 198,
+      "speaker": "raefbrisbin",
+      "utterance": "same old story :)",
+      "dda_edge": [
+        {
+          "from": 198,
+          "label": "Joke",
+          "to": 197
+        }
+      ]
+    },
+    {
+      "index": 199,
+      "speaker": "zorburt",
+      "utterance": "sorry,",
+      "dda_edge": [
+        {
+          "from": 199,
+          "label": "Apology",
+          "to": 197
+        }
+      ]
+    },
+    {
+      "index": 200,
+      "speaker": "zorburt",
+      "utterance": "essentially i need wood.",
+      "dda_edge": [
+        {
+          "from": 200,
+          "label": "GivingDetails",
+          "to": 195
+        }
+      ]
+    },
+    {
+      "index": 201,
+      "speaker": "zorburt",
+      "utterance": "i mistyped.",
+      "dda_edge": [
+        {
+          "from": 201,
+          "label": "GivingDetails",
+          "to": 200
+        }
+      ]
+    },
+    {
+      "index": 202,
+      "speaker": "catanstrophe",
+      "utterance": "ok i have one to trade for one clay",
+      "dda_edge": [
+        {
+          "from": 202,
+          "label": "Accept",
+          "to": 200
+        },
+        {
+          "from": 202,
+          "label": "Offer",
+          "to": 200
+        }
+      ]
+    },
+    {
+      "index": 203,
+      "speaker": "zorburt",
+      "utterance": "bah i need my clay.",
+      "dda_edge": [
+        {
+          "from": 203,
+          "label": "Reject",
+          "to": 202
+        }
+      ]
+    },
+    {
+      "index": 204,
+      "speaker": "zorburt",
+      "utterance": "thanks tho",
+      "dda_edge": [
+        {
+          "from": 204,
+          "label": "Thanking",
+          "to": 202
+        }
+      ]
+    },
+    {
+      "index": 205,
+      "speaker": "UI",
+      "utterance": "zorburt ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 206,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 207,
+      "speaker": "Server",
+      "utterance": "raefbrisbin rolled a 6 and a 2.",
+      "dda_edge": []
+    },
+    {
+      "index": 208,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 209,
+      "speaker": "Server",
+      "utterance": "raefbrisbin gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 210,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 2 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 211,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 212,
+      "speaker": "UI",
+      "utterance": "zorburt has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 213,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 6 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 214,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 215,
+      "speaker": "Server",
+      "utterance": "raefbrisbin built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 216,
+      "speaker": "UI",
+      "utterance": "raefbrisbin ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 217,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 218,
+      "speaker": "Server",
+      "utterance": "catanstrophe rolled a 1 and a 3.",
+      "dda_edge": []
+    },
+    {
+      "index": 219,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 220,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 221,
+      "speaker": "Server",
+      "utterance": "raefbrisbin gets 1 ore.",
+      "dda_edge": []
+    },
+    {
+      "index": 222,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 223,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 8 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 224,
+      "speaker": "UI",
+      "utterance": "zorburt has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 225,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 226,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 227,
+      "speaker": "catanstrophe",
+      "utterance": "i am looking for grain.",
+      "dda_edge": [
+        {
+          "from": 227,
+          "label": "Statement",
+          "to": 227
+        }
+      ]
+    },
+    {
+      "index": 228,
+      "speaker": "catanstrophe",
+      "utterance": "can trade sheep or wood",
+      "dda_edge": [
+        {
+          "from": 228,
+          "label": "Offer",
+          "to": 227
+        }
+      ]
+    },
+    {
+      "index": 229,
+      "speaker": "raefbrisbin",
+      "utterance": "none",
+      "dda_edge": [
+        {
+          "from": 229,
+          "label": "Reject",
+          "to": 228
+        }
+      ]
+    },
+    {
+      "index": 230,
+      "speaker": "zorburt",
+      "utterance": "none.",
+      "dda_edge": [
+        {
+          "from": 230,
+          "label": "Reject",
+          "to": 228
+        }
+      ]
+    },
+    {
+      "index": 231,
+      "speaker": "catanstrophe",
+      "utterance": "hmm",
+      "dda_edge": [
+        {
+          "from": 231,
+          "label": "Stalling",
+          "to": 231
+        }
+      ]
+    },
+    {
+      "index": 232,
+      "speaker": "catanstrophe",
+      "utterance": "does anyone have sheep?",
+      "dda_edge": [
+        {
+          "from": 232,
+          "label": "QuestionInfoRequest",
+          "to": 231
+        },
+        {
+          "from": 232,
+          "label": "Proposal",
+          "to": 231
+        }
+      ]
+    },
+    {
+      "index": 233,
+      "speaker": "Ghettoette",
+      "utterance": "have sheep for ore or brick",
+      "dda_edge": [
+        {
+          "from": 233,
+          "label": "Answer",
+          "to": 232
+        },
+        {
+          "from": 233,
+          "label": "Offer",
+          "to": 232
+        },
+        {
+          "from": 233,
+          "label": "Accept",
+          "to": 232
+        }
+      ]
+    },
+    {
+      "index": 234,
+      "speaker": "zorburt",
+      "utterance": "i'll trade a sheep for brick.",
+      "dda_edge": [
+        {
+          "from": 234,
+          "label": "Answer",
+          "to": 232
+        },
+        {
+          "from": 234,
+          "label": "Offer",
+          "to": 232
+        },
+        {
+          "from": 234,
+          "label": "Accept",
+          "to": 232
+        }
+      ]
+    },
+    {
+      "index": 235,
+      "speaker": "Ghettoette",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 235,
+          "label": "Acknowledge",
+          "to": 234
+        }
+      ]
+    },
+    {
+      "index": 236,
+      "speaker": "catanstrophe",
+      "utterance": "i can give one wood for one sheep?",
+      "dda_edge": [
+        {
+          "from": 236,
+          "label": "Offer",
+          "to": 232
+        }
+      ]
+    },
+    {
+      "index": 237,
+      "speaker": "catanstrophe",
+      "utterance": "sorry",
+      "dda_edge": [
+        {
+          "from": 237,
+          "label": "Apology",
+          "to": 236
+        }
+      ]
+    },
+    {
+      "index": 238,
+      "speaker": "catanstrophe",
+      "utterance": "meant period",
+      "dda_edge": [
+        {
+          "from": 238,
+          "label": "Correction",
+          "to": 236
+        }
+      ]
+    },
+    {
+      "index": 239,
+      "speaker": "Ghettoette",
+      "utterance": "oops sorry",
+      "dda_edge": [
+        {
+          "from": 239,
+          "label": "Apology",
+          "to": 238
+        }
+      ]
+    },
+    {
+      "index": 240,
+      "speaker": "Ghettoette",
+      "utterance": "i'm confused :)",
+      "dda_edge": [
+        {
+          "from": 240,
+          "label": "GivingDetails",
+          "to": 239
+        }
+      ]
+    },
+    {
+      "index": 241,
+      "speaker": "zorburt",
+      "utterance": "yeah i can do that.",
+      "dda_edge": [
+        {
+          "from": 241,
+          "label": "Accept",
+          "to": 236
+        }
+      ]
+    },
+    {
+      "index": 242,
+      "speaker": "zorburt",
+      "utterance": "sorry",
+      "dda_edge": [
+        {
+          "from": 242,
+          "label": "Apology",
+          "to": 240
+        }
+      ]
+    },
+    {
+      "index": 243,
+      "speaker": "zorburt",
+      "utterance": "i got cofused earlier with ghettoette.",
+      "dda_edge": [
+        {
+          "from": 243,
+          "label": "Statement",
+          "to": 242
+        },
+        {
+          "from": 243,
+          "label": "Restatement",
+          "to": 240
+        }
+      ]
+    },
+    {
+      "index": 244,
+      "speaker": "zorburt",
+      "utterance": "catanstrophe: i can give you a sheep for your wood.",
+      "dda_edge": [
+        {
+          "from": 244,
+          "label": "Restatement",
+          "to": 241
+        }
+      ]
+    },
+    {
+      "index": 245,
+      "speaker": "catanstrophe",
+      "utterance": "ok zorburt",
+      "dda_edge": [
+        {
+          "from": 245,
+          "label": "Accept",
+          "to": 244
+        }
+      ]
+    },
+    {
+      "index": 246,
+      "speaker": "catanstrophe",
+      "utterance": "i will gie you one wood for one sheep",
+      "dda_edge": [
+        {
+          "from": 246,
+          "label": "Restatement",
+          "to": 244
+        }
+      ]
+    },
+    {
+      "index": 247,
+      "speaker": "zorburt",
+      "utterance": "excellent.",
+      "dda_edge": [
+        {
+          "from": 247,
+          "label": "Appreciation",
+          "to": 246
+        }
+      ]
+    },
+    {
+      "index": 248,
+      "speaker": "Server",
+      "utterance": "catanstrophe made an offer to trade 1 wood for 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 249,
+      "speaker": "UI",
+      "utterance": "... from zorburt",
+      "dda_edge": []
+    },
+    {
+      "index": 250,
+      "speaker": "Server",
+      "utterance": "catanstrophe traded 1 wood for 1 sheep from zorburt.",
+      "dda_edge": []
+    },
+    {
+      "index": 251,
+      "speaker": "catanstrophe",
+      "utterance": "sent the trade",
+      "dda_edge": [
+        {
+          "from": 251,
+          "label": "TaskManagement",
+          "to": 247
+        }
+      ]
+    },
+    {
+      "index": 252,
+      "speaker": "zorburt",
+      "utterance": "done.",
+      "dda_edge": [
+        {
+          "from": 252,
+          "label": "Acknowledge",
+          "to": 251
+        }
+      ]
+    },
+    {
+      "index": 253,
+      "speaker": "UI",
+      "utterance": "catanstrophe made an offer to trade 4 sheep for 1 wheat from the bank or a port.",
+      "dda_edge": []
+    },
+    {
+      "index": 254,
+      "speaker": "Server",
+      "utterance": "catanstrophe traded 4 sheep for 1 wheat from the bank.",
+      "dda_edge": []
+    },
+    {
+      "index": 255,
+      "speaker": "Server",
+      "utterance": "catanstrophe built a city.",
+      "dda_edge": []
+    },
+    {
+      "index": 256,
+      "speaker": "UI",
+      "utterance": "catanstrophe ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 257,
+      "speaker": "Server",
+      "utterance": "It's Ghettoette's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 258,
+      "speaker": "Server",
+      "utterance": "Ghettoette rolled a 6 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 259,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 260,
+      "speaker": "Server",
+      "utterance": "zorburt gets 1 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 261,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 2 sheep.",
+      "dda_edge": []
+    },
+    {
+      "index": 262,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 9 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 263,
+      "speaker": "UI",
+      "utterance": "zorburt has 10 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 264,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 265,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 3 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 266,
+      "speaker": "Server",
+      "utterance": "Ghettoette bought a development card.",
+      "dda_edge": []
+    },
+    {
+      "index": 267,
+      "speaker": "UI",
+      "utterance": "Ghettoette ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 268,
+      "speaker": "Server",
+      "utterance": "It's zorburt's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 269,
+      "speaker": "Server",
+      "utterance": "zorburt rolled a 2 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 270,
+      "speaker": "Server",
+      "utterance": "zorburt needs to discard.",
+      "dda_edge": []
+    },
+    {
+      "index": 271,
+      "speaker": "raefbrisbin",
+      "utterance": "Once we all have the idea",
+      "dda_edge": [
+        {
+          "from": 271,
+          "label": "QuestionInfoRequest",
+          "to": 271
+        }
+      ]
+    },
+    {
+      "index": 272,
+      "speaker": "raefbrisbin",
+      "utterance": "can we start the real one",
+      "dda_edge": [
+        {
+          "from": 272,
+          "label": "Conditioned",
+          "to": 271
+        },
+        {
+          "from": 272,
+          "label": "Proposal",
+          "to": 271
+        }
+      ]
+    },
+    {
+      "index": 273,
+      "speaker": "raefbrisbin",
+      "utterance": "or are we playing this out entirely?",
+      "dda_edge": [
+        {
+          "from": 273,
+          "label": "Alternative",
+          "to": 272
+        }
+      ]
+    },
+    {
+      "index": 274,
+      "speaker": "catanstrophe",
+      "utterance": "i am fine with going on to the real one",
+      "dda_edge": [
+        {
+          "from": 274,
+          "label": "Answer",
+          "to": 271
+        },
+        {
+          "from": 274,
+          "label": "Accept",
+          "to": 271
+        }
+      ]
+    },
+    {
+      "index": 275,
+      "speaker": "Server",
+      "utterance": "zorburt discarded 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 276,
+      "speaker": "Server",
+      "utterance": "zorburt will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 277,
+      "speaker": "zorburt",
+      "utterance": "oh MAN.",
+      "dda_edge": [
+        {
+          "from": 277,
+          "label": "Exclamation",
+          "to": 275
+        }
+      ]
+    },
+    {
+      "index": 278,
+      "speaker": "zorburt",
+      "utterance": "yeah that's fine with me.",
+      "dda_edge": [
+        {
+          "from": 278,
+          "label": "Accept",
+          "to": 274
+        },
+        {
+          "from": 278,
+          "label": "Answer",
+          "to": 271
+        }
+      ]
+    },
+    {
+      "index": 279,
+      "speaker": "Ghettoette",
+      "utterance": "me too",
+      "dda_edge": [
+        {
+          "from": 279,
+          "label": "Accept",
+          "to": 274
+        },
+        {
+          "from": 279,
+          "label": "Answer",
+          "to": 271
+        }
+      ]
+    },
+    {
+      "index": 280,
+      "speaker": "zorburt",
+      "utterance": "esp cuz i just lost 5 cards haha",
+      "dda_edge": [
+        {
+          "from": 280,
+          "label": "Joke",
+          "to": 278
+        },
+        {
+          "from": 280,
+          "label": "Justifying",
+          "to": 278
+        }
+      ]
+    },
+    {
+      "index": 281,
+      "speaker": "zorburt",
+      "utterance": "wait",
+      "dda_edge": [
+        {
+          "from": 281,
+          "label": "ActionDirective",
+          "to": 281
+        }
+      ]
+    },
+    {
+      "index": 282,
+      "speaker": "zorburt",
+      "utterance": "i want to practice buildign something.",
+      "dda_edge": [
+        {
+          "from": 282,
+          "label": "Statement",
+          "to": 281
+        }
+      ]
+    },
+    {
+      "index": 283,
+      "speaker": "raefbrisbin",
+      "utterance": "plus it will take hours :)",
+      "dda_edge": [
+        {
+          "from": 283,
+          "label": "Conjunction",
+          "to": 280
+        },
+        {
+          "from": 283,
+          "label": "Motivating",
+          "to": 274
+        }
+      ]
+    },
+    {
+      "index": 284,
+      "speaker": "zorburt",
+      "utterance": "oh i can't",
+      "dda_edge": [
+        {
+          "from": 284,
+          "label": "Statement",
+          "to": 282
+        }
+      ]
+    },
+    {
+      "index": 285,
+      "speaker": "zorburt",
+      "utterance": "i dunno why.",
+      "dda_edge": [
+        {
+          "from": 285,
+          "label": "GivingDetails",
+          "to": 284
+        }
+      ]
+    },
+    {
+      "index": 286,
+      "speaker": "Server",
+      "utterance": "zorburt moved the robber, must choose a victim.",
+      "dda_edge": []
+    },
+    {
+      "index": 287,
+      "speaker": "Server",
+      "utterance": "zorburt stole a resource from raefbrisbin",
+      "dda_edge": []
+    },
+    {
+      "index": 288,
+      "speaker": "raefbrisbin",
+      "utterance": "I know for roads it will show on the map",
+      "dda_edge": [
+        {
+          "from": 288,
+          "label": "Statement",
+          "to": 285
+        }
+      ]
+    },
+    {
+      "index": 289,
+      "speaker": "raefbrisbin",
+      "utterance": "when you scroll over",
+      "dda_edge": [
+        {
+          "from": 289,
+          "label": "Conditioning",
+          "to": 288
+        }
+      ]
+    },
+    {
+      "index": 290,
+      "speaker": "raefbrisbin",
+      "utterance": "when you're capable of building",
+      "dda_edge": [
+        {
+          "from": 290,
+          "label": "Conditioning",
+          "to": 288
+        }
+      ]
+    },
+    {
+      "index": 291,
+      "speaker": "Ghettoette",
+      "utterance": "i just realized you click at the bottom in the green box-",
+      "dda_edge": [
+        {
+          "from": 291,
+          "label": "Statement",
+          "to": 285
+        }
+      ]
+    },
+    {
+      "index": 292,
+      "speaker": "Ghettoette",
+      "utterance": "it shows what is available",
+      "dda_edge": [
+        {
+          "from": 292,
+          "label": "After",
+          "to": 291
+        }
+      ]
+    },
+    {
+      "index": 293,
+      "speaker": "Server",
+      "utterance": "zorburt built a road.",
+      "dda_edge": []
+    },
+    {
+      "index": 294,
+      "speaker": "zorburt",
+      "utterance": "yeah.",
+      "dda_edge": [
+        {
+          "from": 294,
+          "label": "Accept",
+          "to": 292
+        }
+      ]
+    },
+    {
+      "index": 295,
+      "speaker": "zorburt",
+      "utterance": "just build a road.",
+      "dda_edge": [
+        {
+          "from": 295,
+          "label": "Statement",
+          "to": 294
+        }
+      ]
+    },
+    {
+      "index": 296,
+      "speaker": "UI",
+      "utterance": "zorburt ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 297,
+      "speaker": "Server",
+      "utterance": "It's raefbrisbin's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 298,
+      "speaker": "Server",
+      "utterance": "raefbrisbin rolled a 5 and a 4.",
+      "dda_edge": []
+    },
+    {
+      "index": 299,
+      "speaker": "Server",
+      "utterance": "Ghettoette gets 1 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 300,
+      "speaker": "Server",
+      "utterance": "catanstrophe gets 2 wood.",
+      "dda_edge": []
+    },
+    {
+      "index": 301,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 7 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 302,
+      "speaker": "UI",
+      "utterance": "zorburt has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 303,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 4 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 304,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 5 resources.",
+      "dda_edge": []
+    },
+    {
+      "index": 305,
+      "speaker": "UI",
+      "utterance": "raefbrisbin ended their turn.",
+      "dda_edge": []
+    },
+    {
+      "index": 306,
+      "speaker": "Server",
+      "utterance": "It's catanstrophe's turn to roll the dice.",
+      "dda_edge": []
+    },
+    {
+      "index": 307,
+      "speaker": "zorburt",
+      "utterance": "ok cool.",
+      "dda_edge": [
+        {
+          "from": 307,
+          "label": "Appreciation",
+          "to": 295
+        }
+      ]
+    },
+    {
+      "index": 308,
+      "speaker": "zorburt",
+      "utterance": "if we're all good",
+      "dda_edge": [
+        {
+          "from": 308,
+          "label": "Proposal",
+          "to": 308
+        }
+      ]
+    },
+    {
+      "index": 309,
+      "speaker": "zorburt",
+      "utterance": "we can start a new game.",
+      "dda_edge": [
+        {
+          "from": 309,
+          "label": "Conditioned",
+          "to": 308
+        },
+        {
+          "from": 309,
+          "label": "Proposal",
+          "to": 308
+        }
+      ]
+    },
+    {
+      "index": 310,
+      "speaker": "Server",
+      "utterance": "catanstrophe rolled a 2 and a 5.",
+      "dda_edge": []
+    },
+    {
+      "index": 311,
+      "speaker": "Server",
+      "utterance": "catanstrophe will move the robber.",
+      "dda_edge": []
+    },
+    {
+      "index": 312,
+      "speaker": "raefbrisbin",
+      "utterance": "I'm good",
+      "dda_edge": [
+        {
+          "from": 312,
+          "label": "Accept",
+          "to": 309
+        }
+      ]
+    },
+    {
+      "index": 313,
+      "speaker": "Ghettoette",
+      "utterance": "me too",
+      "dda_edge": [
+        {
+          "from": 313,
+          "label": "Accept",
+          "to": 309
+        }
+      ]
+    },
+    {
+      "index": 314,
+      "speaker": "raefbrisbin",
+      "utterance": "k",
+      "dda_edge": [
+        {
+          "from": 314,
+          "label": "Accept",
+          "to": 309
+        }
+      ]
+    },
+    {
+      "index": 315,
+      "speaker": "catanstrophe",
+      "utterance": "ok",
+      "dda_edge": [
+        {
+          "from": 315,
+          "label": "Accept",
+          "to": 314
+        }
+      ]
+    },
+    {
+      "index": 316,
+      "speaker": "catanstrophe",
+      "utterance": "let's kill it",
+      "dda_edge": [
+        {
+          "from": 316,
+          "label": "Proposal",
+          "to": 315
+        }
+      ]
+    },
+    {
+      "index": 317,
+      "speaker": "Server",
+      "utterance": "zorburt left the game",
+      "dda_edge": []
+    },
+    {
+      "index": 318,
+      "speaker": "Server",
+      "utterance": "raefbrisbin left the game",
+      "dda_edge": []
+    },
+    {
+      "index": 319,
+      "speaker": "Server",
+      "utterance": "Ghettoette left the game",
+      "dda_edge": []
+    },
+    {
+      "index": 320,
+      "speaker": "UI",
+      "utterance": "Ghettoette joined the game.",
+      "dda_edge": []
+    },
+    {
+      "index": 321,
+      "speaker": "Server",
+      "utterance": "catanstrophe left the game",
+      "dda_edge": []
+    },
+    {
+      "index": 322,
+      "speaker": "Server",
+      "utterance": ">>> null has won the game with 4 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 323,
+      "speaker": "UI",
+      "utterance": "Ghettoette has 3 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 324,
+      "speaker": "UI",
+      "utterance": "zorburt has 2 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 325,
+      "speaker": "UI",
+      "utterance": "raefbrisbin has 2 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 326,
+      "speaker": "UI",
+      "utterance": "catanstrophe has 4 points.",
+      "dda_edge": []
+    },
+    {
+      "index": 327,
+      "speaker": "Server",
+      "utterance": "null has a Temple (+1VP)",
+      "dda_edge": []
+    },
+    {
+      "index": 328,
+      "speaker": "Server",
+      "utterance": "This game was 4 rounds, and took 32 minutes 14 seconds.",
+      "dda_edge": []
+    }
+  ]
+}
