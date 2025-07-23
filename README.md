@@ -44,7 +44,7 @@ Here are some helpful resources for working with our dataset:
 
 * **Annotation Tool**: The tool used for DDA annotation can be found here: `https://dda.colorado.edu/v2/`. This is pure web based tool and we do NOT host or store your data on our server. The responsibility of maintaining the annotation progress is on the user solely by saving checkpoint files locally.
 
-* **Codebook**: A detailed codebook describing all variables, fields, and annotation labels is available here: `https://nsf-isat.github.io/dda-codebook/`
+* **Codebook**: A detailed codebook describing all variables, fields, and annotation labels is available here: [`https://nsf-isat.github.io/dda-codebook/`](https://nsf-isat.github.io/dda-codebook/)
 
 ***
 
