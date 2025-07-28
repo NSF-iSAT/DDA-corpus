@@ -29,6 +29,7 @@ The dataset is divided into two parts: a publicly accessible subset and a limite
 **Public Data**: The public portion of the dataset can be downloaded directly from this repository and please credit the original work of the source data. We provide their citation link for your reference.
 
 **Limited-Access Data**: Due to privacy concerns, a portion of this dataset requires an application and is subject to a data use agreement. To request access, please follow these steps:
+(we are working on verifying the de-identified transcript of the Sensor Immersion K12 and Pulley K12 subset as public data. These DDA annotated transcripts will be release soon)
 
 1.  Complete and Submit the **Data Access Application Form**: `[https://docs.google.com/forms/d/14OTgBotdVicGrYGcvkxa_iOXJ9daWJeX01mxAIkWB18/viewform?edit_requested=true]`
 2.  Email the data controller at **[Thomas Breideband][thomas.breideband@colorado.edu]**.
@@ -53,8 +54,31 @@ Here are some helpful resources for working with our dataset:
 If you use this dataset in your research, please cite our work.
 
 ```bibtex
-@inproceedings{
-  # to be released soon
+@inproceedings{cai-etal-2025-search,
+    title = "In Search of the Lost Arch in Dialogue: A Dependency Dialogue Acts Corpus for Multi-Party Dialogues",
+    author = "Cai, Jon  and
+      King, Brendan  and
+      Cameron, Peyton  and
+      Brown, Susan Windisch  and
+      Eckert, Miriam  and
+      Srinivas, Dananjay  and
+      Baker, George Arthur  and
+      Everson, V Kate  and
+      Palmer, Martha  and
+      Martin, James  and
+      Flanigan, Jeffrey",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1032/",
+    pages = "20135--20149",
+    ISBN = "979-8-89176-256-5"
 }
 ```
 
