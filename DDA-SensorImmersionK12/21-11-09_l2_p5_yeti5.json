@@ -1,0 +1,881 @@
+{
+  "domain": "si_deepsample2b",
+  "dialogue_id": "21-11-09_l2_p5_yeti5",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "student-15",
+      "utterance": "[inaudible] hasgtag",
+      "dda_edge": [
+        {
+          "from": 0,
+          "label": "Statement",
+          "to": 0
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "student-15",
+      "utterance": "hasgtag",
+      "dda_edge": [
+        {
+          "from": 1,
+          "label": "Statement",
+          "to": 1
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "student-15",
+      "utterance": "Shut up",
+      "dda_edge": [
+        {
+          "from": 2,
+          "label": "ActionDirective",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "student-15",
+      "utterance": "It's alright, they're good.",
+      "dda_edge": [
+        {
+          "from": 3,
+          "label": "Downplayer",
+          "to": 3
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "student-23",
+      "utterance": "What are we supposed to be doing",
+      "dda_edge": [
+        {
+          "from": 4,
+          "label": "QuestionInfoRequest",
+          "to": 4
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "student-23",
+      "utterance": "Ow",
+      "dda_edge": [
+        {
+          "from": 5,
+          "label": "Exclamation",
+          "to": 5
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "student-15",
+      "utterance": "Move your frickin leg",
+      "dda_edge": [
+        {
+          "from": 6,
+          "label": "ActionDirective",
+          "to": 5
+        },
+        {
+          "from": 6,
+          "label": "Exclamation",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "student-23",
+      "utterance": "Gosh",
+      "dda_edge": [
+        {
+          "from": 7,
+          "label": "Exclamation",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "student-23",
+      "utterance": "Why you so defensive bro?",
+      "dda_edge": [
+        {
+          "from": 8,
+          "label": "OpenQuestion",
+          "to": 6
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "student-23",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 10,
+      "speaker": "student-23",
+      "utterance": "something.",
+      "dda_edge": [
+        {
+          "from": 10,
+          "label": "Incomplete",
+          "to": 10
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "student-15",
+      "utterance": "What are we supposed to put",
+      "dda_edge": [
+        {
+          "from": 11,
+          "label": "QuestionInfoRequest",
+          "to": 11
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 13,
+      "speaker": "student-23",
+      "utterance": "Whatever we did yesterday.",
+      "dda_edge": [
+        {
+          "from": 13,
+          "label": "Answer",
+          "to": 11
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "student-15",
+      "utterance": "What did we put yesterday?",
+      "dda_edge": [
+        {
+          "from": 14,
+          "label": "QuestionInfoRequest",
+          "to": 13
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "student-15",
+      "utterance": "Out of these ones?",
+      "dda_edge": [
+        {
+          "from": 15,
+          "label": "GivingDetails",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "student-15",
+      "utterance": "Oh yeah, basic",
+      "dda_edge": [
+        {
+          "from": 16,
+          "label": "Exclamation",
+          "to": 14
+        },
+        {
+          "from": 16,
+          "label": "Answer",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 18,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 19,
+      "speaker": "student-15",
+      "utterance": "[student-23], we all have to do this.",
+      "dda_edge": [
+        {
+          "from": 19,
+          "label": "TaskManagement",
+          "to": 19
+        },
+        {
+          "from": 19,
+          "label": "Greeting",
+          "to": 19
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "student-23",
+      "utterance": "Oh",
+      "dda_edge": [
+        {
+          "from": 20,
+          "label": "Acknowledge",
+          "to": 19
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "student-23",
+      "utterance": "My fault OG.",
+      "dda_edge": [
+        {
+          "from": 21,
+          "label": "Apology",
+          "to": 19
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "student-15",
+      "utterance": "Did you just sniff me?",
+      "dda_edge": [
+        {
+          "from": 22,
+          "label": "QuestionInfoRequest",
+          "to": 22
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "student-23",
+      "utterance": "I didn't bro.",
+      "dda_edge": [
+        {
+          "from": 23,
+          "label": "Answer",
+          "to": 22
+        },
+        {
+          "from": 23,
+          "label": "Reject",
+          "to": 22
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "student-23",
+      "utterance": "I was sitting down.",
+      "dda_edge": [
+        {
+          "from": 24,
+          "label": "Justifying",
+          "to": 23
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "student-23",
+      "utterance": "Watch, watch, what is forever?",
+      "dda_edge": [
+        {
+          "from": 25,
+          "label": "Greeting",
+          "to": 25
+        },
+        {
+          "from": 25,
+          "label": "QuestionInfoRequest",
+          "to": 25
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 27,
+      "speaker": "student-15",
+      "utterance": "[inaudible] [Whisper]",
+      "dda_edge": []
+    },
+    {
+      "index": 28,
+      "speaker": "student-15",
+      "utterance": "Dude, you stink.",
+      "dda_edge": [
+        {
+          "from": 28,
+          "label": "Opinion",
+          "to": 28
+        },
+        {
+          "from": 28,
+          "label": "Greeting",
+          "to": 28
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "student-23",
+      "utterance": "Who me?",
+      "dda_edge": [
+        {
+          "from": 29,
+          "label": "QuestionInfoRequest",
+          "to": 28
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "student-15",
+      "utterance": "Mhm",
+      "dda_edge": [
+        {
+          "from": 30,
+          "label": "Answer",
+          "to": 29
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "student-23",
+      "utterance": "Why do I smell?",
+      "dda_edge": [
+        {
+          "from": 31,
+          "label": "RhetoricalQuestion",
+          "to": 30
+        },
+        {
+          "from": 31,
+          "label": "Reject",
+          "to": 28
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "student-23",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 33,
+      "speaker": "student-23",
+      "utterance": "I showered last night.",
+      "dda_edge": [
+        {
+          "from": 33,
+          "label": "Justifying",
+          "to": 31
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "student-15",
+      "utterance": "You get so defensive",
+      "dda_edge": [
+        {
+          "from": 34,
+          "label": "Opinion",
+          "to": 33
+        },
+        {
+          "from": 34,
+          "label": "Evaluating",
+          "to": 33
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 36,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 37,
+      "speaker": "student-15",
+      "utterance": "Why is this lady just following",
+      "dda_edge": [
+        {
+          "from": 37,
+          "label": "OpenQuestion",
+          "to": 37
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 39,
+      "speaker": "student-23",
+      "utterance": "No clue.",
+      "dda_edge": [
+        {
+          "from": 39,
+          "label": "Answer",
+          "to": 37
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "student-23",
+      "utterance": "Sorry",
+      "dda_edge": [
+        {
+          "from": 40,
+          "label": "Sympathy",
+          "to": 37
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "student-23",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 42,
+      "speaker": "student-15",
+      "utterance": "She be",
+      "dda_edge": [
+        {
+          "from": 42,
+          "label": "Incomplete",
+          "to": 42
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 44,
+      "speaker": "student-23",
+      "utterance": "What?",
+      "dda_edge": [
+        {
+          "from": 44,
+          "label": "SignalNonUnderstanding",
+          "to": 42
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "student-15",
+      "utterance": "She be mad about [inaudible]",
+      "dda_edge": [
+        {
+          "from": 45,
+          "label": "Answer",
+          "to": 44
+        },
+        {
+          "from": 45,
+          "label": "Restatement",
+          "to": 42
+        },
+        {
+          "from": 45,
+          "label": "Incomplete",
+          "to": 44
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "student-15",
+      "utterance": "She be mad about",
+      "dda_edge": [
+        {
+          "from": 46,
+          "label": "Incomplete",
+          "to": 46
+        },
+        {
+          "from": 46,
+          "label": "Restatement",
+          "to": 45
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "student-23",
+      "utterance": "Why?",
+      "dda_edge": [
+        {
+          "from": 47,
+          "label": "OpenQuestion",
+          "to": 45
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "student-15",
+      "utterance": "Probably [inaudible]",
+      "dda_edge": [
+        {
+          "from": 48,
+          "label": "Answer",
+          "to": 47
+        },
+        {
+          "from": 48,
+          "label": "Incomplete",
+          "to": 47
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 50,
+      "speaker": "student-15",
+      "utterance": "No, don't do this one.",
+      "dda_edge": [
+        {
+          "from": 50,
+          "label": "ActionDirective",
+          "to": 50
+        },
+        {
+          "from": 50,
+          "label": "Reject",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "speaker": "student-15",
+      "utterance": "This one",
+      "dda_edge": [
+        {
+          "from": 51,
+          "label": "Motivated",
+          "to": 50
+        },
+        {
+          "from": 51,
+          "label": "Incomplete",
+          "to": 50
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 53,
+      "speaker": "student-15",
+      "utterance": "On button",
+      "dda_edge": []
+    },
+    {
+      "index": 54,
+      "speaker": "student-15",
+      "utterance": "Dude, where's the button A pressed?",
+      "dda_edge": [
+        {
+          "from": 54,
+          "label": "QuestionInfoRequest",
+          "to": 54
+        },
+        {
+          "from": 54,
+          "label": "Greeting",
+          "to": 54
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "student-23",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 56,
+      "speaker": "student-15",
+      "utterance": "Fine,",
+      "dda_edge": [
+        {
+          "from": 56,
+          "label": "Accept",
+          "to": 56
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "speaker": "student-15",
+      "utterance": "I'll just do forever.",
+      "dda_edge": [
+        {
+          "from": 57,
+          "label": "Commit",
+          "to": 56
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "student-23",
+      "utterance": "Don't do that either.",
+      "dda_edge": [
+        {
+          "from": 58,
+          "label": "Reject",
+          "to": 57
+        },
+        {
+          "from": 58,
+          "label": "ActionDirective",
+          "to": 57
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "student-15",
+      "utterance": "if there's no",
+      "dda_edge": [
+        {
+          "from": 59,
+          "label": "Conditioning",
+          "to": 57
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 61,
+      "speaker": "student-15",
+      "utterance": "A press.",
+      "dda_edge": []
+    },
+    {
+      "index": 62,
+      "speaker": "student-23",
+      "utterance": "Ow,",
+      "dda_edge": [
+        {
+          "from": 62,
+          "label": "Exclamation",
+          "to": 62
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 64,
+      "speaker": "student-15",
+      "utterance": "[whisper]",
+      "dda_edge": []
+    },
+    {
+      "index": 65,
+      "speaker": "student-23",
+      "utterance": "[redacted name]",
+      "dda_edge": [
+        {
+          "from": 65,
+          "label": "Greeting",
+          "to": 65
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "speaker": "student-23",
+      "utterance": "How's your day going?",
+      "dda_edge": [
+        {
+          "from": 66,
+          "label": "OpenQuestion",
+          "to": 66
+        },
+        {
+          "from": 66,
+          "label": "Joke",
+          "to": 66
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "speaker": "student-23",
+      "utterance": "Wait wait wait wait",
+      "dda_edge": [
+        {
+          "from": 67,
+          "label": "Greeting",
+          "to": 67
+        },
+        {
+          "from": 67,
+          "label": "ActionDirective",
+          "to": 67
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "speaker": "student-23",
+      "utterance": "Wait",
+      "dda_edge": [
+        {
+          "from": 68,
+          "label": "Restatement",
+          "to": 67
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "speaker": "student-23",
+      "utterance": "What happened?",
+      "dda_edge": [
+        {
+          "from": 69,
+          "label": "QuestionInfoRequest",
+          "to": 69
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 71,
+      "speaker": "student-23",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 72,
+      "speaker": "student-23",
+      "utterance": "the first one",
+      "dda_edge": [
+        {
+          "from": 72,
+          "label": "Proposal",
+          "to": 72
+        },
+        {
+          "from": 72,
+          "label": "Correction",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "speaker": "student-23",
+      "utterance": "the first one",
+      "dda_edge": [
+        {
+          "from": 73,
+          "label": "Restatement",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "speaker": "student-15",
+      "utterance": "Dude [inaudible]",
+      "dda_edge": [
+        {
+          "from": 74,
+          "label": "Greeting",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "speaker": "student-15",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 76,
+      "speaker": "",
+      "utterance": "",
+      "dda_edge": []
+    }
+  ]
+}

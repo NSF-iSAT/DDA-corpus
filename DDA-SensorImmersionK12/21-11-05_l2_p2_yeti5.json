@@ -1,0 +1,2168 @@
+{
+  "domain": "si_deepsample2b",
+  "dialogue_id": "21-11-05_l2_p2_yeti5",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "student-023",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 1,
+      "speaker": "student-024",
+      "utterance": "No",
+      "dda_edge": [
+        {
+          "from": 1,
+          "label": "Reject",
+          "to": 1
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Teacher",
+      "utterance": "No,",
+      "dda_edge": [
+        {
+          "from": 2,
+          "label": "Reject",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Teacher",
+      "utterance": "you gotta fill the screen like...",
+      "dda_edge": [
+        {
+          "from": 3,
+          "label": "Motivating",
+          "to": 2
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "student-024",
+      "utterance": "Sensor immersion lesson 2.",
+      "dda_edge": [
+        {
+          "from": 4,
+          "label": "Statement",
+          "to": 4
+        },
+        {
+          "from": 4,
+          "label": "SelfTalk",
+          "to": 4
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "student-023",
+      "utterance": "Aight.",
+      "dda_edge": [
+        {
+          "from": 5,
+          "label": "Acknowledge",
+          "to": 4
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Teacher",
+      "utterance": "So you gotta tilt it until it",
+      "dda_edge": [
+        {
+          "from": 6,
+          "label": "TaskManagement",
+          "to": 3
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Teacher",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 8,
+      "speaker": "student-023",
+      "utterance": "Sensor immersion lesson two.",
+      "dda_edge": [
+        {
+          "from": 8,
+          "label": "Restatement",
+          "to": 4
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 10,
+      "speaker": "Teacher",
+      "utterance": "Okay.",
+      "dda_edge": [
+        {
+          "from": 10,
+          "label": "Greeting",
+          "to": 10
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Teacher",
+      "utterance": "Do you guys remember last year?",
+      "dda_edge": [
+        {
+          "from": 11,
+          "label": "QuestionInfoRequest",
+          "to": 10
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Teacher",
+      "utterance": "Where we started doing some logic?",
+      "dda_edge": [
+        {
+          "from": 12,
+          "label": "GivingDetails",
+          "to": 11
+        },
+        {
+          "from": 12,
+          "label": "TakeStock",
+          "to": 11
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "student-023",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 14,
+      "speaker": "student-023",
+      "utterance": "basic",
+      "dda_edge": [
+        {
+          "from": 14,
+          "label": "SelfTalk",
+          "to": 14
+        },
+        {
+          "from": 14,
+          "label": "Statement",
+          "to": 14
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "student-023",
+      "utterance": "Alright.",
+      "dda_edge": [
+        {
+          "from": 15,
+          "label": "Greeting",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "student-023",
+      "utterance": "Sensor immersion.",
+      "dda_edge": [
+        {
+          "from": 16,
+          "label": "Statement",
+          "to": 15
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "student-023",
+      "utterance": "It takes so long just to load",
+      "dda_edge": [
+        {
+          "from": 17,
+          "label": "Evaluating",
+          "to": 16
+        },
+        {
+          "from": 17,
+          "label": "Opinion",
+          "to": 16
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "student-024",
+      "utterance": "Sensor tutorials.",
+      "dda_edge": [
+        {
+          "from": 18,
+          "label": "Statement",
+          "to": 18
+        },
+        {
+          "from": 18,
+          "label": "SelfTalk",
+          "to": 18
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "student-023",
+      "utterance": "Okay",
+      "dda_edge": [
+        {
+          "from": 19,
+          "label": "Acknowledge",
+          "to": 18
+        },
+        {
+          "from": 19,
+          "label": "Accept",
+          "to": 18
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 21,
+      "speaker": "Teacher",
+      "utterance": "There you go.",
+      "dda_edge": [
+        {
+          "from": 21,
+          "label": "Appreciation",
+          "to": 21
+        },
+        {
+          "from": 21,
+          "label": "Acknowledge",
+          "to": 21
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "student-023",
+      "utterance": "Alright, and...",
+      "dda_edge": [
+        {
+          "from": 22,
+          "label": "Greeting",
+          "to": 22
+        },
+        {
+          "from": 22,
+          "label": "Stalling",
+          "to": 22
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 24,
+      "speaker": "Teacher",
+      "utterance": "So see if you can figure out how to do that part.",
+      "dda_edge": [
+        {
+          "from": 24,
+          "label": "TaskManagement",
+          "to": 24
+        },
+        {
+          "from": 24,
+          "label": "ActionDirective",
+          "to": 24
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "student-023",
+      "utterance": "Do we just do this one?",
+      "dda_edge": [
+        {
+          "from": 25,
+          "label": "QuestionInfoRequest",
+          "to": 22
+        },
+        {
+          "from": 25,
+          "label": "Proposal",
+          "to": 22
+        },
+        {
+          "from": 25,
+          "label": "Hedge",
+          "to": 22
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "student-024",
+      "utterance": "ye- um.",
+      "dda_edge": [
+        {
+          "from": 26,
+          "label": "Accept",
+          "to": 25
+        },
+        {
+          "from": 26,
+          "label": "Stalling",
+          "to": 25
+        },
+        {
+          "from": 26,
+          "label": "Hedge",
+          "to": 25
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "student-024",
+      "utterance": "I can't really remember which one it is.",
+      "dda_edge": [
+        {
+          "from": 27,
+          "label": "Statement",
+          "to": 26
+        },
+        {
+          "from": 27,
+          "label": "Hedge",
+          "to": 26
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "student-023",
+      "utterance": "Well is the top one.",
+      "dda_edge": [
+        {
+          "from": 28,
+          "label": "Statement",
+          "to": 27
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 30,
+      "speaker": "Teacher",
+      "utterance": "So, you're trying to",
+      "dda_edge": [
+        {
+          "from": 30,
+          "label": "Greeting",
+          "to": 30
+        },
+        {
+          "from": 30,
+          "label": "TaskManagement",
+          "to": 30
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Teacher",
+      "utterance": "instead of it showing a number...",
+      "dda_edge": [
+        {
+          "from": 31,
+          "label": "Empty",
+          "to": 30
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "student-023",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 33,
+      "speaker": "Teacher",
+      "utterance": "...mean",
+      "dda_edge": [
+        {
+          "from": 33,
+          "label": "Empty",
+          "to": 31
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Teacher",
+      "utterance": "anything",
+      "dda_edge": [
+        {
+          "from": 34,
+          "label": "Empty",
+          "to": 33
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Teacher",
+      "utterance": "Your trying to get it to show",
+      "dda_edge": [
+        {
+          "from": 35,
+          "label": "Conceding",
+          "to": 30
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "student-023",
+      "utterance": "Yeah, let's do that.",
+      "dda_edge": [
+        {
+          "from": 36,
+          "label": "Accept",
+          "to": 28
+        },
+        {
+          "from": 36,
+          "label": "Proposal",
+          "to": 28
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "Teacher",
+      "utterance": "[addring other] something else that has more meaning.",
+      "dda_edge": [
+        {
+          "from": 37,
+          "label": "Empty",
+          "to": 35
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 39,
+      "speaker": "Teacher",
+      "utterance": "So you probably want to try using some logic.",
+      "dda_edge": [
+        {
+          "from": 39,
+          "label": "Motivated",
+          "to": 30
+        },
+        {
+          "from": 39,
+          "label": "Proposal",
+          "to": 30
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "student-023",
+      "utterance": "magnetic",
+      "dda_edge": [
+        {
+          "from": 40,
+          "label": "Statement",
+          "to": 40
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "student-023",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 42,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 43,
+      "speaker": "Teacher",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 44,
+      "speaker": "student-024",
+      "utterance": "And then once we're done",
+      "dda_edge": [
+        {
+          "from": 44,
+          "label": "TaskManagement",
+          "to": 44
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "student-024",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 46,
+      "speaker": "student-024",
+      "utterance": "Just skip through all of it.",
+      "dda_edge": [
+        {
+          "from": 46,
+          "label": "ActionDirective",
+          "to": 44
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Teacher",
+      "utterance": "[addressin gother]",
+      "dda_edge": []
+    },
+    {
+      "index": 48,
+      "speaker": "Teacher",
+      "utterance": "Go tell your",
+      "dda_edge": [
+        {
+          "from": 48,
+          "label": "ActionDirective",
+          "to": 48
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "Teacher",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 50,
+      "speaker": "Teacher",
+      "utterance": "You're the navigator",
+      "dda_edge": [
+        {
+          "from": 50,
+          "label": "Motivating",
+          "to": 48
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "speaker": "student-024",
+      "utterance": "Okay just skip through all of it.",
+      "dda_edge": [
+        {
+          "from": 51,
+          "label": "Acknowledge",
+          "to": 46
+        },
+        {
+          "from": 51,
+          "label": "Restatement",
+          "to": 46
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "speaker": "student-023",
+      "utterance": "Just load man",
+      "dda_edge": [
+        {
+          "from": 52,
+          "label": "SelfTalk",
+          "to": 52
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 54,
+      "speaker": "Teacher",
+      "utterance": "Alright guys.",
+      "dda_edge": [
+        {
+          "from": 54,
+          "label": "Greeting",
+          "to": 54
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "Teacher",
+      "utterance": "For this there's really no right or wrong",
+      "dda_edge": [
+        {
+          "from": 55,
+          "label": "TaskManagement",
+          "to": 54
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "speaker": "Teacher",
+      "utterance": "unless you're not doing anything.",
+      "dda_edge": [
+        {
+          "from": 56,
+          "label": "NegConditioning",
+          "to": 55
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "speaker": "Teacher",
+      "utterance": "And then it's wrong.",
+      "dda_edge": [
+        {
+          "from": 57,
+          "label": "NegConditioned",
+          "to": 56
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "student-024",
+      "utterance": "Okay",
+      "dda_edge": [
+        {
+          "from": 58,
+          "label": "Greeting",
+          "to": 58
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "student-023",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 60,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 61,
+      "speaker": "Teacher",
+      "utterance": "Okay?",
+      "dda_edge": [
+        {
+          "from": 61,
+          "label": "RhetoricalQuestion",
+          "to": 55
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "speaker": "Teacher",
+      "utterance": "You are trying different code blocks.",
+      "dda_edge": [
+        {
+          "from": 62,
+          "label": "TaskManagement",
+          "to": 61
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "speaker": "student-024",
+      "utterance": "And then do basic.",
+      "dda_edge": [
+        {
+          "from": 63,
+          "label": "ActionDirective",
+          "to": 63
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "speaker": "student-024",
+      "utterance": "Basic",
+      "dda_edge": [
+        {
+          "from": 64,
+          "label": "Restatement",
+          "to": 63
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "speaker": "Teacher",
+      "utterance": "[addressing other]",
+      "dda_edge": []
+    },
+    {
+      "index": 66,
+      "speaker": "Teacher",
+      "utterance": "It'll end up giving you a smiley face for a second",
+      "dda_edge": [
+        {
+          "from": 66,
+          "label": "Statement",
+          "to": 66
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "speaker": "Teacher",
+      "utterance": "and then it'll",
+      "dda_edge": [
+        {
+          "from": 67,
+          "label": "After",
+          "to": 66
+        },
+        {
+          "from": 67,
+          "label": "Incomplete",
+          "to": 67
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "speaker": "student-024",
+      "utterance": "Alright, show number",
+      "dda_edge": [
+        {
+          "from": 68,
+          "label": "Acknowledge",
+          "to": 68
+        },
+        {
+          "from": 68,
+          "label": "ActionDirective",
+          "to": 68
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "speaker": "Teacher",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 70,
+      "speaker": "student-023",
+      "utterance": "Show number",
+      "dda_edge": [
+        {
+          "from": 70,
+          "label": "Restatement",
+          "to": 68
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "speaker": "student-023",
+      "utterance": "Then do forever.",
+      "dda_edge": [
+        {
+          "from": 71,
+          "label": "After",
+          "to": 70
+        },
+        {
+          "from": 71,
+          "label": "ActionDirective",
+          "to": 70
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "speaker": "student-024",
+      "utterance": "Then go to input.",
+      "dda_edge": [
+        {
+          "from": 72,
+          "label": "After",
+          "to": 71
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "speaker": "student-024",
+      "utterance": "And then more.",
+      "dda_edge": [
+        {
+          "from": 73,
+          "label": "After",
+          "to": 72
+        },
+        {
+          "from": 73,
+          "label": "ActionDirective",
+          "to": 72
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "speaker": "student-024",
+      "utterance": "More",
+      "dda_edge": [
+        {
+          "from": 74,
+          "label": "Restatement",
+          "to": 73
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "speaker": "student-024",
+      "utterance": "Um, a- it should be...",
+      "dda_edge": [
+        {
+          "from": 75,
+          "label": "Stalling",
+          "to": 73
+        },
+        {
+          "from": 75,
+          "label": "Proposal",
+          "to": 73
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "speaker": "student-024",
+      "utterance": "...magnetic first",
+      "dda_edge": [
+        {
+          "from": 76,
+          "label": "Temporal",
+          "to": 75
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "speaker": "student-024",
+      "utterance": "And then...",
+      "dda_edge": [
+        {
+          "from": 77,
+          "label": "After",
+          "to": 76
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "speaker": "student-024",
+      "utterance": "...in the, in the circular hole",
+      "dda_edge": [
+        {
+          "from": 78,
+          "label": "Empty",
+          "to": 77
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "speaker": "student-023",
+      "utterance": "The circular one?",
+      "dda_edge": [
+        {
+          "from": 79,
+          "label": "SignalNonUnderstanding",
+          "to": 77
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "speaker": "student-024",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 80,
+          "label": "Answer",
+          "to": 79
+        },
+        {
+          "from": 80,
+          "label": "Accept",
+          "to": 79
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "speaker": "student-024",
+      "utterance": "Go there.",
+      "dda_edge": [
+        {
+          "from": 81,
+          "label": "ActionDirective",
+          "to": 80
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "speaker": "student-023",
+      "utterance": "Oh",
+      "dda_edge": [
+        {
+          "from": 82,
+          "label": "Acknowledge",
+          "to": 81
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "speaker": "student-023",
+      "utterance": "Here?",
+      "dda_edge": [
+        {
+          "from": 83,
+          "label": "QuestionInfoRequest",
+          "to": 81
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "speaker": "student-024",
+      "utterance": "Yes",
+      "dda_edge": [
+        {
+          "from": 84,
+          "label": "Answer",
+          "to": 83
+        },
+        {
+          "from": 84,
+          "label": "Accept",
+          "to": 83
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "speaker": "student-023",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 86,
+      "speaker": "student-024",
+      "utterance": "And then change x to strength",
+      "dda_edge": [
+        {
+          "from": 86,
+          "label": "ActionDirective",
+          "to": 77
+        }
+      ]
+    },
+    {
+      "index": 87,
+      "speaker": "student-024",
+      "utterance": "I think",
+      "dda_edge": [
+        {
+          "from": 87,
+          "label": "Hedge",
+          "to": 86
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "speaker": "student-024",
+      "utterance": "Strength",
+      "dda_edge": [
+        {
+          "from": 88,
+          "label": "Restatement",
+          "to": 86
+        }
+      ]
+    },
+    {
+      "index": 89,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 90,
+      "speaker": "Teacher",
+      "utterance": "So, when you guys are doing this",
+      "dda_edge": [
+        {
+          "from": 90,
+          "label": "Greeting",
+          "to": 90
+        },
+        {
+          "from": 90,
+          "label": "TaskManagement",
+          "to": 90
+        }
+      ]
+    },
+    {
+      "index": 91,
+      "speaker": "Teacher",
+      "utterance": "you probably want to use some logic blocks.",
+      "dda_edge": [
+        {
+          "from": 91,
+          "label": "Conditioned",
+          "to": 90
+        }
+      ]
+    },
+    {
+      "index": 92,
+      "speaker": "student-024",
+      "utterance": "Yeah, and then",
+      "dda_edge": [
+        {
+          "from": 92,
+          "label": "Accept",
+          "to": 88
+        },
+        {
+          "from": 92,
+          "label": "After",
+          "to": 88
+        }
+      ]
+    },
+    {
+      "index": 93,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 94,
+      "speaker": "Teacher",
+      "utterance": "So if you open the logic blocks,",
+      "dda_edge": [
+        {
+          "from": 94,
+          "label": "GivingDetails",
+          "to": 91
+        }
+      ]
+    },
+    {
+      "index": 95,
+      "speaker": "Teacher",
+      "utterance": "it'll give you like if else statements.",
+      "dda_edge": [
+        {
+          "from": 95,
+          "label": "CausedBy",
+          "to": 94
+        }
+      ]
+    },
+    {
+      "index": 96,
+      "speaker": "Teacher",
+      "utterance": "That means",
+      "dda_edge": [
+        {
+          "from": 96,
+          "label": "GivingDetails",
+          "to": 95
+        }
+      ]
+    },
+    {
+      "index": 97,
+      "speaker": "Teacher",
+      "utterance": "if the number is somewhere",
+      "dda_edge": [
+        {
+          "from": 97,
+          "label": "Empty",
+          "to": 96
+        }
+      ]
+    },
+    {
+      "index": 98,
+      "speaker": "Teacher",
+      "utterance": "it'll do this.",
+      "dda_edge": [
+        {
+          "from": 98,
+          "label": "Empty",
+          "to": 97
+        }
+      ]
+    },
+    {
+      "index": 99,
+      "speaker": "student-024",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 100,
+      "speaker": "student-024",
+      "utterance": "If.",
+      "dda_edge": [
+        {
+          "from": 100,
+          "label": "ActionDirective",
+          "to": 100
+        }
+      ]
+    },
+    {
+      "index": 101,
+      "speaker": "student-024",
+      "utterance": "If.",
+      "dda_edge": [
+        {
+          "from": 101,
+          "label": "Restatement",
+          "to": 100
+        }
+      ]
+    },
+    {
+      "index": 102,
+      "speaker": "student-024",
+      "utterance": "If true",
+      "dda_edge": [
+        {
+          "from": 102,
+          "label": "Restatement",
+          "to": 100
+        }
+      ]
+    },
+    {
+      "index": 103,
+      "speaker": "Teacher",
+      "utterance": "Or else it's gonna do this.",
+      "dda_edge": [
+        {
+          "from": 103,
+          "label": "Contrast",
+          "to": 95
+        }
+      ]
+    },
+    {
+      "index": 104,
+      "speaker": "student-024",
+      "utterance": "Yeah,",
+      "dda_edge": [
+        {
+          "from": 104,
+          "label": "Accept",
+          "to": 102
+        }
+      ]
+    },
+    {
+      "index": 105,
+      "speaker": "student-024",
+      "utterance": "if true",
+      "dda_edge": [
+        {
+          "from": 105,
+          "label": "Restatement",
+          "to": 102
+        }
+      ]
+    },
+    {
+      "index": 106,
+      "speaker": "student-024",
+      "utterance": "then",
+      "dda_edge": [
+        {
+          "from": 106,
+          "label": "After",
+          "to": 105
+        }
+      ]
+    },
+    {
+      "index": 107,
+      "speaker": "student-023",
+      "utterance": "And put it where?",
+      "dda_edge": [
+        {
+          "from": 107,
+          "label": "QuestionInfoRequest",
+          "to": 106
+        }
+      ]
+    },
+    {
+      "index": 108,
+      "speaker": "student-024",
+      "utterance": "Uh, over the show number.",
+      "dda_edge": [
+        {
+          "from": 108,
+          "label": "Answer",
+          "to": 107
+        }
+      ]
+    },
+    {
+      "index": 109,
+      "speaker": "student-024",
+      "utterance": "If...",
+      "dda_edge": [
+        {
+          "from": 109,
+          "label": "Restatement",
+          "to": 105
+        }
+      ]
+    },
+    {
+      "index": 110,
+      "speaker": "student-024",
+      "utterance": "If, go to true",
+      "dda_edge": [
+        {
+          "from": 110,
+          "label": "Restatement",
+          "to": 109
+        }
+      ]
+    },
+    {
+      "index": 111,
+      "speaker": "student-023",
+      "utterance": "False?",
+      "dda_edge": [
+        {
+          "from": 111,
+          "label": "Hedge",
+          "to": 110
+        },
+        {
+          "from": 111,
+          "label": "Proposal",
+          "to": 110
+        }
+      ]
+    },
+    {
+      "index": 112,
+      "speaker": "student-024",
+      "utterance": "True,",
+      "dda_edge": [
+        {
+          "from": 112,
+          "label": "Reject",
+          "to": 111
+        },
+        {
+          "from": 112,
+          "label": "Correction",
+          "to": 111
+        }
+      ]
+    },
+    {
+      "index": 113,
+      "speaker": "student-024",
+      "utterance": "I think",
+      "dda_edge": [
+        {
+          "from": 113,
+          "label": "Hedge",
+          "to": 112
+        }
+      ]
+    },
+    {
+      "index": 114,
+      "speaker": "student-024",
+      "utterance": "No,",
+      "dda_edge": [
+        {
+          "from": 114,
+          "label": "Reject",
+          "to": 114
+        }
+      ]
+    },
+    {
+      "index": 115,
+      "speaker": "student-024",
+      "utterance": "I think",
+      "dda_edge": [
+        {
+          "from": 115,
+          "label": "Hedge",
+          "to": 114
+        },
+        {
+          "from": 115,
+          "label": "Proposal",
+          "to": 114
+        }
+      ]
+    },
+    {
+      "index": 116,
+      "speaker": "student-024",
+      "utterance": "we want to get rid of that one.",
+      "dda_edge": [
+        {
+          "from": 116,
+          "label": "Empty",
+          "to": 115
+        }
+      ]
+    },
+    {
+      "index": 117,
+      "speaker": "student-023",
+      "utterance": "Get rid of this?",
+      "dda_edge": [
+        {
+          "from": 117,
+          "label": "SignalNonUnderstanding",
+          "to": 115
+        }
+      ]
+    },
+    {
+      "index": 118,
+      "speaker": "student-024",
+      "utterance": "Cause there's...get rid of the entire block.",
+      "dda_edge": [
+        {
+          "from": 118,
+          "label": "Answer",
+          "to": 117
+        },
+        {
+          "from": 118,
+          "label": "Motivating",
+          "to": 117
+        }
+      ]
+    },
+    {
+      "index": 119,
+      "speaker": "student-024",
+      "utterance": "No",
+      "dda_edge": [
+        {
+          "from": 119,
+          "label": "Reject",
+          "to": 119
+        }
+      ]
+    },
+    {
+      "index": 120,
+      "speaker": "student-024",
+      "utterance": "Yeah, just",
+      "dda_edge": [
+        {
+          "from": 120,
+          "label": "Accept",
+          "to": 120
+        },
+        {
+          "from": 120,
+          "label": "Incomplete",
+          "to": 120
+        }
+      ]
+    },
+    {
+      "index": 121,
+      "speaker": "student-024",
+      "utterance": "Sorry",
+      "dda_edge": [
+        {
+          "from": 121,
+          "label": "Apology",
+          "to": 120
+        }
+      ]
+    },
+    {
+      "index": 122,
+      "speaker": "student-023",
+      "utterance": "Um, ch-",
+      "dda_edge": [
+        {
+          "from": 122,
+          "label": "Stalling",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 123,
+      "speaker": "student-024",
+      "utterance": "It's gonna be in the in the blocks area",
+      "dda_edge": [
+        {
+          "from": 123,
+          "label": "Statement",
+          "to": 122
+        }
+      ]
+    },
+    {
+      "index": 124,
+      "speaker": "student-023",
+      "utterance": "Alright.",
+      "dda_edge": [
+        {
+          "from": 124,
+          "label": "Acknowledge",
+          "to": 123
+        }
+      ]
+    },
+    {
+      "index": 125,
+      "speaker": "student-023",
+      "utterance": "Um, logic?",
+      "dda_edge": [
+        {
+          "from": 125,
+          "label": "Stalling",
+          "to": 124
+        },
+        {
+          "from": 125,
+          "label": "QuestionInfoRequest",
+          "to": 124
+        }
+      ]
+    },
+    {
+      "index": 126,
+      "speaker": "student-024",
+      "utterance": "If",
+      "dda_edge": [
+        {
+          "from": 126,
+          "label": "Answer",
+          "to": 125
+        }
+      ]
+    },
+    {
+      "index": 127,
+      "speaker": "student-024",
+      "utterance": "Scroll down.",
+      "dda_edge": [
+        {
+          "from": 127,
+          "label": "ActionDirective",
+          "to": 126
+        }
+      ]
+    },
+    {
+      "index": 128,
+      "speaker": "student-024",
+      "utterance": "Two fingers.",
+      "dda_edge": [
+        {
+          "from": 128,
+          "label": "ActionDirective",
+          "to": 127
+        }
+      ]
+    },
+    {
+      "index": 129,
+      "speaker": "student-024",
+      "utterance": "I think",
+      "dda_edge": [
+        {
+          "from": 129,
+          "label": "Hedge",
+          "to": 126
+        },
+        {
+          "from": 129,
+          "label": "Proposal",
+          "to": 126
+        },
+        {
+          "from": 129,
+          "label": "GivingDetails",
+          "to": 126
+        }
+      ]
+    },
+    {
+      "index": 130,
+      "speaker": "student-024",
+      "utterance": "you can replace the if true",
+      "dda_edge": [
+        {
+          "from": 130,
+          "label": "Empty",
+          "to": 129
+        }
+      ]
+    },
+    {
+      "index": 131,
+      "speaker": "student-024",
+      "utterance": "if else.",
+      "dda_edge": [
+        {
+          "from": 131,
+          "label": "Empty",
+          "to": 130
+        }
+      ]
+    },
+    {
+      "index": 132,
+      "speaker": "student-024",
+      "utterance": "Oh, I have an idea.",
+      "dda_edge": [
+        {
+          "from": 132,
+          "label": "Greeting",
+          "to": 132
+        },
+        {
+          "from": 132,
+          "label": "Statement",
+          "to": 132
+        }
+      ]
+    },
+    {
+      "index": 133,
+      "speaker": "student-024",
+      "utterance": "Go to if the,",
+      "dda_edge": [
+        {
+          "from": 133,
+          "label": "ActionDirective",
+          "to": 132
+        }
+      ]
+    },
+    {
+      "index": 134,
+      "speaker": "student-024",
+      "utterance": "put the if true one",
+      "dda_edge": [
+        {
+          "from": 134,
+          "label": "After",
+          "to": 133
+        }
+      ]
+    },
+    {
+      "index": 135,
+      "speaker": "student-024",
+      "utterance": "and then put it around the show number.",
+      "dda_edge": [
+        {
+          "from": 135,
+          "label": "After",
+          "to": 134
+        }
+      ]
+    },
+    {
+      "index": 136,
+      "speaker": "student-024",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 136,
+          "label": "Accept",
+          "to": 136
+        },
+        {
+          "from": 136,
+          "label": "Answer",
+          "to": 136
+        }
+      ]
+    },
+    {
+      "index": 137,
+      "speaker": "student-023",
+      "utterance": "This one?",
+      "dda_edge": [
+        {
+          "from": 137,
+          "label": "QuestionInfoRequest",
+          "to": 133
+        }
+      ]
+    },
+    {
+      "index": 138,
+      "speaker": "student-024",
+      "utterance": "Around the...",
+      "dda_edge": [
+        {
+          "from": 138,
+          "label": "Answer",
+          "to": 137
+        },
+        {
+          "from": 138,
+          "label": "Incomplete",
+          "to": 137
+        },
+        {
+          "from": 138,
+          "label": "Restatement",
+          "to": 135
+        }
+      ]
+    },
+    {
+      "index": 139,
+      "speaker": "student-023",
+      "utterance": "Oh. Around it?",
+      "dda_edge": [
+        {
+          "from": 139,
+          "label": "Acknowledge",
+          "to": 138
+        },
+        {
+          "from": 139,
+          "label": "SignalNonUnderstanding",
+          "to": 138
+        }
+      ]
+    },
+    {
+      "index": 140,
+      "speaker": "student-024",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 140,
+          "label": "Accept",
+          "to": 139
+        },
+        {
+          "from": 140,
+          "label": "Answer",
+          "to": 139
+        }
+      ]
+    },
+    {
+      "index": 141,
+      "speaker": "student-023",
+      "utterance": "Like this?",
+      "dda_edge": [
+        {
+          "from": 141,
+          "label": "QuestionInfoRequest",
+          "to": 140
+        }
+      ]
+    },
+    {
+      "index": 142,
+      "speaker": "student-024",
+      "utterance": "I think you take the show number out",
+      "dda_edge": [
+        {
+          "from": 142,
+          "label": "Answer",
+          "to": 141
+        },
+        {
+          "from": 142,
+          "label": "Hedge",
+          "to": 141
+        }
+      ]
+    },
+    {
+      "index": 143,
+      "speaker": "student-024",
+      "utterance": "and put it back in.",
+      "dda_edge": [
+        {
+          "from": 143,
+          "label": "After",
+          "to": 142
+        }
+      ]
+    },
+    {
+      "index": 144,
+      "speaker": "student-024",
+      "utterance": "And then put the",
+      "dda_edge": [
+        {
+          "from": 144,
+          "label": "After",
+          "to": 143
+        }
+      ]
+    },
+    {
+      "index": 145,
+      "speaker": "student-024",
+      "utterance": "[inaudible]",
+      "dda_edge": []
+    },
+    {
+      "index": 146,
+      "speaker": "student-023",
+      "utterance": "Um, this?",
+      "dda_edge": [
+        {
+          "from": 146,
+          "label": "QuestionInfoRequest",
+          "to": 142
+        },
+        {
+          "from": 146,
+          "label": "Stalling",
+          "to": 142
+        }
+      ]
+    },
+    {
+      "index": 147,
+      "speaker": "student-024",
+      "utterance": "Yeah and then...",
+      "dda_edge": [
+        {
+          "from": 147,
+          "label": "Answer",
+          "to": 146
+        },
+        {
+          "from": 147,
+          "label": "Accept",
+          "to": 146
+        },
+        {
+          "from": 147,
+          "label": "After",
+          "to": 146
+        }
+      ]
+    },
+    {
+      "index": 148,
+      "speaker": "student-024",
+      "utterance": "...number",
+      "dda_edge": [
+        {
+          "from": 148,
+          "label": "Empty",
+          "to": 147
+        }
+      ]
+    },
+    {
+      "index": 149,
+      "speaker": "student-024",
+      "utterance": "No.",
+      "dda_edge": [
+        {
+          "from": 149,
+          "label": "Reject",
+          "to": 149
+        }
+      ]
+    },
+    {
+      "index": 150,
+      "speaker": "student-024",
+      "utterance": "In the, in the",
+      "dda_edge": [
+        {
+          "from": 150,
+          "label": "GivingDetails",
+          "to": 149
+        },
+        {
+          "from": 150,
+          "label": "Incomplete",
+          "to": 149
+        }
+      ]
+    },
+    {
+      "index": 151,
+      "speaker": "student-024",
+      "utterance": "K",
+      "dda_edge": [
+        {
+          "from": 151,
+          "label": "Accept",
+          "to": 150
+        }
+      ]
+    },
+    {
+      "index": 152,
+      "speaker": "student-024",
+      "utterance": "And then go to logic again.",
+      "dda_edge": [
+        {
+          "from": 152,
+          "label": "ActionDirective",
+          "to": 150
+        },
+        {
+          "from": 152,
+          "label": "After",
+          "to": 150
+        }
+      ]
+    },
+    {
+      "index": 153,
+      "speaker": "student-024",
+      "utterance": "Compairison",
+      "dda_edge": [
+        {
+          "from": 153,
+          "label": "After",
+          "to": 152
+        }
+      ]
+    },
+    {
+      "index": 154,
+      "speaker": "student-024",
+      "utterance": "Two fingers.",
+      "dda_edge": [
+        {
+          "from": 154,
+          "label": "ActionDirective",
+          "to": 153
+        }
+      ]
+    },
+    {
+      "index": 155,
+      "speaker": "student-024",
+      "utterance": "Just",
+      "dda_edge": [
+        {
+          "from": 155,
+          "label": "Incomplete",
+          "to": 155
+        }
+      ]
+    },
+    {
+      "index": 156,
+      "speaker": "student-024",
+      "utterance": "I think it's...",
+      "dda_edge": [
+        {
+          "from": 156,
+          "label": "Hedge",
+          "to": 153
+        },
+        {
+          "from": 156,
+          "label": "ActionDirective",
+          "to": 153
+        }
+      ]
+    },
+    {
+      "index": 157,
+      "speaker": "student-024",
+      "utterance": "...go to equals.",
+      "dda_edge": [
+        {
+          "from": 157,
+          "label": "Empty",
+          "to": 156
+        }
+      ]
+    },
+    {
+      "index": 158,
+      "speaker": "student-024",
+      "utterance": "Equals",
+      "dda_edge": [
+        {
+          "from": 158,
+          "label": "Restatement",
+          "to": 157
+        }
+      ]
+    },
+    {
+      "index": 159,
+      "speaker": "student-023",
+      "utterance": "Yeah.",
+      "dda_edge": [
+        {
+          "from": 159,
+          "label": "Accept",
+          "to": 158
+        }
+      ]
+    },
+    {
+      "index": 160,
+      "speaker": "student-024",
+      "utterance": "It's, it's",
+      "dda_edge": [
+        {
+          "from": 160,
+          "label": "Incomplete",
+          "to": 160
+        }
+      ]
+    },
+    {
+      "index": 161,
+      "speaker": "student-024",
+      "utterance": "And then go to if true",
+      "dda_edge": [
+        {
+          "from": 161,
+          "label": "After",
+          "to": 160
+        },
+        {
+          "from": 161,
+          "label": "ActionDirective",
+          "to": 160
+        }
+      ]
+    },
+    {
+      "index": 162,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 163,
+      "speaker": "Teacher",
+      "utterance": "Alright guys, I'm gonna have you stop doing that",
+      "dda_edge": [
+        {
+          "from": 163,
+          "label": "Greeting",
+          "to": 163
+        },
+        {
+          "from": 163,
+          "label": "TaskManagement",
+          "to": 163
+        },
+        {
+          "from": 163,
+          "label": "ActionDirective",
+          "to": 163
+        }
+      ]
+    },
+    {
+      "index": 164,
+      "speaker": "student-024",
+      "utterance": "Put it over the",
+      "dda_edge": [
+        {
+          "from": 164,
+          "label": "ActionDirective",
+          "to": 164
+        },
+        {
+          "from": 164,
+          "label": "Incomplete",
+          "to": 164
+        }
+      ]
+    },
+    {
+      "index": 165,
+      "speaker": "student-024",
+      "utterance": "K",
+      "dda_edge": [
+        {
+          "from": 165,
+          "label": "Accept",
+          "to": 164
+        }
+      ]
+    },
+    {
+      "index": 166,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 167,
+      "speaker": "Teacher",
+      "utterance": "What you're gonna do on the back side is what your group tried.",
+      "dda_edge": [
+        {
+          "from": 167,
+          "label": "After",
+          "to": 163
+        }
+      ]
+    },
+    {
+      "index": 168,
+      "speaker": "Teacher",
+      "utterance": "[addresing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 169,
+      "speaker": "Teacher",
+      "utterance": "K?",
+      "dda_edge": [
+        {
+          "from": 169,
+          "label": "RhetoricalQuestion",
+          "to": 167
+        }
+      ]
+    },
+    {
+      "index": 170,
+      "speaker": "Teacher",
+      "utterance": "[addressing whole]",
+      "dda_edge": []
+    },
+    {
+      "index": 171,
+      "speaker": "Teacher",
+      "utterance": "Yup.",
+      "dda_edge": [
+        {
+          "from": 171,
+          "label": "Acknowledge",
+          "to": 169
+        }
+      ]
+    },
+    {
+      "index": 172,
+      "speaker": "Teacher",
+      "utterance": "On the back side of the paper you're gonna do the same type of thing,",
+      "dda_edge": [
+        {
+          "from": 172,
+          "label": "Restatement",
+          "to": 167
+        }
+      ]
+    }
+  ]
+}
